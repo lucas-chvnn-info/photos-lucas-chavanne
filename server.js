@@ -48,8 +48,9 @@ const trouver = (id) => photos.find((p) => p.id === id);
 // Sans GPS dans la photo (appareil sans GPS, export Lightroom…), on place la photo
 // d'après le lieu reconnu. Jamais si tu as retiré la position toi-même.
 async function placerSurCarte(photo) {
-  if (photo.gps_retire || (photo.gps && !photo.gps.approx) || !photo.analyse?.lieu?.identifie) return false;
-  const pos = await geocoder(photo.analyse.lieu);
+  if (photo.gps_retire || (photo.gps && !photo.gps.approx) || !photo.analyse) return false;
+  const lieu = photo.analyse.lieu?.identifie ? photo.analyse.lieu : {};
+  const pos = await geocoder(lieu, photo.commentaire);
   if (!pos) return false;
   photo.gps = pos;
   return true;
