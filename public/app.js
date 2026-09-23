@@ -17,7 +17,7 @@ const etat = {
   photos: [],
   config: { admin: false, ia: false, modele: "", categories: Object.keys(LIBELLES).filter((c) => c !== "tous") },
   theme: "tous",
-  marque: null,
+  voiture: null, // clé de la voiture affichée (toutes ses photos)
   recherche: "",
   vue: "galerie",
   ouverte: null, // id de la photo dans la visionneuse
@@ -48,6 +48,39 @@ function remplacer(photo) {
 }
 
 const voitureDe = (p) => (p.analyse?.voiture?.presente && p.analyse.voiture.marque ? p.analyse.voiture : null);
+
+// Une « voiture » regroupe ses photos : par nom si tu lui en as donné un (pour séparer deux voitures
+// du même modèle), sinon par marque + modèle.
+const slug = (s) => String(s ?? "").normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+function cleVoiture(p) {
+  const v = voitureDe(p);
+  if (!v) return null;
+  return v.surnom?.trim() ? `n-${slug(v.surnom)}` : slug(`${v.marque} ${v.modele ?? ""}`);
+}
+function nomVoiture(p) {
+  const v = voitureDe(p);
+  return v.surnom?.trim() || [v.marque, v.modele].filter(Boolean).join(" ");
+}
+function groupesVoitures() {
+  const groupes = new Map();
+  for (const p of etat.photos) {
+    const cle = cleVoiture(p);
+    if (!cle) continue;
+    if (!groupes.has(cle)) groupes.set(cle, { cle, nom: nomVoiture(p), photos: [] });
+    groupes.get(cle).photos.push(p);
+  }
+  return groupes;
+}
+
+function choisirVoiture(cle) {
+  etat.voiture = cle;
+  if (cle) etat.theme = "voitures";
+  try {
+    history.replaceState(null, "", cle ? `#voiture=${cle}` : location.pathname + location.search);
+  } catch {}
+  rendre();
+  if (cle) scrollTo({ top: 0, behavior: "smooth" });
+}
 const lieuDe = (p) => (p.analyse?.lieu?.identifie ? p.analyse.lieu : null);
 
 function sousTitre(p) {
@@ -71,8 +104,9 @@ function texteRecherche(p) {
 function photosFiltrees() {
   const q = etat.recherche.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().trim();
   return etat.photos.filter((p) => {
-    if (etat.theme !== "tous" && p.categorie !== etat.theme) return false;
-    if (etat.marque && voitureDe(p)?.marque !== etat.marque) return false;
+    if (etat.voiture) {
+      if (cleVoiture(p) !== etat.voiture) return false;
+    } else if (etat.theme !== "tous" && p.categorie !== etat.theme) return false;
     if (q && !q.split(/\s+/).every((mot) => texteRecherche(p).includes(mot))) return false;
     return true;
   });
@@ -100,22 +134,21 @@ function rendreThemes() {
   $("#themes").replaceChildren(
     ...cles.map((c) => {
       const b = el(`<button class="puce${c === etat.theme ? " actif" : ""}">${LIBELLES[c] ?? c}<span class="n">${compte[c] ?? 0}</span></button>`);
-      b.onclick = () => { etat.theme = c; etat.marque = null; rendre(); };
+      b.onclick = () => { etat.theme = c; choisirVoiture(null); };
       return b;
     }),
   );
 
-  const marques = {};
-  for (const p of etat.photos) {
-    const v = voitureDe(p);
-    if (v && p.categorie === "voitures") marques[v.marque] = (marques[v.marque] ?? 0) + 1;
-  }
+  // Dans « Voitures » : une pastille par voiture, avec sa miniature.
+  const groupes = [...groupesVoitures().values()].sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
   const zone = $("#marques");
-  zone.hidden = etat.theme !== "voitures" || Object.keys(marques).length < 2;
+  zone.hidden = etat.theme !== "voitures" || !groupes.length;
   zone.replaceChildren(
-    ...[[null, "Toutes les marques"], ...Object.keys(marques).sort().map((m) => [m, m])].map(([cle, nom]) => {
-      const b = el(`<button class="puce${cle === etat.marque ? " actif" : ""}">${esc(nom)}${cle ? `<span class="n">${marques[cle]}</span>` : ""}</button>`);
-      b.onclick = () => { etat.marque = cle; rendre(); };
+    ...[{ cle: null, nom: "Toutes les voitures" }, ...groupes].map((g) => {
+      const b = el(`<button class="puce voiture-puce${g.cle === etat.voiture ? " actif" : ""}">
+        ${g.photos ? `<img src="${g.photos[0].miniature}" alt="">` : ""}${esc(g.nom)}${g.photos ? `<span class="n">${g.photos.length}</span>` : ""}
+      </button>`);
+      b.onclick = () => choisirVoiture(g.cle);
       return b;
     }),
   );
@@ -244,14 +277,22 @@ function blocVoiture(p) {
         <input name="modele" placeholder="Modèle" value="${esc(v?.modele)}">
         <input name="generation" placeholder="Génération / finition" value="${esc(v?.generation)}">
         <input name="annees" placeholder="Années" value="${esc(v?.annees)}">
+        <input name="surnom" placeholder="Nom de la voiture, pour regrouper ses photos (optionnel) : ex. Ma E36 rouge" value="${esc(v?.surnom)}">
         <div class="actions"><button class="bouton principal petit">Enregistrer</button><button type="button" class="bouton petit" data-action="annuler">Annuler</button></div>
       </form></div>`;
   }
   if (!v?.presente) return "";
+  const cle = cleVoiture(p);
+  const nb = cle ? groupesVoitures().get(cle).photos.length : 0;
+  const lien = nb > 1 && etat.voiture !== cle
+    ? `<button class="bouton petit voir-voiture" data-voiture="${cle}">Voir les ${nb} photos de cette voiture →</button>`
+    : "";
+  const marqueModele = [v.marque, v.modele].filter(Boolean).join(" ");
   return `<div class="bloc voiture-bloc">
     <h3>Voiture identifiée ${boutonAdmin("edit-voiture", "Corriger")}</h3>
-    <div class="grand-nom">${esc([v.marque, v.modele].filter(Boolean).join(" ") || "Véhicule")}</div>
-    <div class="detail">${esc([v.generation, v.annees].filter(Boolean).join(" · "))}</div>
+    <div class="grand-nom">${esc(v.surnom?.trim() || marqueModele || "Véhicule")}</div>
+    <div class="detail">${esc([v.surnom?.trim() && marqueModele, v.generation, v.annees].filter(Boolean).join(" · "))}</div>
+    ${lien}
     <dl class="fiche">
       ${v.carrosserie ? `<dt>Carrosserie</dt><dd>${esc(v.carrosserie)}</dd>` : ""}
       ${v.couleur ? `<dt>Couleur</dt><dd>${esc(v.couleur)}</dd>` : ""}
@@ -354,9 +395,13 @@ async function modifier(id, changements) {
 }
 
 $("#v-panneau").addEventListener("click", async (ev) => {
-  const cible = ev.target.closest("[data-action], [data-tag]");
+  const cible = ev.target.closest("[data-action], [data-tag], [data-voiture]");
   if (!cible) return;
   const id = etat.ouverte;
+  if (cible.dataset.voiture) {
+    fermer();
+    return choisirVoiture(cible.dataset.voiture);
+  }
   if (cible.dataset.tag) {
     fermer();
     $("#recherche").value = etat.recherche = cible.dataset.tag;
@@ -506,8 +551,7 @@ async function envoyer(fichiers) {
 
   etat.photos.unshift(...resultat.ajoutees);
   etat.theme = "tous";
-  etat.marque = null;
-  rendre();
+  choisirVoiture(null);
 
   if (!etat.config.ia) {
     if (resultat.ajoutees.length) toast(`Photos ajoutées sans analyse. ${etat.config.raison_ia ?? ""}`, true, 8000);
@@ -567,4 +611,7 @@ try {
 } catch {
   etat.photos = await api("/data/photos.json").catch(() => []);
 }
-rendre();
+// Lien partageable : photo.lucas-chvnn.ch/#voiture=bmw-e36
+const voitureLien = new URLSearchParams(location.hash.slice(1)).get("voiture");
+if (voitureLien && groupesVoitures().has(voitureLien)) choisirVoiture(voitureLien);
+else rendre();

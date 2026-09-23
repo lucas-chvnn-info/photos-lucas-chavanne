@@ -162,6 +162,9 @@ app.post("/api/photos/:id/analyse", async (req, res) => {
     // Une position estimée vient d'une ancienne analyse : ne pas la redonner à l'IA comme un vrai GPS.
     const gps = photo.gps?.approx ? null : photo.gps;
     const analyse = await analyserPhoto(jpeg, { commentaire: photo.commentaire, gps, date: photo.prise_le, appareil: photo.appareil });
+    // Le nom donné à la voiture (pour regrouper ses photos) survit à une nouvelle analyse.
+    const surnom = photo.analyse?.voiture?.surnom;
+    if (surnom && analyse.voiture?.presente) analyse.voiture.surnom = surnom;
     photo.analyse = analyse;
     photo.categorie = analyse.categorie;
     photo.titre = analyse.titre || photo.titre;
@@ -190,7 +193,7 @@ app.patch("/api/photos/:id", async (req, res) => {
   }
   if (voiture || lieu) {
     photo.analyse ??= { tags: [], description: "", voiture: { presente: false }, lieu: { identifie: false }, animal: { present: false } };
-    if (voiture) Object.assign(photo.analyse.voiture, pick(voiture, ["marque", "modele", "generation", "annees"]), { presente: true, confiance: "manuel" });
+    if (voiture) Object.assign(photo.analyse.voiture, pick(voiture, ["marque", "modele", "generation", "annees", "surnom"]), { presente: true, confiance: "manuel" });
     if (lieu) {
       Object.assign(photo.analyse.lieu, pick(lieu, ["nom", "ville", "pays"]), { identifie: true, confiance: "manuel" });
       delete photo.gps_retire; // indiquer un lieu = accepter qu'il apparaisse sur la carte

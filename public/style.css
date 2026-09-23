@@ -106,6 +106,9 @@ main { padding: 0 24px 64px; }
 .puce.actif { background: var(--texte); color: var(--fond); border-color: var(--texte); }
 .puce.actif .n { color: var(--fond); opacity: .6; }
 .themes.sous .puce { padding: 5px 12px; font-size: 13px; }
+.voiture-puce img { width: 26px; height: 20px; margin: -2px 0 -2px -6px; border-radius: 4px; object-fit: cover; }
+.themes.sous .puce.voiture-puce:first-child { padding-left: 12px; }
+.voir-voiture { margin-top: 12px; }
 .themes.sous .puce.actif { background: var(--accent); border-color: var(--accent); color: var(--accent-texte); }
 
 /* --- Grille ------------------------------------------------------------ */
