@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": "055a1aa3-5b8",
+    "nom_fichier": "IMG_1529.jpeg",
+    "grand": "/photos/grand/055a1aa3-5b8.jpg",
+    "miniature": "/photos/miniatures/055a1aa3-5b8.webp",
+    "largeur": 5472,
+    "hauteur": 3648,
+    "ajoutee_le": "2026-09-23T12:23:43.951Z",
+    "prise_le": "2024-09-06T16:54:30.000Z",
+    "appareil": "Canon Canon EOS R6",
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Nurb",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Course sur route de montagne",
+      "description": "Une BMW E36 M3 argentée, modifiée pour le sport, conduit sur une route de montagne avec des véhicules en arrière-plan. Le paysage verdoyant et les collines en arrière-plan soulignent l'ambiance dynamique de la scène.",
+      "tags": [
+        "voiture de sport",
+        "route de montagne",
+        "BMW",
+        "E36",
+        "M3",
+        "modifications",
+        "paysage",
+        "course"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "E36 M3",
+        "generation": "E36 (1992-1999)",
+        "annees": "1992-1999",
+        "carrosserie": "Berline",
+        "couleur": "Argent",
+        "confiance": "moyenne",
+        "indices": "Calandre en double, phares à LED (modifiés), feux arrière à LED, jantes en alliage noir, bande noire sur la carrosserie, aileron arrière fixe. La plaque d'immatriculation suisse (GE) et le logo BMW sur le capot indiquent la marque. La version M3 est confirmée par le logo M sur le capot et les jantes sportives."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Nürburgring",
+        "ville": "Nürber, Otto-Flimm-Str,",
+        "pays": "Allemagne",
+        "confiance": "manuel",
+        "indices": "Route de montagne avec barrières métalliques, paysage forestier dense, panneau routier indiquant 'Col de la Schlucht' (visible en arrière-plan). La plaque suisse (GE) suggère la région de Genève."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:24:06.536Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  }
+]
