@@ -1,6 +1,8 @@
 // Analyse d'une photo avec un modèle de vision local (Ollama) : gratuit, rien ne quitte le Mac.
 export const OLLAMA_URL = process.env.OLLAMA_URL || "http://127.0.0.1:11434";
 export const MODELE = process.env.OLLAMA_MODEL || "qwen3-vl:8b";
+// Réflexion du modèle avant de répondre : un peu plus précis, mais 3 à 4 fois plus lent.
+const REFLEXION = process.env.OLLAMA_REFLEXION === "1";
 
 export const CATEGORIES = [
   "voitures",
@@ -70,9 +72,10 @@ const SYSTEM = `Tu catalogues les photos d'une galerie personnelle. Réponds uni
 - categorie : le sujet principal. Si le sujet principal est un véhicule (voiture, moto, camion), c'est "voitures".
 - titre : 2 à 6 mots, évocateur. description : 1 à 3 phrases. tags : 3 à 8 mots-clés en minuscules.
 - voiture : si un véhicule est visible, identifie la marque, le modèle et si possible la génération ou la finition (calandre, phares, feux, logos, jantes, proportions). Donne ta meilleure estimation, avec la période de production dans "annees", et règle "confiance" honnêtement. Explique les indices visuels dans "indices".
-- lieu : utilise les coordonnées GPS si elles sont fournies, sinon les indices visibles (monuments, panneaux, architecture). Si rien ne permet de situer la photo, identifie = false.
+- lieu : utilise les coordonnées GPS si elles sont fournies, sinon les indices visibles (monuments, panneaux, architecture). "nom" est un vrai nom d'endroit (monument, quartier, lac, col…) ou reste vide. Si rien ne permet de situer la photo, identifie = false.
 - animal : espèce et race si un animal est le sujet.
-- Les champs sans objet sont des chaînes vides.`;
+- Écris les noms propres avec leur majuscule (Porsche, Genève, Suisse).
+- Quand tu ne sais pas, laisse le champ vide ("") au lieu d'écrire « inconnu » ou « non identifiable ».`;
 
 /** Ollama tourne-t-il, et le modèle est-il téléchargé ? */
 export async function etatIA() {
@@ -104,6 +107,7 @@ export async function analyserPhoto(jpeg, contexte = {}) {
       body: JSON.stringify({
         model: MODELE,
         stream: false,
+        think: REFLEXION,
         format: SCHEMA,
         options: { temperature: 0.2 },
         messages: [
@@ -127,10 +131,21 @@ export async function analyserPhoto(jpeg, contexte = {}) {
 
   let analyse;
   try {
-    analyse = JSON.parse(data.message?.content ?? "");
+    // Avec think:false, certaines versions d'Ollama renvoient le JSON dans "thinking" au lieu de "content".
+    analyse = JSON.parse(data.message?.content || data.message?.thinking || "");
   } catch {
     throw new Error("Réponse illisible de l'IA, réessaie.");
   }
+  nettoyer(analyse);
   if (!CATEGORIES.includes(analyse.categorie)) analyse.categorie = "autre";
   return { ...analyse, modele_ia: MODELE, analysee_le: new Date().toISOString() };
+}
+
+// Le modèle écrit parfois « inconnu » malgré la consigne : on remplace par une chaîne vide.
+const VIDE = /^(inconnue?s?|non (identifiable|identifié|visible|applicable|déterminé)e?s?|n\/?a|aucune?|-|\?)$/i;
+function nettoyer(obj) {
+  for (const [cle, val] of Object.entries(obj)) {
+    if (typeof val === "string" && VIDE.test(val.trim())) obj[cle] = "";
+    else if (val && typeof val === "object" && !Array.isArray(val)) nettoyer(val);
+  }
 }

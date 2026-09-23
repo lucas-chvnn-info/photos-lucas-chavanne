@@ -38,7 +38,8 @@ npm start
 
 1. Ouvre http://localhost:3000.
 2. Glisse tes photos dans la page, ou utilise le bouton **+**. Chaque photo est analysée par l'IA,
-   ce qui prend 10 à 30 secondes par photo.
+   ce qui prend une dizaine de secondes par photo (un peu plus pour la première, le temps que
+   le modèle se charge).
 3. Corrige si besoin : clique sur le titre pour le modifier, change le thème, ou utilise
    « Corriger » sur la voiture ou le lieu.
 4. Clique sur **Publier**. Le site public est à jour environ une minute plus tard.
@@ -63,4 +64,7 @@ Réglages → Appareil photo → Formats, choisis « Le plus compatible », ou e
 | `originaux/` | Les fichiers d'origine (ignorés par git) |
 | `vercel.json` | Vercel sert `public/` tel quel, sans étape de build |
 
-Pour utiliser un autre modèle : `OLLAMA_MODEL=...` dans `.env` (voir `.env.example`).
+Réglages dans `.env` (voir `.env.example`) :
+- `OLLAMA_MODEL=...` pour utiliser un autre modèle ;
+- `OLLAMA_REFLEXION=1` pour que l'IA réfléchisse avant de répondre : un peu plus précise sur
+  les voitures difficiles, mais environ 4 fois plus lente (≈ 40 s par photo).
