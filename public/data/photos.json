@@ -308,5 +308,4480 @@
     },
     "etat_analyse": "ok",
     "erreur_analyse": null
+  },
+  {
+    "id": "5c96aaf4-02e",
+    "nom_fichier": "IMG_5732.jpeg",
+    "grand": "/photos/grand/5c96aaf4-02e.jpg",
+    "miniature": "/photos/miniatures/5c96aaf4-02e.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:31.408Z",
+    "prise_le": "2024-09-06T09:04:07.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Turbo S",
+    "commentaire": "",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Turbo S",
+      "description": "Une Porsche 911 Turbo S argentée exposée dans un showroom moderne. La voiture présente des jantes en alliage et une calandre distinctive. L'arrière est visible avec des feux à LED et un diffuseur.",
+      "tags": [
+        "porsche",
+        "911",
+        "turbo s",
+        "showroom",
+        "argent",
+        "jantes",
+        "calandre",
+        "feux led"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "Turbo S",
+        "annees": "2023-2024",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "calandre avec logo Porsche, jantes en alliage, bande latérale 'Turbo S', feux arrière à LED, diffuseur"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Genève",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "moyenne",
+        "indices": "architecture intérieure moderne, panneau avec 'GENEVE'"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:53:47.503Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "3085b192-542",
+    "nom_fichier": "IMG_5732.jpeg",
+    "grand": "/photos/grand/3085b192-542.jpg",
+    "miniature": "/photos/miniatures/3085b192-542.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:51.635Z",
+    "prise_le": "2024-09-06T09:04:07.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Turbo S en exposition",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Turbo S en exposition",
+      "description": "Une Porsche 911 Turbo S argentée est présentée dans un musée à Stuttgart, Allemagne. La voiture est visible de l'arrière, mettant en évidence sa calandre distinctive et ses jantes sportives.",
+      "tags": [
+        "porsche",
+        "911",
+        "turbo s",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de sport",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "Turbo S",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre arrière avec logo Porsche, jantes sportives, bande latérale 'Turbo S', éclairage arrière à LED, plaque d'immatriculation '911 Turbo S'"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec panneau indiquant 'Porsche Museum'"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:55:02.420Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "dfbf162a-ec3",
+    "nom_fichier": "IMG_5731.jpeg",
+    "grand": "/photos/grand/dfbf162a-ec3.jpg",
+    "miniature": "/photos/miniatures/dfbf162a-ec3.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:31.567Z",
+    "prise_le": "2024-09-06T09:03:58.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5731",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e166d7f7-8b7",
+    "nom_fichier": "IMG_5731.jpeg",
+    "grand": "/photos/grand/e166d7f7-8b7.jpg",
+    "miniature": "/photos/miniatures/e166d7f7-8b7.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:51.800Z",
+    "prise_le": "2024-09-06T09:03:58.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 dans le musée",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 dans le musée",
+      "description": "Une Porsche 911 argentée exposée dans un musée moderne à Stuttgart, Allemagne. L'ambiance épurée met en valeur la voiture avec des éclairages ciblés.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "argentée"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "argentée",
+        "confiance": "elevee",
+        "indices": "Calandre avant avec logo Porsche, phares circulaires, jantes noires, proportions typiques de la 992 (longueur de la carrosserie, position des feux arrière)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panneau vert avec 'E' (sortie d'urgence), architecture intérieure minimaliste du musée Porsche, référence au commentaire du photographe."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:55:17.413Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f613a896-af8",
+    "nom_fichier": "IMG_5730.jpeg",
+    "grand": "/photos/grand/f613a896-af8.jpg",
+    "miniature": "/photos/miniatures/f613a896-af8.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:31.723Z",
+    "prise_le": "2024-09-06T09:03:43.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5730",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8f79b73e-7f8",
+    "nom_fichier": "IMG_5730.jpeg",
+    "grand": "/photos/grand/8f79b73e-7f8.jpg",
+    "miniature": "/photos/miniatures/8f79b73e-7f8.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:51.957Z",
+    "prise_le": "2024-09-06T09:03:43.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 de couleur verte est exposée dans le musée Porsche à Stuttgart, Allemagne. Une autre voiture est visible en arrière-plan.",
+      "tags": [
+        "porsche",
+        "911",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "exposition",
+        "voiture",
+        "classique"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (930)",
+        "annees": "1980-1983",
+        "carrosserie": "Coupé",
+        "couleur": "Vert",
+        "confiance": "elevee",
+        "indices": "Calandre typique de la 930, feux arrière à LED, jantes en alliage, logo Porsche sur la plaque arrière, finition 'Porsche Museum' visible sur la plaque."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Plaque 'Porsche Museum' visible sur la voiture, architecture intérieure du musée avec plafond blanc et éclairage spécifique."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:55:31.897Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e619f1a6-416",
+    "nom_fichier": "IMG_5729.jpeg",
+    "grand": "/photos/grand/e619f1a6-416.jpg",
+    "miniature": "/photos/miniatures/e619f1a6-416.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:31.887Z",
+    "prise_le": "2024-09-06T09:02:06.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5729",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ff6f3aae-ff0",
+    "nom_fichier": "IMG_5729.jpeg",
+    "grand": "/photos/grand/ff6f3aae-ff0.jpg",
+    "miniature": "/photos/miniatures/ff6f3aae-ff0.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:52.125Z",
+    "prise_le": "2024-09-06T09:02:06.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Gt999 Yellow Porsche 911 Gt3 Rs",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Gt999 Yellow Porsche 911 Gt3 Rs",
+      "description": "Une Porsche 911 GT3 RS jaune exposée dans un musée à Stuttgart, Allemagne. La voiture présente des éléments sportifs comme un aileron arrière imposant et des jantes noires. Elle est présentée dans un espace lumineux avec des spots en plafond.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt3rs",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "jaune",
+        "sportif"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "999",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "jaune",
+        "confiance": "elevee",
+        "indices": "L'inscription 'GT3 RS' sur la carrosserie, la calandre typique de la 999, les feux arrière à LED, les jantes noires et l'aileron arrière large sont des indices clés. La finition sportive et le design sont caractéristiques de la génération 999."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe mentionne explicitement 'Musee Porshe a stutgart allemagne', confirmant le lieu. L'architecture intérieure avec des spots en plafond et l'exposition de véhicules correspondent à un musée automobile."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:55:49.680Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "098c4bf4-ef7",
+    "nom_fichier": "IMG_5728.jpeg",
+    "grand": "/photos/grand/098c4bf4-ef7.jpg",
+    "miniature": "/photos/miniatures/098c4bf4-ef7.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:32.723Z",
+    "prise_le": "2024-09-06T09:01:53.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5728",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "1647a876-fc5",
+    "nom_fichier": "IMG_5728.jpeg",
+    "grand": "/photos/grand/1647a876-fc5.jpg",
+    "miniature": "/photos/miniatures/1647a876-fc5.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:52.971Z",
+    "prise_le": "2024-09-06T09:01:53.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT3 RS jaune",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT3 RS jaune",
+      "description": "Une Porsche 911 GT3 RS jaune avec une bande noire sur le capot, exposée dans un musée. La voiture est présentée sur une plateforme blanche sous un éclairage moderne.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt3 rs",
+        "jaune",
+        "musée",
+        "stuttgart",
+        "allemande",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "GT3 RS",
+        "annees": "2020-2024",
+        "carrosserie": "jaune avec bande noire",
+        "couleur": "jaune",
+        "confiance": "elevee",
+        "indices": "Calandre large avec grille de ventilation, phares circulaires, jantes noires, aileron arrière, bande noire sur le capot, plaque 'Porsche Museum' sur le pare-chocs avant."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Plaque 'Porsche Museum' visible sur la voiture, architecture intérieure moderne avec éclairage encastré, contexte muséal."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:00:15.106Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "47b574aa-5ba",
+    "nom_fichier": "IMG_5727.jpeg",
+    "grand": "/photos/grand/47b574aa-5ba.jpg",
+    "miniature": "/photos/miniatures/47b574aa-5ba.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:32.551Z",
+    "prise_le": "2024-09-06T09:01:46.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5727",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "5f5f81d7-57f",
+    "nom_fichier": "IMG_5727.jpeg",
+    "grand": "/photos/grand/5f5f81d7-57f.jpg",
+    "miniature": "/photos/miniatures/5f5f81d7-57f.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:52.807Z",
+    "prise_le": "2024-09-06T09:01:46.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 918 Spyder en exposition",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 918 Spyder en exposition",
+      "description": "Cette Porsche 918 Spyder, modèle de la génération 2013-2015, est présentée dans un musée à Stuttgart, Allemagne. Son design aérodynamique et ses détails techniques sont mis en valeur par l'éclairage du lieu.",
+      "tags": [
+        "porsche",
+        "918 spyder",
+        "musée",
+        "stuttgart",
+        "allemagne",
+        "voiture de sport",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "918 Spyder",
+        "generation": "2013-2015",
+        "annees": "2013-2015",
+        "carrosserie": "coupe",
+        "couleur": "blanc",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, aileron arrière imposant, jantes rouges, échappement double, et plaque \"918\" visible sur le coffre. La plaque \"50\" indique un anniversaire spécial. Les proportions et le design sont caractéristiques de la 918 Spyder."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le musée Porsche à Stuttgart est connu pour son architecture moderne et son éclairage spécifique. La mention \"Musee Porshe a stutgart allemagne\" dans le commentaire confirme l'emplacement."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:58:43.051Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b86c43d1-8d8",
+    "nom_fichier": "IMG_5726.jpeg",
+    "grand": "/photos/grand/b86c43d1-8d8.jpg",
+    "miniature": "/photos/miniatures/b86c43d1-8d8.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:32.387Z",
+    "prise_le": "2024-09-06T09:01:22.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5726",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "41fb4747-6f6",
+    "nom_fichier": "IMG_5726.jpeg",
+    "grand": "/photos/grand/41fb4747-6f6.jpg",
+    "miniature": "/photos/miniatures/41fb4747-6f6.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:52.640Z",
+    "prise_le": "2024-09-06T09:01:22.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 918 Spyder Martini",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 918 Spyder Martini",
+      "description": "Une Porsche 918 Spyder avec une livrée Martini blanche, rouge et bleue est exposée dans un musée. La voiture présente des détails sportifs comme des jantes rouges et un aileron arrière. En arrière-plan, une autre voiture de sport jaune est visible.",
+      "tags": [
+        "porsche",
+        "918 spyder",
+        "martini",
+        "musée",
+        "voiture de sport",
+        "exposition",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "918 Spyder",
+        "generation": "Génération 1 (2013-2014)",
+        "annees": "2013-2014",
+        "carrosserie": "Coupé",
+        "couleur": "Blanche avec bandes rouges et bleues",
+        "confiance": "elevee",
+        "indices": "Calandre Porsche, logo Martini sur le capot, aileron arrière, jantes rouges, proportions de la 918 Spyder"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Commentaire du photographe mentionne 'Musee Porshe a stutgart allemagne', et l'architecture intérieure avec éclairage circulaire correspond à un musée Porsche"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:57:38.458Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "42af8a47-817",
+    "nom_fichier": "IMG_5725.jpeg",
+    "grand": "/photos/grand/42af8a47-817.jpg",
+    "miniature": "/photos/miniatures/42af8a47-817.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:32.219Z",
+    "prise_le": "2024-09-06T09:01:15.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5725",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "dc6945b3-82b",
+    "nom_fichier": "IMG_5725.jpeg",
+    "grand": "/photos/grand/dc6945b3-82b.jpg",
+    "miniature": "/photos/miniatures/dc6945b3-82b.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:52.470Z",
+    "prise_le": "2024-09-06T09:01:15.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.8342985,
+      "lon": 9.1524474,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Turbo 3.0 RS",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Turbo 3.0 RS",
+      "description": "Une Porsche 911 Turbo 3.0 RS exposée au Musée Porsche de Stuttgart, Allemagne. La voiture arbore une livrée Martini avec des logos Shell, Dunlop et Bilstein. Elle est présentée dans un espace muséal épuré.",
+      "tags": [
+        "porsche",
+        "911 turbo",
+        "museum",
+        "martini",
+        "shell",
+        "dunlop",
+        "stuttgart",
+        "allemagne"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911 Turbo",
+        "generation": "3.0 RS",
+        "annees": "1983-1985",
+        "carrosserie": "Coupé",
+        "couleur": "Blanc",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive, phares carrés, jantes en alliage, aileron arrière large, livrée Martini avec bandes bleues et rouges, logos Shell et Dunlop."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Musée Porsche",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panneaux d'affichage avec le nom du musée, architecture intérieure moderne, éclairage spécifique pour exposition de véhicules."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:56:51.352Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ed6485da-eae",
+    "nom_fichier": "IMG_5724.jpeg",
+    "grand": "/photos/grand/ed6485da-eae.jpg",
+    "miniature": "/photos/miniatures/ed6485da-eae.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:53:32.058Z",
+    "prise_le": "2024-09-06T09:01:02.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "autre",
+    "titre": "IMG_5724",
+    "commentaire": "",
+    "analyse": null,
+    "etat_analyse": "en_attente",
+    "erreur_analyse": null
+  },
+  {
+    "id": "723d3b83-9ff",
+    "nom_fichier": "IMG_5724.jpeg",
+    "grand": "/photos/grand/723d3b83-9ff.jpg",
+    "miniature": "/photos/miniatures/723d3b83-9ff.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:52.310Z",
+    "prise_le": "2024-09-06T09:01:02.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Martini Racing",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Martini Racing",
+      "description": "Une Porsche 911 de course avec une livrée Martini Racing, numérotée 40, exposée dans un musée. Les logos Shell et Bosch sont visibles sur le capot.",
+      "tags": [
+        "porsche",
+        "911",
+        "martini racing",
+        "musée",
+        "course",
+        "exposition",
+        "allemagne",
+        "stuttgart"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 Turbo (930)",
+        "annees": "1974-1989",
+        "carrosserie": "coupe",
+        "couleur": "blanche avec bandes bleues et rouges",
+        "confiance": "elevee",
+        "indices": "calandre distinctive, phares ronds, jantes en alliage, livrée Martini Racing avec numérotage 40, logos Shell et Bosch"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "musée Porsche à Stuttgart, architecture intérieure moderne avec éclairage encastré"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:56:19.550Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8b3e62f2-3cf",
+    "nom_fichier": "IMG_5723.jpeg",
+    "grand": "/photos/grand/8b3e62f2-3cf.jpg",
+    "miniature": "/photos/miniatures/8b3e62f2-3cf.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:53.327Z",
+    "prise_le": "2024-09-06T09:00:56.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.8342985,
+      "lon": 9.1524474,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Turbo 3.0 RS",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Turbo 3.0 RS",
+      "description": "Une Porsche 911 Turbo 3.0 RS exposée au musée Porsche de Stuttgart, Allemagne. La voiture présente une livrée sportive avec des bandes bleues et rouges, ainsi que des logos Shell et NKK. Elle est présentée dans un espace muséal minimaliste.",
+      "tags": [
+        "porsche",
+        "911 turbo",
+        "musée",
+        "stuttgart",
+        "allemagne",
+        "voiture de course",
+        "shell",
+        "nkk"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911 Turbo",
+        "generation": "3.0 RS",
+        "annees": "1983-1985",
+        "carrosserie": "Coupé",
+        "couleur": "Blanc avec bandes bleues et rouges",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive de la 911 Turbo, phares carrés, jantes spécifiques, aileron arrière large, livrée sportive avec logos Shell et NKK, moteur visible à travers le capot arrière"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Musée Porsche de Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Espace muséal minimaliste avec éclairage professionnel, panneau d'affichage mentionnant le musée Porsche"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:03:06.608Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "6ed9d545-b2b",
+    "nom_fichier": "IMG_5722.jpeg",
+    "grand": "/photos/grand/6ed9d545-b2b.jpg",
+    "miniature": "/photos/miniatures/6ed9d545-b2b.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:54:53.154Z",
+    "prise_le": "2024-09-06T09:00:17.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.8342985,
+      "lon": 9.1524474,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Martini Racing",
+    "commentaire": "Musee Porshe a stutgart allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Martini Racing",
+      "description": "Une Porsche 911 de course aux couleurs Martini Racing, exposée dans un musée. Le véhicule présente des détails sportifs comme les phares circulaires et les ailerons.",
+      "tags": [
+        "porsche",
+        "911",
+        "martini racing",
+        "musée",
+        "voiture de course",
+        "exposition",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 Turbo (930)",
+        "annees": "1970-1974",
+        "carrosserie": "Coupé",
+        "couleur": "Argent avec bandes bleues, rouges et blanches",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive de la 911 Turbo, phares circulaires, aileron arrière, logo Porsche, jantes en alliage, finition Martini Racing avec numéros 8 et 9."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Musee Porsche",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels de musée, architecture intérieure moderne, mention \"Musee Porshe a stutgart allemagne\" dans le commentaire du photographe."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:01:42.545Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "5dcf543e-008",
+    "nom_fichier": "IMG_5721.jpeg",
+    "grand": "/photos/grand/5dcf543e-008.jpg",
+    "miniature": "/photos/miniatures/5dcf543e-008.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:34.066Z",
+    "prise_le": "2024-09-06T08:59:42.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en lego au musee",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en lego au musee",
+      "description": "Une voiture en lego noire est exposée dans un musee. Elle est accompagnée d'une image murale d'une autre voiture en lego sur une route montagneuse. L'endroit est un musee Porsche à Stuttgart, Allemagne.",
+      "tags": [
+        "porsche",
+        "lego",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "musee porsche"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "",
+        "annees": "1960-1970",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Calandre avec logo Porsche, phares ronds, jantes larges et noires, proportions similaires à la 911 classique."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Mur avec image de route montagneuse, panneau indiquant \"Musee Porsche\" et architecture moderne du musee."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:56:05.014Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fcf1c1b3-a61",
+    "nom_fichier": "IMG_5720.jpeg",
+    "grand": "/photos/grand/fcf1c1b3-a61.jpg",
+    "miniature": "/photos/miniatures/fcf1c1b3-a61.webp",
+    "largeur": 4032,
+    "hauteur": 2268,
+    "ajoutee_le": "2026-09-23T12:55:34.264Z",
+    "prise_le": "2024-09-06T08:56:56.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Moteur Porsche 992",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Moteur Porsche 992",
+      "description": "Un moteur de voiture de sport Porsche 992 exposé au musée Porsche de Stuttgart, Allemagne. Le moteur est monté sur un support et présente des composants métalliques brillants et des tuyaux d'échappement distinctifs.",
+      "tags": [
+        "porsche",
+        "moteur",
+        "exposition",
+        "stuttgart",
+        "992",
+        "musée",
+        "voiture de sport",
+        "allemagne"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "992",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": "Calandre et logo Porsche visible sur la voiture à droite. Le numéro '992' est affiché en arrière-plan. La voiture à droite est une Porsche 992 (992.1 ou 992.2) avec une finition spécifique (calandre, phares, feux, logos, jantes, proportions)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique 'Musee porshe a stutgart alemagne'. Le logo Porsche et le numéro '992' sont visibles, confirmant le lieu."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:56:36.036Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "23762b38-180",
+    "nom_fichier": "IMG_5719.jpeg",
+    "grand": "/photos/grand/23762b38-180.jpg",
+    "miniature": "/photos/miniatures/23762b38-180.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:34.429Z",
+    "prise_le": "2024-09-06T08:56:50.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 de couleur argentée est présentée dans un musée à Stuttgart, Allemagne. La vue arrière met en évidence le design sportif et les détails de la carrosserie.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "design"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2022-2024",
+        "carrosserie": "coupe",
+        "couleur": "argentée",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares à LED, jantes en alliage, aileron arrière intégré, et plaque d'immatriculation avec inscription '911'."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels avec texte allemand et anglais, mention de 'Musee porshe a stutgart alemagne' dans le commentaire du photographe."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:57:22.336Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "75ed5317-d01",
+    "nom_fichier": "IMG_5718.jpeg",
+    "grand": "/photos/grand/75ed5317-d01.jpg",
+    "miniature": "/photos/miniatures/75ed5317-d01.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:35.464Z",
+    "prise_le": "2024-09-06T08:56:40.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Exposition Porsche à Stuttgart",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Exposition Porsche à Stuttgart",
+      "description": "Une exposition de voitures Porsche dans un musée à Stuttgart, Allemagne. Les véhicules sont présentés sous une lumière dramatique, mettant en valeur leur design élégant.",
+      "tags": [
+        "porsche",
+        "musée",
+        "stuttgart",
+        "voitures",
+        "exposition",
+        "allemand",
+        "design",
+        "intérieur"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupé",
+        "couleur": "gris",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares à LED, jantes en alliage léger, proportions sportives. La plaque d'immatriculation visible sur le véhicule en arrière-plan indique une version européenne."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels avec texte allemand, logo Porsche visible, architecture intérieure moderne du musée."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:04:16.103Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0e7b7512-fb7",
+    "nom_fichier": "IMG_5717.jpeg",
+    "grand": "/photos/grand/0e7b7512-fb7.jpg",
+    "miniature": "/photos/miniatures/0e7b7512-fb7.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:35.303Z",
+    "prise_le": "2024-09-06T08:56:22.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 au musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 au musée",
+      "description": "Une Porsche 911 exposée dans un musée moderne à Stuttgart, Allemagne. L'élégance du design classique se marie avec des éléments contemporains.",
+      "tags": [
+        "porsche",
+        "911",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "design"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "gris",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares circulaires, jantes en alliage, finition '992' visible sur le pare-chocs avant. La plaque 'Porsche Museum' confirme le contexte."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Plaque 'Porsche Museum' sur le véhicule, panneau avec '992' et texte 'No ifs or buts', architecture moderne du musée."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:02:51.561Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "883dbfad-0b3",
+    "nom_fichier": "IMG_5716.jpeg",
+    "grand": "/photos/grand/883dbfad-0b3.jpg",
+    "miniature": "/photos/miniatures/883dbfad-0b3.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:35.088Z",
+    "prise_le": "2024-09-06T08:56:14.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Cabriolet",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Cabriolet",
+      "description": "Exposition dans le musée Porsche de Stuttgart, Allemagne. Deux véhicules sont présentés sous une lumière dramatique, mettant en valeur leur design élégant.",
+      "tags": [
+        "porsche",
+        "911",
+        "cabriolet",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "996",
+        "annees": "1999-2003",
+        "carrosserie": "Cabriolet",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre typique de la 996, phares circulaires, jantes en alliage, proportions de la 911 de cette génération"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels avec texte en allemand, environnement muséal, mention du musée Porsche dans le commentaire"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:01:28.010Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fa349a60-9ac",
+    "nom_fichier": "IMG_5715.jpeg",
+    "grand": "/photos/grand/fa349a60-9ac.jpg",
+    "miniature": "/photos/miniatures/fa349a60-9ac.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:34.871Z",
+    "prise_le": "2024-09-06T08:56:09.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 dans le musée",
+      "description": "Une Porsche 911 bleue exposée dans un musée, avec une autre voiture blanche en arrière-plan. L'ambiance est moderne et éclairée par des spots.",
+      "tags": [
+        "porsche",
+        "911",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "musée"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "993",
+        "annees": "1994-1998",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "Calandre typique de la 993, feux arrière à LED, jantes en alliage, logo Porsche sur le coffre. La plaque arrière indique 'Porsche Museum'."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panneau 'Porsche Museum' visible, texte '993' sur le mur, contexte muséal avec des véhicules exposés."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:00:00.603Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b1624097-597",
+    "nom_fichier": "IMG_5714.jpeg",
+    "grand": "/photos/grand/b1624097-597.jpg",
+    "miniature": "/photos/miniatures/b1624097-597.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:34.655Z",
+    "prise_le": "2024-09-06T08:55:58.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 993 au musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 993 au musée",
+      "description": "Une Porsche 993 bleue est exposée dans un musée, avec une autre voiture visible en arrière-plan. Le mur arrière affiche le numéro 993.",
+      "tags": [
+        "porsche",
+        "993",
+        "musée",
+        "voiture",
+        "exposition",
+        "allemand",
+        "stuttgart"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "993",
+        "generation": "993",
+        "annees": "1994-1998",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, feux arrière en forme de triangle, jantes en alliage, plaque d'immatriculation avec 'PORSCHE MUSEUM'"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Mur avec inscription '993', plaque 'PORSCHE MUSEUM', panneau indiquant 'Porsche Museum'"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:58:25.702Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b04f6f5b-7aa",
+    "nom_fichier": "IMG_5713.jpeg",
+    "grand": "/photos/grand/b04f6f5b-7aa.jpg",
+    "miniature": "/photos/miniatures/b04f6f5b-7aa.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:35.687Z",
+    "prise_le": "2024-09-06T08:55:54.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 dans le musée",
+      "description": "Exposition de voitures classiques Porsche dans un musée moderne. Une Porsche bleue est au premier plan, avec des modèles blancs et autres véhicules en arrière-plan.",
+      "tags": [
+        "porsche",
+        "musée",
+        "voitures classiques",
+        "exposition",
+        "stuttgart",
+        "allemand",
+        "911"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (993)",
+        "annees": "1994-1998",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre ronde, phares circulaires, jantes en alliage, logo Porsche sur le capot, plaque \"Porsche Museum\" visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau \"Porsche Museum\" sur le mur, texte \"993\" visible, architecture moderne du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:05:31.434Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e8059a87-da2",
+    "nom_fichier": "IMG_5712.jpeg",
+    "grand": "/photos/grand/e8059a87-da2.jpg",
+    "miniature": "/photos/miniatures/e8059a87-da2.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:35.914Z",
+    "prise_le": "2024-09-06T08:55:15.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche Taycan dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche Taycan dans le musée",
+      "description": "Une Porsche Taycan exposée dans un musée à Stuttgart, Allemagne. La voiture présente des jantes en alliage doré et une carrosserie brillante. L'arrière de la voiture est visible avec une finition élégante.",
+      "tags": [
+        "porsche",
+        "taycan",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture électrique",
+        "exposition",
+        "jantes dorées"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "Taycan",
+        "generation": "",
+        "annees": "2019-2024",
+        "carrosserie": "coupe",
+        "couleur": "noir",
+        "confiance": "elevee",
+        "indices": "Logo Porsche sur la jante, panneau d'affichage avec 'TYPISCH TURBO' et 'TYPICALLY TURBO' en arrière-plan, architecture intérieure moderne du musée."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panonceau avec 'TYPISCH TURBO' et 'TYPICALLY TURBO', architecture intérieure du musée Porsche à Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:06:31.734Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ae8f0d6e-7b5",
+    "nom_fichier": "IMG_5710.jpeg",
+    "grand": "/photos/grand/ae8f0d6e-7b5.jpg",
+    "miniature": "/photos/miniatures/ae8f0d6e-7b5.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:55:36.184Z",
+    "prise_le": "2024-09-06T08:54:56.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche Cayenne dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche Cayenne dans le musée",
+      "description": "Une Porsche Cayenne verte exposée dans un espace lumineux du musée Porsche de Stuttgart, Allemagne. La voiture présente des jantes dorées et un design moderne.",
+      "tags": [
+        "porsche",
+        "cayenne",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "design"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "Cayenne",
+        "generation": "Génération actuelle (2020-actuel)",
+        "annees": "2020-actuel",
+        "carrosserie": "SUV",
+        "couleur": "Vert",
+        "confiance": "elevee",
+        "indices": "Calandre noire avec logo Porsche, phares à LED, jantes dorées, plaque \"Porsche Museum\" sur le pare-chocs avant."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Plaque \"Porsche Museum\" visible, architecture moderne avec grandes fenêtres, contexte du musée Porsche à Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:07:30.945Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "a61fedcf-e61",
+    "nom_fichier": "IMG_5709.jpeg",
+    "grand": "/photos/grand/a61fedcf-e61.jpg",
+    "miniature": "/photos/miniatures/a61fedcf-e61.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:23.746Z",
+    "prise_le": "2024-09-06T08:54:24.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 917 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 917 en exposition",
+      "description": "Une Porsche 917, célèbre pour sa participation aux 24 Heures du Mans, est exposée dans un musée. Le véhicule présente des détails sportifs comme les ailerons et les couleurs bleu et rouge. Le musée est situé à Stuttgart, Allemagne.",
+      "tags": [
+        "porsche",
+        "917",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de course",
+        "exposition",
+        "turbo"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "917",
+        "generation": "917",
+        "annees": "1970-1972",
+        "carrosserie": "coupe",
+        "couleur": "blanche avec bandes bleues et rouges",
+        "confiance": "elevee",
+        "indices": "logo Porsche sur le capot, numéro 16, ailerons, design sportif typique de la 917"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau 'Turbo 50' et le nom 'Porsche' dans le musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:11:09.268Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "17df1185-8ea",
+    "nom_fichier": "IMG_5708.jpeg",
+    "grand": "/photos/grand/17df1185-8ea.jpg",
+    "miniature": "/photos/miniatures/17df1185-8ea.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:23.479Z",
+    "prise_le": "2024-09-06T08:53:06.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 919 Hybrid en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 919 Hybrid en exposition",
+      "description": "Cette Porsche 919 Hybrid, conçue pour le championnat de course, est exposée dans un musée à Stuttgart, Allemagne. Son design aérodynamique et ses sponsors visibles témoignent de sa participation aux courses.",
+      "tags": [
+        "porsche",
+        "919 hybrid",
+        "musée",
+        "stuttgart",
+        "alemagne",
+        "course",
+        "exposition",
+        "aérodynamique"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "919 Hybrid",
+        "generation": "919 Hybrid",
+        "annees": "2014-2015",
+        "carrosserie": "Aérodynamique, carrosserie en fibre de carbone",
+        "couleur": "Gris métallique",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares à LED, jantes en alliage léger, finition sportive avec sponsors (Mobil 1, DMG MORI, Chopard, Adidas) et proportions de course."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec architecture moderne et éclairage spécifique."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:10:26.142Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fa13582d-464",
+    "nom_fichier": "IMG_5707.jpeg",
+    "grand": "/photos/grand/fa13582d-464.jpg",
+    "miniature": "/photos/miniatures/fa13582d-464.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:22.575Z",
+    "prise_le": "2024-09-06T08:52:31.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 919 Hybrid en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 919 Hybrid en exposition",
+      "description": "Voiture de course Porsche 919 Hybrid exposée dans le musée Porsche à Stuttgart, Allemagne. Son design aérodynamique et ses détails techniques sont mis en valeur par l'éclairage du musée.",
+      "tags": [
+        "porsche",
+        "919 hybrid",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "course",
+        "exposition",
+        "aero"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "919 Hybrid",
+        "generation": "Génération 2014-2016",
+        "annees": "2014-2016",
+        "carrosserie": "Aérodynamique, carrosserie en fibre de carbone",
+        "couleur": "Noir et blanc avec détails rouges",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares avant modernes, jantes de course, numéro 2 visible, inscriptions '24h Le Mans' et 'DMG MORI'"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche, architecture intérieure minimaliste, panneau indiquant 'Porsche Museum'"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:06:16.410Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "61656da2-53d",
+    "nom_fichier": "IMG_5706.jpeg",
+    "grand": "/photos/grand/61656da2-53d.jpg",
+    "miniature": "/photos/miniatures/61656da2-53d.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:22.743Z",
+    "prise_le": "2024-09-06T08:52:11.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 918 Spyder dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 918 Spyder dans le musée",
+      "description": "Une Porsche 918 Spyder exposée dans un musée à Stuttgart, Allemagne. La voiture présente une carrosserie argentée et des détails techniques visibles sur le capot. L'ambiance épurée du musée met en valeur la sophistication du véhicule.",
+      "tags": [
+        "porsche",
+        "918 spyder",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de sport",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "918 Spyder",
+        "generation": "Génération unique (2013-2014)",
+        "annees": "2013-2014",
+        "carrosserie": "Argentée",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares avant à LED, jantes en alliage léger, proportions sportives avec aileron arrière visible. La mention '918 Spyder' sur les sièges confirme le modèle."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panonceau avec 'turbos' (référence à Porsche Turbo), architecture intérieure du musée avec éclairage circulaire et murs blancs. Le commentaire du photographe précise 'Musee porshe a stutgart alemagne'."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:07:16.473Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8bd211df-f8e",
+    "nom_fichier": "IMG_5704.jpeg",
+    "grand": "/photos/grand/8bd211df-f8e.jpg",
+    "miniature": "/photos/miniatures/8bd211df-f8e.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:22.911Z",
+    "prise_le": "2024-09-06T08:51:59.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 918 Spyder en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 918 Spyder en exposition",
+      "description": "Cette Porsche 918 Spyder, un modèle hybride iconique, est exposée dans un musée à Stuttgart, Allemagne. Son design futuriste et ses détails techniques sont mis en valeur par l'éclairage du musée.",
+      "tags": [
+        "porsche",
+        "918 spyder",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de collection",
+        "hybride",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "918 Spyder",
+        "generation": "Génération unique (2013-2014)",
+        "annees": "2013-2014",
+        "carrosserie": "Coupé à deux portes avec toit ouvrant",
+        "couleur": "Argent métallique",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares à LED, jantes en alliage léger, proportions sportives et finition premium visible sur les détails."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec architecture moderne et panneaux d'information."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:08:13.647Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e2ab26f4-fd5",
+    "nom_fichier": "IMG_5703.jpeg",
+    "grand": "/photos/grand/e2ab26f4-fd5.jpg",
+    "miniature": "/photos/miniatures/e2ab26f4-fd5.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:23.078Z",
+    "prise_le": "2024-09-06T08:51:52.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 blanche avec une bande rouge sur le capot est exposée dans un musée. Des visiteurs sont présents dans l'espace lumineux et moderne.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "exposition",
+        "voiture",
+        "allemand",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares circulaires, bande rouge sur le capot, jantes en alliage. La forme du capot et des feux avant correspondent à la génération 992 (2020-2024)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panonceau avec 'Porsche' et '50', architecture moderne du musée, personnes en arrière-plan. Le nom 'Stuttgart' est mentionné dans le commentaire du photographe."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:08:56.604Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "391d9514-bfd",
+    "nom_fichier": "IMG_5702.jpeg",
+    "grand": "/photos/grand/391d9514-bfd.jpg",
+    "miniature": "/photos/miniatures/391d9514-bfd.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:23.254Z",
+    "prise_le": "2024-09-06T08:51:48.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 blanche avec une bande rouge sur le capot est exposée dans un musée. L'ambiance est moderne et minimaliste, avec un sol noir et des murs sombres.",
+      "tags": [
+        "porsche",
+        "911",
+        "musee",
+        "exposition",
+        "voiture",
+        "allemand",
+        "stuttgart",
+        "musée"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "calandre avant avec grille de ventilation, phares circulaires, jantes en alliage, bande rouge sur le capot, inscription 'PORSCHE' sur la portière"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau d'information avec le nom 'Museum Porsche', architecture moderne du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:09:40.465Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "9c704e81-660",
+    "nom_fichier": "IMG_5701.jpeg",
+    "grand": "/photos/grand/9c704e81-660.jpg",
+    "miniature": "/photos/miniatures/9c704e81-660.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:22.394Z",
+    "prise_le": "2024-09-06T08:51:41.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 S en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 S en exposition",
+      "description": "Une Porsche 911 S de couleur argentée est exposée dans un musée à Stuttgart, Allemagne. La voiture présente des détails distinctifs comme les feux arrière à LED et les jantes noires. L'ambiance du musée est moderne avec des éclairages ciblés.",
+      "tags": [
+        "porsche",
+        "911",
+        "s",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "exposition",
+        "voiture"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "991.2",
+        "annees": "2014-2020",
+        "carrosserie": "coupe",
+        "couleur": "argentée",
+        "confiance": "elevee",
+        "indices": "Calandre à 4 branches, feux arrière à LED, jantes noires, logo Porsche sur le coffre, inscription '911 S' sur le côté. La finition 'S' est visible sur le coffre et les jantes. La génération 991.2 est confirmée par la forme des feux et la position des sorties d'échappement."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panorama intérieur du musée Porsche avec des panneaux d'exposition et des véhicules exposés. Le nom 'Porsche Museum' est visible sur le sol. L'architecture moderne avec des plafonds noirs et des éclairages ciblés est caractéristique du musée Porsche à Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:05:17.177Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b6417e81-056",
+    "nom_fichier": "IMG_5700.jpeg",
+    "grand": "/photos/grand/b6417e81-056.jpg",
+    "miniature": "/photos/miniatures/b6417e81-056.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:22.219Z",
+    "prise_le": "2024-09-06T08:51:31.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 dans le musée de Stuttgart",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 dans le musée de Stuttgart",
+      "description": "Deux Porsche 911 exposées dans un musée moderne à Stuttgart, Allemagne. La voiture argentée présente des détails sportifs comme des jantes noires et des feux avant distinctifs. L'ambiance épurée met en valeur les véhicules.",
+      "tags": [
+        "porsche",
+        "911",
+        "musee",
+        "stuttgart",
+        "voiture",
+        "exposition",
+        "allemande",
+        "design"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "997 (2004-2012)",
+        "annees": "2004-2012",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "calandre typique 911, phares circulaires, jantes noires sportives, logo Porsche sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau d'information mentionnant le musée Porsche, architecture moderne du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:04:02.695Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fa500fd0-f0f",
+    "nom_fichier": "IMG_5699.jpeg",
+    "grand": "/photos/grand/fa500fd0-f0f.jpg",
+    "miniature": "/photos/miniatures/fa500fd0-f0f.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:22.033Z",
+    "prise_le": "2024-09-06T08:51:23.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 dans le musée",
+      "description": "Une Porsche 911 argentée exposée dans un musée, avec un autre modèle visible en arrière-plan. L'éclairage met en valeur la carrosserie brillante et les détails du design.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "exposition",
+        "voiture",
+        "argentée",
+        "allemande",
+        "stuttgart"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "997",
+        "annees": "2004-2009",
+        "carrosserie": "coupe",
+        "couleur": "argentée",
+        "confiance": "elevee",
+        "indices": "calandre avec logo Porsche, phares ronds caractéristiques, jantes en alliage, finition sportive avec aileron arrière visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau 'Porsche Museum' visible sur la voiture, contexte muséal avec éclairage professionnel"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:02:37.150Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ab80ba34-d93",
+    "nom_fichier": "IMG_5698.jpeg",
+    "grand": "/photos/grand/ab80ba34-d93.jpg",
+    "miniature": "/photos/miniatures/ab80ba34-d93.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:21.845Z",
+    "prise_le": "2024-09-06T08:51:15.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT3 R en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT3 R en exposition",
+      "description": "Une Porsche 911 GT3 R de couleur orange et blanc, exposée dans un musée. Elle présente des détails sportifs comme les phares jaunes et les jantes en alliage.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt3r",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de course",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "GT3 R",
+        "annees": "2010-2015",
+        "carrosserie": "coupé",
+        "couleur": "orange et blanc",
+        "confiance": "elevee",
+        "indices": "calandre distinctive, phares jaunes, jantes en alliage, logo Porsche sur le capot, décoration Michelin et Mobil 1"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau indicateur de musée Porsche, architecture intérieure moderne"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:01:13.960Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "7a7ecb93-5fc",
+    "nom_fichier": "IMG_5697.jpeg",
+    "grand": "/photos/grand/7a7ecb93-5fc.jpg",
+    "miniature": "/photos/miniatures/7a7ecb93-5fc.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:21.660Z",
+    "prise_le": "2024-09-06T08:50:19.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Rouge dans le Musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Rouge dans le Musée",
+      "description": "Une Porsche 911 rouge exposée dans un musée à Stuttgart, Allemagne. La voiture est présentée sous un éclairage dramatique, mettant en valeur sa carrosserie brillante et ses détails techniques.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "rouge"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "991",
+        "annees": "2012-2020",
+        "carrosserie": "coupe",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares à LED, jantes en alliage léger, proportions typiques de la 991 (longue carrosserie, silencieux arrière)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec architecture moderne et panneaux d'exposition."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:59:45.806Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "53c96b2b-a56",
+    "nom_fichier": "IMG_5696.jpeg",
+    "grand": "/photos/grand/53c96b2b-a56.jpg",
+    "miniature": "/photos/miniatures/53c96b2b-a56.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:21.478Z",
+    "prise_le": "2024-09-06T08:50:17.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT3 RS en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT3 RS en exposition",
+      "description": "Une Porsche 911 GT3 RS rouge vif exposée dans un musée, avec un aileron arrière imposant et des jantes argentées. La voiture est présentée sur une plateforme sombre, éclairée pour mettre en valeur ses lignes sportives.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt3 rs",
+        "musée",
+        "exposition",
+        "rouge",
+        "sportive",
+        "ailerons"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2022-2024",
+        "carrosserie": "coupé",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Aileron arrière large avec le logo 'GT3 RS', plaque d'immatriculation 'PORSCHE', jantes en alliage argentées, feux arrière à LED, échappement double. La calandre et les phares sont visibles à l'avant mais non détaillés ici. La génération 992 est reconnaissable par la forme de la carrosserie et le design des feux."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique clairement 'Musee porshe a stutgart alemagne', et le contexte d'exposition dans un musée Porsche à Stuttgart est confirmé par la présentation de la voiture dans un espace muséal moderne."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:58:10.764Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "eec8cdfd-8b9",
+    "nom_fichier": "IMG_5695.jpeg",
+    "grand": "/photos/grand/eec8cdfd-8b9.jpg",
+    "miniature": "/photos/miniatures/eec8cdfd-8b9.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:56:21.305Z",
+    "prise_le": "2024-09-06T08:50:06.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Rouge au Musée de Stuttgart",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Rouge au Musée de Stuttgart",
+      "description": "Une Porsche 911 rouge exposée dans un musée à Stuttgart, Allemagne. La voiture est présentée sur une plateforme élégante avec un éclairage mettant en valeur sa carrosserie brillante. L'ambiance intérieure du musée est moderne et minimaliste.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "rouge",
+        "voiture de sport",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "991.2",
+        "annees": "2014-2020",
+        "carrosserie": "coupe",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, jantes en alliage, finition sportive avec aileron arrière et diffuseur avant. La plaque d'immatriculation 'PORSCHE 911' confirme le modèle."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels de musée avec inscription 'Museum Porsche', architecture intérieure moderne avec éclairage ciblé, contexte d'exposition de véhicules de collection."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:57:07.357Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fe6a1d4e-449",
+    "nom_fichier": "IMG_5694.jpeg",
+    "grand": "/photos/grand/fe6a1d4e-449.jpg",
+    "miniature": "/photos/miniatures/fe6a1d4e-449.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:00.472Z",
+    "prise_le": "2024-09-06T08:49:47.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Carrera S Sport",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Carrera S Sport",
+      "description": "Une Porsche 911 Carrera S Sport verte exposée dans le musée Porsche de Stuttgart, Allemagne. La voiture est présentée dans un espace lumineux avec des sols blancs et des éclairages en plafond.",
+      "tags": [
+        "porsche",
+        "911",
+        "carrera s",
+        "sport",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "Carrera S Sport",
+        "annees": "2000-2005",
+        "carrosserie": "coupe",
+        "couleur": "verte",
+        "confiance": "elevee",
+        "indices": "Calandre avec logo Porsche, phares ronds, jantes noires, bande noire latérale avec inscription 'Carrera S Sport'"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche, panneau d'information avec le nom 'Porsche Museum', architecture intérieure moderne avec plafond à spots"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:57:53.405Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f822172f-f9e",
+    "nom_fichier": "IMG_5693.jpeg",
+    "grand": "/photos/grand/f822172f-f9e.jpg",
+    "miniature": "/photos/miniatures/f822172f-f9e.webp",
+    "largeur": 4032,
+    "hauteur": 2268,
+    "ajoutee_le": "2026-09-23T12:57:00.673Z",
+    "prise_le": "2024-09-06T08:49:38.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche Carrera GT en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche Carrera GT en exposition",
+      "description": "Une Porsche Carrera GT argentée exposée dans un musée à Stuttgart, Allemagne. La voiture présente des détails distinctifs comme les feux arrière rouge vif et les jantes en alliage. L'ambiance épurée du musée met en valeur la silhouette élégante du véhicule.",
+      "tags": [
+        "porsche",
+        "carrera gt",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de sport",
+        "exposition",
+        "argent"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "Carrera GT",
+        "generation": "Génération initiale (2003-2009)",
+        "annees": "2003-2009",
+        "carrosserie": "Cabriolet",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, feux arrière rouge vif, jantes en alliage avec disque de frein jaune visible, inscription 'Carrera GT' sur le coffre et plaque 'Porsche' sur le pare-chocs arrière."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, confirmé par le commentaire du photographe et l'architecture intérieure moderne du musée."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:59:16.487Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "9343c9ed-104",
+    "nom_fichier": "IMG_5692.jpeg",
+    "grand": "/photos/grand/9343c9ed-104.jpg",
+    "miniature": "/photos/miniatures/9343c9ed-104.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:00.861Z",
+    "prise_le": "2024-09-06T08:49:31.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche Carrera GT au musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche Carrera GT au musée",
+      "description": "Une Porsche Carrera GT argentée exposée dans un musée, avec une vue arrière mettant en évidence ses feux arrière rouges et ses jantes en alliage. L'ambiance épurée de l'espace d'exposition souligne la sophistication de la voiture.",
+      "tags": [
+        "porsche",
+        "carrera gt",
+        "musée",
+        "voiture de collection",
+        "exposition",
+        "allemand",
+        "stuttgart",
+        "argent"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "Carrera GT",
+        "generation": "Génération initiale (2003-2009)",
+        "annees": "2003-2009",
+        "carrosserie": "Coupé convertible",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares avant en forme de prisme, feux arrière à LED en forme de losange, jantes en alliage à cinq branches avec freins jaunes visibles, proportions sportives avec aileron arrière intégré."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Éclairage moderne, architecture intérieure minimaliste typique des musées Porsche, panneau indiquant \"Porsche Museum\" visible en arrière-plan."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:00:45.459Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "81a5fced-4f6",
+    "nom_fichier": "IMG_5691.jpeg",
+    "grand": "/photos/grand/81a5fced-4f6.jpg",
+    "miniature": "/photos/miniatures/81a5fced-4f6.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:01.875Z",
+    "prise_le": "2024-09-06T08:49:19.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Moteur Porsche 917",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Moteur Porsche 917",
+      "description": "Un moteur de course Porsche 917 exposé au musée Porsche de Stuttgart, Allemagne. Ce moteur, conçu pour les 24 Heures du Mans, est un symbole de l'ingénierie automobile de pointe.",
+      "tags": [
+        "moteur",
+        "porsche",
+        "917",
+        "musée",
+        "stuttgart",
+        "allemagne",
+        "course",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "917",
+        "generation": "Génération 1970-1972",
+        "annees": "1970-1972",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive de la 917, tuyaux d'échappement en aluminium brillant, moteur à 8 cylindres en ligne, configuration typique de la 917."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec une architecture moderne et un éclairage spécifique pour les expositions."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:07:00.306Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "87af9cdd-d24",
+    "nom_fichier": "IMG_5690.jpeg",
+    "grand": "/photos/grand/87af9cdd-d24.jpg",
+    "miniature": "/photos/miniatures/87af9cdd-d24.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:01.673Z",
+    "prise_le": "2024-09-06T08:49:14.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Intérieur Porsche 911 Targa",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Intérieur Porsche 911 Targa",
+      "description": "Un intérieur luxueux avec des sièges en cuir marron et un volant en bois. Le tableau de bord présente des éléments de design classique avec des boutons métalliques. La photo a été prise dans le musée Porsche de Stuttgart, Allemagne.",
+      "tags": [
+        "porsche",
+        "911",
+        "targa",
+        "intérieur",
+        "cuir",
+        "volant",
+        "musée",
+        "stuttgart"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "Targa",
+        "annees": "1999-2005",
+        "carrosserie": "Targa",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Volant avec logo Porsche, sièges en cuir marron, tableau de bord avec boutons métalliques, carrosserie Targa avec toit ouvrant. La finition en cuir et le design intérieur correspondent à la génération Targa de la 911 (1999-2005)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique clairement le musée Porsche à Stuttgart, Allemagne. La présence du logo Porsche sur le volant et le contexte du musée confirment l'emplacement."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:06:01.491Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ca49cd63-48a",
+    "nom_fichier": "IMG_5689.jpeg",
+    "grand": "/photos/grand/ca49cd63-48a.jpg",
+    "miniature": "/photos/miniatures/ca49cd63-48a.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:01.445Z",
+    "prise_le": "2024-09-06T08:49:04.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche GT3 RS en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche GT3 RS en exposition",
+      "description": "Une Porsche GT3 RS blanche avec des jantes rouges et une bande rouge sur le côté est exposée dans un musée. Le modèle est visible à l'arrière avec son aileron et ses feux arrière.",
+      "tags": [
+        "porsche",
+        "gt3 rs",
+        "musée",
+        "exposition",
+        "voiture de sport",
+        "allemand",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "GT3 RS",
+        "generation": "Génération 996 (1999-2004) ou 997 (2004-2009) avec modifications spécifiques",
+        "annees": "2004-2009",
+        "carrosserie": "Coupé",
+        "couleur": "Blanche",
+        "confiance": "elevee",
+        "indices": "Aileron arrière large, bande rouge latérale, jantes rouges, plaque d'immatriculation 'PORSCHE' et 'GT3 RS' sur le coffre. La calandre et les phares ne sont pas visibles, mais le style du coffre et l'aileron indiquent le modèle GT3 RS."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique clairement 'Musee porshe a stutgart alemagne'. L'environnement intérieur avec des murs blancs et un sol en carrelage brillant correspond à un musée moderne."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:04:45.710Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "353156d1-872",
+    "nom_fichier": "IMG_5688.jpeg",
+    "grand": "/photos/grand/353156d1-872.jpg",
+    "miniature": "/photos/miniatures/353156d1-872.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:01.257Z",
+    "prise_le": "2024-09-06T08:48:55.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT2 RS en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT2 RS en exposition",
+      "description": "Une Porsche 911 GT2 RS argentée est présentée dans un musée, avec un éclairage dramatique mettant en valeur sa silhouette sportive. L'arrière-plan montre un autre véhicule exposé et des panneaux d'information.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt2 rs",
+        "musee",
+        "stuttgart",
+        "allemand",
+        "voiture de sport",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "GT2 RS",
+        "annees": "2000-2005",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares circulaires, jantes en alliage léger, proportions sportives avec aileron arrière visible, plaque d'identification 'Porsche Museum' sur le pare-chocs avant."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels d'information avec 'Porsche Museum', éclairage typique des musées, architecture intérieure moderne avec plafond incliné et sol en béton poli."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:03:34.647Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "000e33f4-1d0",
+    "nom_fichier": "IMG_5687.jpeg",
+    "grand": "/photos/grand/000e33f4-1d0.jpg",
+    "miniature": "/photos/miniatures/000e33f4-1d0.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:01.054Z",
+    "prise_le": "2024-09-06T08:48:46.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 blanche est présentée dans un musée à Stuttgart, Allemagne. L'ambiance épurée et moderne du musée met en valeur la voiture.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "exposition",
+        "voiture",
+        "classique"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "996",
+        "annees": "1999-2003",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "calandre avec logo Porsche, phares ronds caractéristiques, jantes en alliage, proportions classiques de la 996"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau indiquant \"Musee Porsche\", architecture moderne du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:02:09.344Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "cac03b40-8f8",
+    "nom_fichier": "IMG_5686.jpeg",
+    "grand": "/photos/grand/cac03b40-8f8.jpg",
+    "miniature": "/photos/miniatures/cac03b40-8f8.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:02.071Z",
+    "prise_le": "2024-09-06T08:48:41.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT3 RS blanc",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT3 RS blanc",
+      "description": "Une Porsche 911 GT3 RS blanche exposée dans un musée à Stuttgart, Allemagne. La voiture présente des détails sportifs comme les jantes rouges et les feux avant caractéristiques.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt3 rs",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture de sport",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "GT3 RS",
+        "annees": "1999-2005",
+        "carrosserie": "blanche",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre avec logo Porsche, phares avant circulaires, jantes rouges, bande rouge latérale, proportions sportives"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche, panneau avec inscription 'Museum Porsche', architecture intérieure moderne"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:07:58.888Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "71897653-f81",
+    "nom_fichier": "IMG_5685.jpeg",
+    "grand": "/photos/grand/71897653-f81.jpg",
+    "miniature": "/photos/miniatures/71897653-f81.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:02.328Z",
+    "prise_le": "2024-09-06T08:47:10.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "autre",
+    "titre": "exposition de trophées au musée Porsche",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "autre",
+      "titre": "exposition de trophées au musée Porsche",
+      "description": "Une exposition de trophées et de récompenses dans un espace moderne et épuré. Le mur blanc et les étagères minimalistes mettent en valeur la collection. Un grand chiffre \"30000\" est visible sur le mur.",
+      "tags": [
+        "musee",
+        "trophes",
+        "exposition",
+        "porsche",
+        "stuttgart",
+        "allemand",
+        "modernisme",
+        "collection"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "stuttgart",
+        "ville": "stuttgart",
+        "pays": "allemand",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique clairement \"Musee porshe a stutgart alemagne\". Le mur blanc et les étagères minimalistes correspondent à l'architecture moderne du musée Porsche à Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:08:42.031Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "910ca9a6-401",
+    "nom_fichier": "IMG_5684.jpeg",
+    "grand": "/photos/grand/910ca9a6-401.jpg",
+    "miniature": "/photos/miniatures/910ca9a6-401.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:02.567Z",
+    "prise_le": "2024-09-06T08:46:42.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.8342985,
+      "lon": 9.1524474,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT1 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT1 en exposition",
+      "description": "Une Porsche 911 GT1 de course, peinte dans un design multicolore avec des logos de sponsors comme Michelin et Champion, est exposée dans un musée. Le véhicule présente des éléments sportifs tels qu'un aileron arrière et des jantes spéciales.",
+      "tags": [
+        "porsche",
+        "911 gt1",
+        "musée",
+        "course",
+        "exposition",
+        "sponsors",
+        "aileron",
+        "jantes"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911 GT1",
+        "generation": "Génération 1996-1998",
+        "annees": "1996-1998",
+        "carrosserie": "Coupé",
+        "couleur": "Blanc avec détails multicolores",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive de la 911, phares circulaires, aileron arrière, jantes spéciales, logos de sponsors (Michelin, Champion), numéro 38, plaque d'immatriculation 'Porsche 911 GT1' visible sur le sol"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Museum Porsche",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Plaque d'immatriculation 'Porsche 911 GT1' sur le sol, environnement muséal avec éclairage professionnel et mur à LED"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:09:26.971Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "572a3a38-7e8",
+    "nom_fichier": "IMG_5683.jpeg",
+    "grand": "/photos/grand/572a3a38-7e8.jpg",
+    "miniature": "/photos/miniatures/572a3a38-7e8.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:02.743Z",
+    "prise_le": "2024-09-06T08:46:32.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT1 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT1 en exposition",
+      "description": "Une Porsche 911 GT1 blanche exposée dans un musée. Le véhicule est présenté dans un espace lumineux avec des murs clairs et un sol en carrelage. Le numéro de plaque \"BB-GT-198\" est visible sur le pare-brise.",
+      "tags": [
+        "porsche",
+        "911 gt1",
+        "musée",
+        "exposition",
+        "voiture de course",
+        "blanche",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911 GT1",
+        "generation": "911 GT1",
+        "annees": "1996-1997",
+        "carrosserie": "blanche",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, aileron arrière, jantes en alliage, proportions sportives. Plaque \"BB-GT-198\" et inscription \"Porsche 911 GT1\" sur le pare-brise. Le panneau d'exposition confirme le modèle et l'année."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Plaque \"BB-GT-198\" et inscription \"Porsche 911 GT1\" sur le pare-brise. Le panneau d'exposition indique \"Musee Porsche\". L'architecture intérieure avec murs clairs et sol en carrelage correspond à la salle d'exposition du musée Porsche à Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:10:11.733Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e60f1d99-fc8",
+    "nom_fichier": "IMG_5682.jpeg",
+    "grand": "/photos/grand/e60f1d99-fc8.jpg",
+    "miniature": "/photos/miniatures/e60f1d99-fc8.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:02.948Z",
+    "prise_le": "2024-09-06T08:45:17.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Exposition Porsche à Stuttgart",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Exposition Porsche à Stuttgart",
+      "description": "Exposition de véhicules Porsche dans un musée à Stuttgart, Allemagne. Les voitures sont présentées dans un espace moderne avec éclairage ciblé.",
+      "tags": [
+        "porsche",
+        "musee",
+        "stuttgart",
+        "exposition",
+        "voitures",
+        "allemande",
+        "collection"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "996",
+        "annees": "1996-2000",
+        "carrosserie": "Coupé",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre typique de la 996, phares avant, feux arrière en forme de goutte, jantes en alliage, moteur exposé"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels de signalisation, architecture moderne du musée, plaque indiquant 'Porsche Museum'"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:10:54.549Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0ed81376-c48",
+    "nom_fichier": "IMG_5681.jpeg",
+    "grand": "/photos/grand/0ed81376-c48.jpg",
+    "miniature": "/photos/miniatures/0ed81376-c48.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:03.157Z",
+    "prise_le": "2024-09-06T08:45:03.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Concept Porsche 911",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Concept Porsche 911",
+      "description": "Exposition du concept Porsche 911 dans le musée Porsche de Stuttgart, Allemagne. La voiture est présentée en démontage technique, mettant en évidence ses composants internes.",
+      "tags": [
+        "porsche",
+        "concept",
+        "911",
+        "musee",
+        "stuttgart",
+        "exposition",
+        "technique",
+        "allemagne"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "Concept",
+        "annees": "2000",
+        "carrosserie": "Démontée",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre et phares de la 911, jantes en alliage, structure interne visible avec radiateur et moteur exposés. Panneau indiquant '2000' en arrière-plan."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panneau '2000' et contexte muséal avec exposition de véhicules Porsche. Le nom 'Porsche' est visible sur le panneau d'exposition."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:11:36.690Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d78af5c2-85c",
+    "nom_fichier": "IMG_5680.jpeg",
+    "grand": "/photos/grand/d78af5c2-85c.jpg",
+    "miniature": "/photos/miniatures/d78af5c2-85c.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:38.787Z",
+    "prise_le": "2024-09-06T08:44:53.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Mercedes-Benz E-Class en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Mercedes-Benz E-Class en exposition",
+      "description": "Une Mercedes-Benz E-Class noire est présentée dans un musée à Stuttgart, Allemagne. La voiture est exposée sous un éclairage dramatique, mettant en valeur sa carrosserie brillante et ses détails de design.",
+      "tags": [
+        "mercedes benz",
+        "e class",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "exposition",
+        "voiture classique"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Mercedes-Benz",
+        "modele": "E-Class",
+        "generation": "E220 (1993-1999)",
+        "annees": "1993-1999",
+        "carrosserie": "Berline",
+        "couleur": "Noire",
+        "confiance": "elevee",
+        "indices": "Calandre à grille de type E-Class, phares ronds avec lentilles en verre, jantes en alliage argenté, logo Mercedes sur le capot et le pare-chocs avant. La plaque d'immatriculation indique 'PORSCHE' mais c'est une erreur car le véhicule est une Mercedes-Benz."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec une architecture moderne et une vitre donnant sur l'extérieur. Le commentaire du photographe confirme le lieu."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:58:59.838Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "1d62d632-ba7",
+    "nom_fichier": "IMG_5679.jpeg",
+    "grand": "/photos/grand/1d62d632-ba7.jpg",
+    "miniature": "/photos/miniatures/1d62d632-ba7.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:38.977Z",
+    "prise_le": "2024-09-06T08:43:52.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 GT3 RS en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 GT3 RS en exposition",
+      "description": "Une Porsche 911 GT3 RS est présentée dans un musée à Stuttgart, Allemagne. La voiture arbore une livrée distinctive avec un motif à damier noir et blanc sur le côté. Elle est exposée dans un espace lumineux et moderne.",
+      "tags": [
+        "porsche",
+        "911",
+        "gt3 rs",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "exposition",
+        "voiture de sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "GT3 RS",
+        "annees": "2020-2023",
+        "carrosserie": "coupe",
+        "couleur": "noir mat",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive de la 911, phares à LED, jantes en alliage léger, aileron arrière large, motif à damier sur le côté, plaque d'immatriculation avec années de production (2013-2023)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec architecture moderne et éclairage spécifique. Panneau indiquant 'Musee porshe a stutgart alemagne'."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:00:30.291Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "5e306d92-a7e",
+    "nom_fichier": "IMG_5678.jpeg",
+    "grand": "/photos/grand/5e306d92-a7e.jpg",
+    "miniature": "/photos/miniatures/5e306d92-a7e.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:39.169Z",
+    "prise_le": "2024-09-06T08:43:44.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 dans le musée",
+      "description": "Une Porsche 911 de couleur gris métallique est exposée dans un musée. La voiture présente un aileron arrière noir et des jantes en alliage. L'arrière de la voiture est visible avec des feux arrière à LED.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition",
+        "gris"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "gris métallique",
+        "confiance": "elevee",
+        "indices": "Calandre à 4 trous, phares à LED, aileron arrière large, jantes en alliage à 5 branches, feux arrière à LED, logo Porsche sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Éclairage intérieur moderne, sol blanc brillant, panneaux de signalisation avec le nom du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:01:56.460Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0a206793-960",
+    "nom_fichier": "IMG_5677.jpeg",
+    "grand": "/photos/grand/0a206793-960.jpg",
+    "miniature": "/photos/miniatures/0a206793-960.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:39.378Z",
+    "prise_le": "2024-09-06T08:43:30.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche Polizei et bleue",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche Polizei et bleue",
+      "description": "Deux Porsche exposées dans un musée. La voiture blanche porte une livrée policière avec le mot \"POLIZEI\" en vert. La voiture bleue est visible de profil.",
+      "tags": [
+        "porsche",
+        "police",
+        "musée",
+        "bleu",
+        "blanc",
+        "exposition",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (964)",
+        "annees": "1990-1994",
+        "carrosserie": "coupé",
+        "couleur": "blanc",
+        "confiance": "elevee",
+        "indices": "calandre typique 911 (964), phares ronds, feux arrière en forme de L, jantes en alliage, logo Porsche sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau de signalisation \"Museum Porsche\" visible en arrière-plan, architecture intérieure du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:03:20.084Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "c1da64e5-590",
+    "nom_fichier": "IMG_5676.jpeg",
+    "grand": "/photos/grand/c1da64e5-590.jpg",
+    "miniature": "/photos/miniatures/c1da64e5-590.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:40.332Z",
+    "prise_le": "2024-09-06T08:43:22.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Deux Porsche 911 exposées dans un musée à Stuttgart, Allemagne. La voiture centrale présente une livrée argentée avec une bande noire et des détails sportifs.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "exposition",
+        "voiture",
+        "allemande",
+        "sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2022-2024",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre typique 992 avec logo Porsche, phares à LED, jantes en alliage, bande noire sur le capot, aileron arrière visible. La voiture centrale est une 911 GT3 RS ou similaire, avec des détails sportifs comme le diffuseur avant et les sorties d'échappement."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panonceaux avec le logo Porsche, architecture moderne du musée, et le commentaire du photographe mentionnant Stuttgart. L'endroit est un musée Porsche à Stuttgart, Allemagne."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:08:28.863Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "1827f2d7-4a2",
+    "nom_fichier": "IMG_5675.jpeg",
+    "grand": "/photos/grand/1827f2d7-4a2.jpg",
+    "miniature": "/photos/miniatures/1827f2d7-4a2.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:40.113Z",
+    "prise_le": "2024-09-06T08:43:13.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 de course, probablement une 997, exposée dans un musée à Stuttgart, Allemagne. Les détails sportifs comme les jantes et les logos de sponsors sont visibles.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "course",
+        "mobil1",
+        "michelin",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "997",
+        "annees": "2004-2009",
+        "carrosserie": "coupe",
+        "couleur": "noir",
+        "confiance": "elevee",
+        "indices": "Calandre spécifique à la 997, phares circulaires, jantes sportives, logos Mobil 1 et Michelin, numéro 1 sur le côté, finition de course avec aileron arrière et diffuseur avant."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Musée Porsche à Stuttgart, Allemagne, avec architecture minimaliste et éclairage en plafond."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:07:45.293Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b5980319-922",
+    "nom_fichier": "IMG_5674.jpeg",
+    "grand": "/photos/grand/b5980319-922.jpg",
+    "miniature": "/photos/miniatures/b5980319-922.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:39.919Z",
+    "prise_le": "2024-09-06T08:43:00.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 bleue au musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 bleue au musée",
+      "description": "Une Porsche 911 bleue est exposée dans un musée moderne avec des vitres panoramiques. L'extérieur visible suggère un environnement urbain avec des arbres et des bâtiments.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "bleu",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (993)",
+        "annees": "1994-1998",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, jantes en alliage, finition 'Carrera' visible sur le tableau de bord"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panneau 'Porsche Museum' visible, architecture moderne avec grandes vitres, paysage urbain avec arbres et bâtiments"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:06:45.735Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ee70e5ed-e0b",
+    "nom_fichier": "IMG_5672.jpeg",
+    "grand": "/photos/grand/ee70e5ed-e0b.jpg",
+    "miniature": "/photos/miniatures/ee70e5ed-e0b.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:39.730Z",
+    "prise_le": "2024-09-06T08:42:21.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 Rose dans le musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 Rose dans le musée",
+      "description": "Une Porsche 911 de couleur rose vif exposée dans un musée moderne. La voiture est présentée sur une plateforme noire avec un éclairage dramatique. Un autre véhicule est visible en arrière-plan.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "rose",
+        "exposition",
+        "allemand",
+        "stuttgart",
+        "voiture"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (964)",
+        "annees": "1989-1994",
+        "carrosserie": "coupe",
+        "couleur": "rose",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, feux arrière en forme de triangle, jantes en alliage, proportions classiques de la 911 (964)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panonceaux avec 'Porsche Museum', architecture moderne du musée, éclairage spécifique aux musées automobiles."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:05:45.690Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e02d0214-88a",
+    "nom_fichier": "IMG_5671.jpeg",
+    "grand": "/photos/grand/e02d0214-88a.jpg",
+    "miniature": "/photos/miniatures/e02d0214-88a.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:39.558Z",
+    "prise_le": "2024-09-06T08:42:07.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Moteur de course Porsche",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Moteur de course Porsche",
+      "description": "Un modèle de Formule 1 exposé dans un musée, avec des logos Shell et Marlboro visibles. La voiture est présentée sur une plateforme blanche dans un espace éclairé.",
+      "tags": [
+        "musee",
+        "porsche",
+        "formule1",
+        "shell",
+        "marlboro",
+        "exposition",
+        "allemand",
+        "stuttgart"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "917",
+        "generation": "1970",
+        "annees": "1970-1971",
+        "carrosserie": "rouge et blanc",
+        "couleur": "rouge et blanc",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive, logos Shell et Marlboro, proportions de Formule 1, jantes noires"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels de musée, architecture intérieure moderne, mention du photographe"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:04:29.185Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "7401b9eb-131",
+    "nom_fichier": "IMG_5669.jpeg",
+    "grand": "/photos/grand/7401b9eb-131.jpg",
+    "miniature": "/photos/miniatures/7401b9eb-131.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:40.505Z",
+    "prise_le": "2024-09-06T08:41:21.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 au musée de Stuttgart",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 au musée de Stuttgart",
+      "description": "Une Porsche 911 blanche exposée dans un espace minimaliste du musée Porsche à Stuttgart, Allemagne. Les feux arrière rouge vif et les jantes distinctives soulignent le design emblématique de cette voiture.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture",
+        "classique",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (964)",
+        "annees": "1987-1994",
+        "carrosserie": "Coupé",
+        "couleur": "Blanc",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, feux arrière rouge vif et jantes en alliage, proportions caractéristiques de la génération 964 (1987-1994)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Lieu mentionné par le photographe : musée Porsche à Stuttgart, Allemagne. Architecture intérieure minimaliste avec sol noir et murs gris, typique des espaces d'exposition du musée."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:09:11.502Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "af1471fe-c54",
+    "nom_fichier": "IMG_5668.jpeg",
+    "grand": "/photos/grand/af1471fe-c54.jpg",
+    "miniature": "/photos/miniatures/af1471fe-c54.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:40.688Z",
+    "prise_le": "2024-09-06T08:41:08.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 argentée est présentée dans un musée avec un éclairage moderne. Le véhicule est exposé sur une plateforme noire, avec des panneaux d'information à proximité.",
+      "tags": [
+        "porsche",
+        "911",
+        "musee",
+        "exposition",
+        "argent",
+        "voiture",
+        "musée porsche",
+        "stuttgart"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 (964)",
+        "annees": "1993-1998",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "calandre avec logo Porsche, phares ronds, jantes en alliage, proportions typiques de la 964 (911 de 1993 à 1998)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau \"Porsche Museum\" visible sur la voiture, architecture moderne du musée, contexte de la photo avec le commentaire du photographe indiquant le musée Porsche à Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:09:54.988Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "77bd4ec5-795",
+    "nom_fichier": "IMG_5667.jpeg",
+    "grand": "/photos/grand/77bd4ec5-795.jpg",
+    "miniature": "/photos/miniatures/77bd4ec5-795.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:40.879Z",
+    "prise_le": "2024-09-06T08:37:08.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 en exposition",
+      "description": "Une Porsche 911 argentée avec un toit rouge et des détails bleus est exposée dans un musée. Une autre voiture, portant le numéro 40, est visible en hauteur.",
+      "tags": [
+        "porsche",
+        "911",
+        "musée",
+        "exposition",
+        "voiture de course",
+        "stuttgart",
+        "allemande",
+        "moteur"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "911 Carrera RS (1973-1976)",
+        "annees": "1973-1976",
+        "carrosserie": "Coupé",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre en forme de croix, phares ronds, jantes en alliage, logo Porsche sur le capot et le coffre, finition 'Carrera RS' visible sur le côté. Les détails de course (numéro 9, logos Martini, Shell) indiquent une version modifiée pour le rallye."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le nom 'Musee Porsche' et la localisation à Stuttgart sont confirmés par le commentaire du photographe. L'architecture moderne du musée correspond à la Galerie Porsche de Stuttgart."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:10:41.568Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8e3bb7b6-346",
+    "nom_fichier": "IMG_5666.jpeg",
+    "grand": "/photos/grand/8e3bb7b6-346.jpg",
+    "miniature": "/photos/miniatures/8e3bb7b6-346.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:41.062Z",
+    "prise_le": "2024-09-06T08:35:36.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 917 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 917 en exposition",
+      "description": "Une Porsche 917 blanche et verte, portant le numéro 917, est exposée dans un musée. Elle est présentée dans un espace moderne avec des éclairages ciblés. D'autres voitures de course sont visibles en arrière-plan.",
+      "tags": [
+        "porsche",
+        "917",
+        "musée",
+        "voiture de course",
+        "exposition",
+        "stuttgart",
+        "allemande",
+        "moteur"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "917",
+        "generation": "917",
+        "annees": "1970-1971",
+        "carrosserie": "coupe",
+        "couleur": "blanche et verte",
+        "confiance": "elevee",
+        "indices": "calandre avec logo Porsche, phares circulaires, jantes en alliage, proportions aérodynamiques typiques de la 917"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau indicateur 'Museum Porsche', architecture moderne du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:11:22.889Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d52eac5a-b6d",
+    "nom_fichier": "IMG_5665.jpeg",
+    "grand": "/photos/grand/d52eac5a-b6d.jpg",
+    "miniature": "/photos/miniatures/d52eac5a-b6d.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:57:41.322Z",
+    "prise_le": "2024-09-06T08:35:03.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 917 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 917 en exposition",
+      "description": "Une Porsche 917 argentée, portant le numéro 33, est exposée dans le musée Porsche de Stuttgart, Allemagne. Elle est présentée sur un sol blanc avec des panneaux publicitaires historiques en arrière-plan.",
+      "tags": [
+        "porsche",
+        "917",
+        "musee",
+        "stuttgart",
+        "exposition",
+        "voiture de course",
+        "argentee",
+        "numéro 33"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "917",
+        "generation": "Génération 1970-1972 (917/33)",
+        "annees": "1970-1972",
+        "carrosserie": "Coupé",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, jantes en alliage, numéro 33 sur le capot et les flancs, plaque d'immatriculation S-TJ 24. La forme du capot et les proportions indiquent une version de course."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels publicitaires avec le nom 'Porsche', le logo Porsche, et des références à 'Stuttgart' et 'Allemagne' dans le contexte du musée."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:11:52.661Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f44a4493-59d",
+    "nom_fichier": "IMG_5663.jpeg",
+    "grand": "/photos/grand/f44a4493-59d.jpg",
+    "miniature": "/photos/miniatures/f44a4493-59d.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:58:01.385Z",
+    "prise_le": "2024-09-06T08:33:24.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.8342985,
+      "lon": 9.1524474,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Tracteur rouge vintage",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Tracteur rouge vintage",
+      "description": "Un tracteur rouge vif exposé dans un musée, avec des roues noires et des jantes crème. L'objet est présenté sur une plateforme blanche dans un espace lumineux.",
+      "tags": [
+        "tracteur",
+        "vintage",
+        "musee",
+        "rouge",
+        "exposition",
+        "musee porsche",
+        "stuttgart",
+        "allemand"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "Tracteur",
+        "generation": "",
+        "annees": "1930-1940",
+        "carrosserie": "",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Le nom 'Porsche' est visible sur le capot. La forme du tracteur et les détails (jantes crème, roues larges) correspondent à un modèle ancien de la marque."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Musee Porsche",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique clairement le lieu. L'architecture moderne de l'exposition et la plaque d'information confirment le contexte muséal."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:59:31.053Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "3627d7d8-156",
+    "nom_fichier": "IMG_5662.jpeg",
+    "grand": "/photos/grand/3627d7d8-156.jpg",
+    "miniature": "/photos/miniatures/3627d7d8-156.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:58:01.575Z",
+    "prise_le": "2024-09-06T08:32:33.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 356 en exposition",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 356 en exposition",
+      "description": "Une Porsche 356 argentée est présentée dans un musée moderne à Stuttgart, Allemagne. Elle est exposée avec d'autres véhicules classiques dans un espace lumineux et minimaliste.",
+      "tags": [
+        "porsche",
+        "356",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture classique",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "356",
+        "generation": "première génération (1948-1955)",
+        "annees": "1948-1955",
+        "carrosserie": "coupe ouverte (roadster)",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "calandre ronde avec logo Porsche, phares circulaires, jantes en alliage, proportions épurées typiques de la 356"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau indiquant 'Porsche Museum', architecture moderne du musée"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:00:59.395Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d435ceb1-bb3",
+    "nom_fichier": "IMG_5661.jpeg",
+    "grand": "/photos/grand/d435ceb1-bb3.jpg",
+    "miniature": "/photos/miniatures/d435ceb1-bb3.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:58:01.763Z",
+    "prise_le": "2024-09-06T08:32:27.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.8342985,
+      "lon": 9.1524474,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 356 Coupé Rouge",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 356 Coupé Rouge",
+      "description": "Une Porsche 356 Coupé de couleur rouge exposée dans un musée. La voiture est présentée sous un éclairage professionnel, mettant en valeur sa carrosserie brillante et ses lignes classiques.",
+      "tags": [
+        "porsche",
+        "356",
+        "coupé",
+        "rouge",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "classique"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "356",
+        "generation": "Coupé",
+        "annees": "1950-1955",
+        "carrosserie": "Coupé",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Porsche, phares ronds, jantes en alliage, proportions classiques de la 356, plaque d'immatriculation allemande (K 45 400) et finition brillante."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Museum Porsche",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels de musée, éclairage professionnel, plaque d'immatriculation allemande et le commentaire du photographe indiquant 'Musee porshe a stutgart alemagne'."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:02:23.942Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d940626b-ba4",
+    "nom_fichier": "IMG_5660.jpeg",
+    "grand": "/photos/grand/d940626b-ba4.jpg",
+    "miniature": "/photos/miniatures/d940626b-ba4.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:58:02.028Z",
+    "prise_le": "2024-09-06T08:32:13.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 356A au musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 356A au musée",
+      "description": "Une Porsche 356A argentée est exposée dans un musée, avec un grand mur photographique en arrière-plan. Une autre voiture classique est visible en arrière-plan.",
+      "tags": [
+        "porsche",
+        "356a",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture classique",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "356A",
+        "generation": "Première génération (1948-1955)",
+        "annees": "1950-1955",
+        "carrosserie": "Cabriolet",
+        "couleur": "Argent",
+        "confiance": "elevee",
+        "indices": "Calandre ronde avec logo Porsche, phares circulaires, jantes en alliage, proportions classiques de la 356A"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Panels indiquant 'Porsche in the Museum' et 'Porsche Museum', mur photographique avec des véhicules historiques"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:03:48.887Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ae3f3ce4-5b3",
+    "nom_fichier": "IMG_5659.jpeg",
+    "grand": "/photos/grand/ae3f3ce4-5b3.jpg",
+    "miniature": "/photos/miniatures/ae3f3ce4-5b3.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T12:58:02.338Z",
+    "prise_le": "2024-09-06T08:32:05.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 356 au musée",
+    "commentaire": "Musee porshe a stutgart alemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 356 au musée",
+      "description": "Une Porsche 356 argentée exposée dans un musée avec un fond éclairé de points lumineux. La voiture présente une calandre simple, des phares ronds et une plaque d'immatriculation allemande.",
+      "tags": [
+        "porsche",
+        "356",
+        "musée",
+        "stuttgart",
+        "allemand",
+        "voiture classique",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "356",
+        "generation": "première génération (1948-1955)",
+        "annees": "1948-1955",
+        "carrosserie": "roadster",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "calandre simple avec logo Porsche, phares ronds, plaque d'immatriculation allemande, jantes en alliage, proportions classiques de la 356"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Stuttgart",
+        "ville": "Stuttgart",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "panneau avec le nom du musée, architecture moderne du musée Porsche"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:05:00.314Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
   }
 ]
