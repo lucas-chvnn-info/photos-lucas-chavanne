@@ -71,6 +71,22 @@
 <div class="depot" id="depot" hidden><p>Lâche tes photos pour les ajouter</p></div>
 <div class="toasts" id="toasts" aria-live="polite"></div>
 
+<dialog class="preparation" id="preparation" aria-labelledby="prep-titre">
+  <form method="dialog" id="prep-form">
+    <header class="prep-entete">
+      <h2 id="prep-titre">Ajouter des photos</h2>
+      <p>Écris ce que tu sais : le lieu, la marque, le modèle… L'IA s'en sert comme d'une info sûre et complète le reste en regardant la photo.</p>
+    </header>
+    <ul class="prep-liste" id="prep-liste"></ul>
+    <footer class="prep-actions">
+      <button type="button" class="bouton" id="prep-copier" hidden>Même commentaire pour toutes</button>
+      <span class="espace"></span>
+      <button type="button" class="bouton" id="prep-annuler">Annuler</button>
+      <button type="submit" class="bouton principal" id="prep-valider">Ajouter et analyser</button>
+    </footer>
+  </form>
+</dialog>
+
 <dialog class="visionneuse" id="visionneuse" aria-label="Photo">
   <div class="v-image">
     <img id="v-img" alt="">

@@ -246,6 +246,33 @@ dl.fiche a { color: var(--accent); }
 .alerte { margin-top: 16px; padding: 10px 12px; border-radius: 8px; background: rgba(240,80,122,.12); color: #ffb3c6; font-size: 14px; }
 .chargement { display: flex; align-items: center; gap: 10px; margin-top: 16px; color: var(--texte-doux); }
 
+/* --- Préparation de l'envoi -------------------------------------------- */
+
+.preparation {
+  width: min(680px, calc(100vw - 32px)); max-height: calc(100dvh - 48px);
+  padding: 0; border: 1px solid var(--trait); border-radius: 16px;
+  background: var(--fond-2); color: var(--texte);
+}
+.preparation::backdrop { background: rgba(0,0,0,.7); }
+.preparation form { display: flex; flex-direction: column; max-height: calc(100dvh - 48px); }
+.prep-entete { padding: 22px 24px 8px; }
+.prep-entete h2 { margin: 0 0 6px; font-size: 20px; font-stretch: 108%; }
+.prep-entete p { margin: 0; color: var(--texte-doux); font-size: 14px; }
+.prep-liste { list-style: none; margin: 0; padding: 12px 24px; overflow-y: auto; display: grid; gap: 12px; }
+.prep-liste li { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: start; }
+.prep-liste img { width: 96px; height: 72px; object-fit: cover; border-radius: 8px; background: var(--fond-3); }
+.prep-liste .nom { display: block; font-size: 12px; color: var(--texte-pale); margin-bottom: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.prep-liste textarea, .commentaire textarea {
+  width: 100%; min-height: 48px; resize: vertical;
+  background: var(--fond-3); border: 1px solid var(--trait); border-radius: 8px;
+  padding: 8px 10px; color: var(--texte); font: inherit; font-size: 14px;
+}
+.prep-liste textarea:focus, .commentaire textarea:focus { outline: none; border-color: var(--texte-pale); }
+.prep-actions { display: flex; gap: 8px; padding: 14px 24px 20px; border-top: 1px solid var(--trait); }
+.prep-actions .espace { flex: 1; }
+.commentaire textarea { min-height: 60px; }
+.commentaire .aide { margin: 6px 0 0; font-size: 12px; color: var(--texte-pale); }
+
 /* --- Mobile ------------------------------------------------------------ */
 
 @media (max-width: 760px) {
@@ -266,4 +293,7 @@ dl.fiche a { color: var(--accent); }
   .v-image img { max-height: calc(55dvh - 24px); }
   .v-panneau { border-left: 0; border-top: 1px solid var(--trait); overflow: visible; }
   .v-nav { width: 36px; height: 36px; }
+  .prep-liste li { grid-template-columns: 72px 1fr; }
+  .prep-liste img { width: 72px; height: 56px; }
+  .prep-actions { flex-wrap: wrap; }
 }

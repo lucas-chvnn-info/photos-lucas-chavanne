@@ -71,7 +71,7 @@ async function lireExif(buffer) {
   }
 }
 
-async function enregistrerPhoto(fichier) {
+async function enregistrerPhoto(fichier, commentaire = "") {
   const id = randomUUID().slice(0, 12);
   const ext = path.extname(fichier.originalname).toLowerCase() || ".jpg";
   // rotate() applique l'orientation EXIF ; sharp retire toutes les métadonnées des fichiers publiés.
@@ -106,6 +106,7 @@ async function enregistrerPhoto(fichier) {
     gps: exif.gps ?? null,
     categorie: "autre",
     titre: path.parse(fichier.originalname).name,
+    commentaire: String(commentaire).trim().slice(0, 500),
     analyse: null,
     etat_analyse: "en_attente",
     erreur_analyse: null,
@@ -132,9 +133,13 @@ app.get("/api/photos", (_req, res) => res.json(photos));
 app.post("/api/photos", upload.array("photos"), async (req, res) => {
   const ajoutees = [];
   const erreurs = [];
-  for (const fichier of req.files ?? []) {
+  let commentaires = [];
+  try {
+    commentaires = JSON.parse(req.body?.commentaires ?? "[]");
+  } catch {}
+  for (const [i, fichier] of (req.files ?? []).entries()) {
     try {
-      ajoutees.push(await enregistrerPhoto(fichier));
+      ajoutees.push(await enregistrerPhoto(fichier, commentaires[i] ?? ""));
     } catch (e) {
       erreurs.push(e.message);
     }
@@ -156,7 +161,7 @@ app.post("/api/photos/:id/analyse", async (req, res) => {
       .toBuffer();
     // Une position estimée vient d'une ancienne analyse : ne pas la redonner à l'IA comme un vrai GPS.
     const gps = photo.gps?.approx ? null : photo.gps;
-    const analyse = await analyserPhoto(jpeg, { gps, date: photo.prise_le, appareil: photo.appareil });
+    const analyse = await analyserPhoto(jpeg, { commentaire: photo.commentaire, gps, date: photo.prise_le, appareil: photo.appareil });
     photo.analyse = analyse;
     photo.categorie = analyse.categorie;
     photo.titre = analyse.titre || photo.titre;
@@ -175,8 +180,9 @@ app.patch("/api/photos/:id", async (req, res) => {
   const photo = trouver(req.params.id);
   if (!photo) return res.status(404).json({ erreur: "Photo introuvable" });
 
-  const { titre, categorie, voiture, lieu, gps } = req.body ?? {};
+  const { titre, categorie, voiture, lieu, gps, commentaire } = req.body ?? {};
   if (typeof titre === "string") photo.titre = titre.trim().slice(0, 120);
+  if (typeof commentaire === "string") photo.commentaire = commentaire.trim().slice(0, 500);
   if (CATEGORIES.includes(categorie)) photo.categorie = categorie;
   if (gps === null) {
     photo.gps = null;

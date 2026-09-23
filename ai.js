@@ -69,6 +69,10 @@ const SCHEMA = {
 
 const SYSTEM = `Tu catalogues les photos d'une galerie personnelle. Réponds uniquement en JSON, en français.
 
+Le photographe peut joindre un commentaire. Ce qu'il y écrit est exact et passe avant ce que tu crois voir :
+reprends tel quel le lieu, la marque, le modèle, la génération ou l'animal qu'il indique (confiance "elevee"),
+utilise-le pour le titre et la description, et ne complète avec la photo que ce qu'il n'a pas précisé.
+
 - categorie : le sujet principal. Si le sujet principal est un véhicule (voiture, moto, camion), c'est "voitures".
 - titre : 2 à 6 mots, évocateur. description : 1 à 3 phrases. tags : 3 à 8 mots-clés en minuscules.
 - voiture : si un véhicule est visible, identifie la marque, le modèle et si possible la génération ou la finition (calandre, phares, feux, logos, jantes, proportions). Donne ta meilleure estimation, avec la période de production dans "annees", et règle "confiance" honnêtement. Explique les indices visuels dans "indices".
@@ -91,10 +95,11 @@ export async function etatIA() {
 
 /**
  * @param {Buffer} jpeg image redimensionnée
- * @param {{ gps?: {lat:number, lon:number}, date?: string, appareil?: string }} contexte
+ * @param {{ commentaire?: string, gps?: {lat:number, lon:number}, date?: string, appareil?: string }} contexte
  */
 export async function analyserPhoto(jpeg, contexte = {}) {
   const infos = [];
+  if (contexte.commentaire) infos.push(`Commentaire du photographe (exact) : « ${contexte.commentaire} »`);
   if (contexte.gps) infos.push(`Coordonnées GPS : ${contexte.gps.lat.toFixed(5)}, ${contexte.gps.lon.toFixed(5)}`);
   if (contexte.date) infos.push(`Date de prise de vue : ${contexte.date}`);
   if (contexte.appareil) infos.push(`Appareil : ${contexte.appareil}`);

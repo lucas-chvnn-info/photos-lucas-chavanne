@@ -323,7 +323,12 @@ function rendrePanneau() {
       </dl>
     </div>
 
-    ${etat.config.admin ? `<div class="actions-bas">
+    ${etat.config.admin ? `<div class="bloc commentaire">
+      <h3>Ton commentaire pour l'IA</h3>
+      <textarea data-champ="commentaire" rows="2" placeholder="Ex. : BMW M3 E46 au col du Stelvio">${esc(p.commentaire ?? "")}</textarea>
+      <p class="aide">L'IA le prend pour une info sûre. Modifie-le puis clique sur « Ré-analyser ».</p>
+    </div>
+    <div class="actions-bas">
       <button class="bouton petit" data-action="analyser"${p.etat_analyse === "en_cours" || !etat.config.ia ? " disabled" : ""}>
         <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
         ${a ? "Ré-analyser" : "Analyser avec l'IA"}
@@ -359,7 +364,12 @@ $("#v-panneau").addEventListener("click", async (ev) => {
     return rendre();
   }
   switch (cible.dataset.action) {
-    case "analyser": return analyser(id);
+    case "analyser": {
+      const texte = $('#v-panneau [data-champ="commentaire"]')?.value.trim() ?? "";
+      const p = etat.photos.find((x) => x.id === id);
+      if (p && texte !== (p.commentaire ?? "")) await modifier(id, { commentaire: texte });
+      return analyser(id);
+    }
     case "edit-voiture": etat.edition = "voiture"; return rendrePanneau();
     case "edit-lieu": etat.edition = "lieu"; return rendrePanneau();
     case "retirer-gps": return modifier(id, { gps: null });
@@ -407,7 +417,7 @@ dialog.addEventListener("click", (ev) => {
 $("#v-fermer").onclick = fermer;
 dialog.addEventListener("close", () => { etat.ouverte = null; });
 document.addEventListener("keydown", (ev) => {
-  if (!dialog.open || ev.target.closest("input, [contenteditable], select")) return;
+  if (!dialog.open || ev.target.closest("input, textarea, [contenteditable], select")) return;
   if (ev.key === "ArrowLeft") naviguer(-1);
   if (ev.key === "ArrowRight") naviguer(1);
 });
@@ -436,13 +446,54 @@ async function analyser(id) {
   rendre();
 }
 
+// Avant l'envoi : un commentaire par photo, que l'IA prendra pour une info sûre.
+function preparer(images) {
+  const dlg = $("#preparation");
+  const urls = images.map((f) => URL.createObjectURL(f));
+  $("#prep-liste").replaceChildren(
+    ...images.map((f, i) => el(`
+      <li>
+        <img src="${urls[i]}" alt="">
+        <label><span class="nom">${esc(f.name)}</span>
+          <textarea rows="2" placeholder="Ex. : Porsche 911 GT3 RS au Nürburgring"></textarea>
+        </label>
+      </li>`)),
+  );
+  $("#prep-copier").hidden = images.length < 2;
+  $("#prep-valider").textContent = etat.config.ia ? "Ajouter et analyser" : "Ajouter";
+
+  return new Promise((resolve) => {
+    const champs = () => [...$("#prep-liste").querySelectorAll("textarea")];
+    const fin = (valeur) => {
+      urls.forEach(URL.revokeObjectURL);
+      dlg.onclose = null;
+      if (dlg.open) dlg.close();
+      resolve(valeur);
+    };
+    $("#prep-copier").onclick = () => {
+      const [premier, ...autres] = champs();
+      autres.forEach((t) => { if (!t.value.trim()) t.value = premier.value; });
+    };
+    $("#prep-annuler").onclick = () => fin(null);
+    dlg.onclose = () => fin(null); // touche Échap
+    $("#prep-form").onsubmit = (ev) => { ev.preventDefault(); fin(champs().map((t) => t.value.trim())); };
+    // ⌘/Ctrl + Entrée pour valider directement
+    $("#prep-liste").onkeydown = (ev) => { if (ev.key === "Enter" && (ev.metaKey || ev.ctrlKey)) $("#prep-form").requestSubmit(); };
+    dlg.showModal();
+    champs()[0]?.focus();
+  });
+}
+
 async function envoyer(fichiers) {
   const images = [...fichiers].filter((f) => f.type.startsWith("image/") || /\.(heic|heif)$/i.test(f.name));
   if (!images.length) return;
+  const commentaires = await preparer(images);
+  if (!commentaires) return;
   const suivi = toast(`Envoi de ${images.length} photo${images.length > 1 ? "s" : ""}…`, false, 0);
 
   const form = new FormData();
   images.forEach((f) => form.append("photos", f));
+  form.append("commentaires", JSON.stringify(commentaires));
   let resultat;
   try {
     resultat = await api("/api/photos", { method: "POST", body: form });
