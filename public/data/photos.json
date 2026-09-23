@@ -3642,11 +3642,11 @@
     },
     "categorie": "paysages",
     "titre": "neige et ciel bleu",
-    "commentaire": "ski contamine monjoie",
+    "commentaire": "ski contamine monjoie france haute savoie",
     "analyse": {
       "categorie": "paysages",
       "titre": "neige et ciel bleu",
-      "description": "Un paysage hivernal avec des arbres et buissons recouverts de neige sous un ciel bleu clair. Une banc et une lanterne ornent le jardin enneigé.",
+      "description": "un paysage hivernal avec des arbres et buissons recouverts de neige sous un ciel bleu clair. une banc et une lanterne ornent le jardin enneigé.",
       "tags": [
         "neige",
         "hiver",
@@ -3666,15 +3666,15 @@
         "carrosserie": "",
         "couleur": "",
         "confiance": "faible",
-        "indices": "Aucun véhicule visible dans l'image."
+        "indices": "aucun véhicule visible"
       },
       "lieu": {
         "identifie": true,
         "nom": "monjoie",
-        "ville": "",
-        "pays": "",
-        "confiance": "moyenne",
-        "indices": "Le nom 'monjoie' est mentionné dans le commentaire du photographe. L'architecture des bâtiments et la lanterne suggèrent un cadre rural ou semi-urbain en hiver."
+        "ville": "contamine",
+        "pays": "france",
+        "confiance": "elevee",
+        "indices": "panneau indiquant 'contamine' et 'monjoie'"
       },
       "animal": {
         "present": false,
@@ -3682,7 +3682,7 @@
         "race": ""
       },
       "modele_ia": "qwen3-vl:8b",
-      "analysee_le": "2026-09-23T14:18:25.993Z"
+      "analysee_le": "2026-09-23T15:05:59.025Z"
     },
     "etat_analyse": "ok",
     "erreur_analyse": null
@@ -3698,25 +3698,25 @@
     "prise_le": "2024-12-26T13:20:22.000Z",
     "appareil": "Apple iPhone 12",
     "gps": {
-      "lat": 46.7985624,
-      "lon": 8.2319736,
+      "lat": 44.4337106,
+      "lon": 0.6713794,
       "approx": true
     },
-    "categorie": "paysages",
-    "titre": "Monjoie sous le soleil",
-    "commentaire": "ski contamine monjoie",
+    "categorie": "nature",
+    "titre": "Monjoie en Haute-Savoie",
+    "commentaire": "ski contamine monjoie france haute savoie",
     "analyse": {
-      "categorie": "paysages",
-      "titre": "Monjoie sous le soleil",
-      "description": "Un monument en pierre surplombe un paysage alpin enneigé sous un ciel bleu vif. Le soleil brille intensément, créant des rayons lumineux visibles. Une personne est visible à distance sur la neige.",
+      "categorie": "nature",
+      "titre": "Monjoie en Haute-Savoie",
+      "description": "Un monument en pierre surplombe un paysage alpin enneigé sous un ciel bleu vif. Le soleil brille intensément, illuminant les montagnes enneigées à l'horizon.",
       "tags": [
         "monjoie",
+        "haute-savoie",
         "montagne",
         "enneigé",
         "soleil",
         "paysage",
         "alpin",
-        "suisse",
         "monument"
       ],
       "voiture": {
@@ -3734,9 +3734,9 @@
         "identifie": true,
         "nom": "Monjoie",
         "ville": "",
-        "pays": "Suisse",
+        "pays": "France",
         "confiance": "elevee",
-        "indices": "Monument en pierre avec des traces de peinture rouge et jaune, situé dans un paysage alpin enneigé. Le nom 'Monjoie' est mentionné dans le commentaire du photographe."
+        "indices": "Monument en pierre avec des traces de peinture rouge et orange, situé dans un paysage alpin enneigé. Le contexte géographique suggère la Haute-Savoie, France."
       },
       "animal": {
         "present": false,
@@ -3744,7 +3744,7 @@
         "race": ""
       },
       "modele_ia": "qwen3-vl:8b",
-      "analysee_le": "2026-09-23T14:18:09.483Z"
+      "analysee_le": "2026-09-23T15:06:44.040Z"
     },
     "etat_analyse": "ok",
     "erreur_analyse": null
