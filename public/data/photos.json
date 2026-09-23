@@ -62,6 +62,2090 @@
     "erreur_analyse": null
   },
   {
+    "id": "899816d7-eeb",
+    "nom_fichier": "IMG_7969.jpeg",
+    "grand": "/photos/grand/899816d7-eeb.jpg",
+    "miniature": "/photos/miniatures/899816d7-eeb.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:25:09.162Z",
+    "prise_le": "2026-08-06T06:55:00.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 46.1934005,
+      "lon": 6.2341093,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "S1000R BMW Annemasse",
+    "commentaire": "bmw annemasse s1000r",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "S1000R BMW Annemasse",
+      "description": "Une BMW S1000R exposée dans un showroom moderne à Annemasse. La moto présente des détails sportifs avec des accents rouges et bleus sur le cadre.",
+      "tags": [
+        "bmw",
+        "s1000r",
+        "annemasse",
+        "moto",
+        "showroom",
+        "sport",
+        "exposition",
+        "design"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": "Aucun véhicule automobile visible, seulement une moto."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Annemasse",
+        "ville": "",
+        "pays": "",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique Annemasse, et le contexte du showroom suggère un lieu urbain avec des éléments architecturaux modernes."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:25:25.977Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "130dc702-228",
+    "nom_fichier": "IMG_7968.jpeg",
+    "grand": "/photos/grand/130dc702-228.jpg",
+    "miniature": "/photos/miniatures/130dc702-228.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:25:09.372Z",
+    "prise_le": "2026-08-06T06:54:35.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 46.1934005,
+      "lon": 6.2341093,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "S1000RR BMW Annemasse",
+    "commentaire": "bmw annemasse s1000rr",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "S1000RR BMW Annemasse",
+      "description": "Une BMW S1000RR verte exposée dans un showroom avec des étagères en arrière-plan. Le mot \"MAKE LIFE A RIDE\" est visible sur le socle.",
+      "tags": [
+        "bmw",
+        "s1000rr",
+        "annemasse",
+        "showroom",
+        "moto",
+        "green",
+        "motorrad"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "S1000RR",
+        "generation": "",
+        "annees": "2020-2026",
+        "carrosserie": "verte",
+        "couleur": "verte",
+        "confiance": "elevee",
+        "indices": "Calandre BMW, phares avant, jantes en alliage, logo BMW sur le réservoir"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Annemasse",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "Panonceaux \"BMW MOTORRAD\", slogan \"MAKE LIFE A RIDE\", étagères avec équipement"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:25:40.546Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "cec1abc4-048",
+    "nom_fichier": "IMG_7967.jpeg",
+    "grand": "/photos/grand/cec1abc4-048.jpg",
+    "miniature": "/photos/miniatures/cec1abc4-048.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:25:09.562Z",
+    "prise_le": "2026-08-06T06:17:49.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 46.1934005,
+      "lon": 6.2341093,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bmw m4 gts annemasse",
+    "commentaire": "bmw annemasse m4 gts",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bmw m4 gts annemasse",
+      "description": "Une bmw m4 gts exposée dans un showroom moderne à annemasse. Les jantes orange vif et la calandre typique de la marque soulignent son caractère sportif.",
+      "tags": [
+        "bmw",
+        "m4 gts",
+        "annemasse",
+        "showroom",
+        "voiture sportive",
+        "jantes orange",
+        "calandre",
+        "premium selection"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M4 GTS",
+        "generation": "G80",
+        "annees": "2020-2023",
+        "carrosserie": "Coupé",
+        "couleur": "Gris métallique",
+        "confiance": "elevee",
+        "indices": "Calandre double, jantes orange, plaque \"BMW PREMIUM SELECTION\", logo M sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Annemasse",
+        "ville": "Annemasse",
+        "pays": "France",
+        "confiance": "moyenne",
+        "indices": "Plaque \"BMW PREMIUM SELECTION\", architecture moderne du showroom"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:25:54.372Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8b371d31-f5e",
+    "nom_fichier": "IMG_7966.jpeg",
+    "grand": "/photos/grand/8b371d31-f5e.jpg",
+    "miniature": "/photos/miniatures/8b371d31-f5e.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:25:09.729Z",
+    "prise_le": "2026-08-06T06:17:28.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 46.1934005,
+      "lon": 6.2341093,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bmw m4 gts annemasse",
+    "commentaire": "bmw annemasse m4gts",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bmw m4 gts annemasse",
+      "description": "une bmw m4 gts exposée dans un showroom de la marque, avec une calandre distinctive et des jantes orange. le véhicule est équipé d'un aileron arrière et d'une plaque \"bmw premium selection\".",
+      "tags": [
+        "bmw",
+        "m4gts",
+        "annemasse",
+        "showroom",
+        "premium selection",
+        "ailerons",
+        "jantes orange",
+        "calandre"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "bmw",
+        "modele": "m4 gts",
+        "generation": "g29",
+        "annees": "2020-2023",
+        "carrosserie": "coupe",
+        "couleur": "gris",
+        "confiance": "elevee",
+        "indices": "calandre double, phares à led, jantes orange, aileron arrière, plaque \"bmw premium selection\""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "annemasse",
+        "ville": "annemasse",
+        "pays": "france",
+        "confiance": "moyenne",
+        "indices": "plaque \"bmw premium selection\", architecture intérieure du showroom"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:26:08.940Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0db6c986-08a",
+    "nom_fichier": "IMG_7674.jpeg",
+    "grand": "/photos/grand/0db6c986-08a.jpg",
+    "miniature": "/photos/miniatures/0db6c986-08a.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:33.417Z",
+    "prise_le": "2026-03-29T12:33:18.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Jura enneigé sous nuages",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Jura enneigé sous nuages",
+      "description": "Vue panoramique des montagnes du Jura recouvertes de neige sous un ciel nuageux. Des pistes de ski serpentent à travers les forêts de conifères. Une petite localité est visible au pied des montagnes.",
+      "tags": [
+        "jura",
+        "enneigé",
+        "pistes de ski",
+        "forêt de conifères",
+        "ciel nuageux",
+        "montagne",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Pistes de ski, forêts de conifères, paysage alpin typique du Jura suisse. Le commentaire du photographe confirme le lieu."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:26:54.160Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "067488cc-f8a",
+    "nom_fichier": "IMG_7673.jpeg",
+    "grand": "/photos/grand/067488cc-f8a.jpg",
+    "miniature": "/photos/miniatures/067488cc-f8a.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:33.715Z",
+    "prise_le": "2026-03-29T12:25:12.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Jura enneigé",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Jura enneigé",
+      "description": "Vue panoramique des sommets enneigés du Jura sous un ciel bleu limpide. Les glaciers et les pics rocheux se dressent majestueusement dans un paysage alpin immaculé.",
+      "tags": [
+        "jura",
+        "montagne",
+        "glacier",
+        "enneigé",
+        "paysage",
+        "suisse",
+        "ciel",
+        "alpin"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Paysage alpin avec glaciers et sommets rocheux caractéristiques du Jura suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:27:21.936Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0c7a463e-523",
+    "nom_fichier": "IMG_7672.jpeg",
+    "grand": "/photos/grand/0c7a463e-523.jpg",
+    "miniature": "/photos/miniatures/0c7a463e-523.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:33.988Z",
+    "prise_le": "2026-03-29T12:23:42.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne des Alpes suisses",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne des Alpes suisses",
+      "description": "Un panorama majestueux des montagnes enneigées sous un ciel bleu éclatant. La photo a été prise depuis un hélicoptère, offrant une perspective élevée sur les sommets rocheux et les glaciers.",
+      "tags": [
+        "alpes",
+        "montagne",
+        "enneigé",
+        "ciel bleu",
+        "hélicoptère",
+        "suisse",
+        "paysage",
+        "aérien"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Vue aérienne des montagnes enneigées avec des sommets rocheux et des glaciers, typique du Jura suisse. Le commentaire du photographe indique 'photo elico jura'."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:27:50.490Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "7989dcee-8a1",
+    "nom_fichier": "IMG_7671.jpeg",
+    "grand": "/photos/grand/7989dcee-8a1.jpg",
+    "miniature": "/photos/miniatures/7989dcee-8a1.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:34.278Z",
+    "prise_le": "2026-03-29T12:23:33.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "nature",
+    "titre": "Vue aérienne du Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "nature",
+      "titre": "Vue aérienne du Jura",
+      "description": "Un vol en hélicoptère offre une perspective unique sur les sommets enneigés du Jura, avec un ciel bleu éclatant et des nuages en dessous. La lumière du soleil crée des reflets sur la neige immaculée.",
+      "tags": [
+        "jura",
+        "montagne",
+        "heliport",
+        "suisse",
+        "enneigé",
+        "vol",
+        "soleil",
+        "ciel"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Paysage montagneux enneigé avec des sommets caractéristiques du Jura, vue depuis un hélicoptère"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:28:17.229Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "616888e2-575",
+    "nom_fichier": "IMG_7670.jpeg",
+    "grand": "/photos/grand/616888e2-575.jpg",
+    "miniature": "/photos/miniatures/616888e2-575.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:34.566Z",
+    "prise_le": "2026-03-29T12:23:31.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne du Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne du Jura",
+      "description": "Un paysage montagneux enneigé vu depuis un hélicoptère, avec des sommets rocheux et des nuages en dessous.",
+      "tags": [
+        "jura",
+        "montagne",
+        "enneigé",
+        "hélicoptère",
+        "vue aérienne",
+        "suisse",
+        "ciel bleu"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique 'photo elico jura', et la vue montagneuse enneigée correspond au massif du Jura en Suisse. Les sommets enneigés et le ciel bleu sont caractéristiques de cette région."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:28:56.612Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ec3cb229-7ef",
+    "nom_fichier": "IMG_7669.jpeg",
+    "grand": "/photos/grand/ec3cb229-7ef.jpg",
+    "miniature": "/photos/miniatures/ec3cb229-7ef.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:34.905Z",
+    "prise_le": "2026-03-29T12:21:50.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Montagnes enneigées sous un ciel bleu",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Montagnes enneigées sous un ciel bleu",
+      "description": "Vue panoramique des sommets enneigés du Jura sous un ciel d'un bleu intense. Les pics rocheux et les glaciers dominent le paysage, avec une atmosphère pure et lumineuse.",
+      "tags": [
+        "montagnes",
+        "enneigées",
+        "ciel bleu",
+        "jura",
+        "paysage",
+        "glaciers",
+        "nature",
+        "alpes"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère un lieu dans le Jura. Les montagnes enneigées correspondent aux caractéristiques géographiques du Jura suisse, notamment les sommets rocheux et les glaciers."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:29:37.039Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "c6163000-926",
+    "nom_fichier": "IMG_7668.jpeg",
+    "grand": "/photos/grand/c6163000-926.jpg",
+    "miniature": "/photos/miniatures/c6163000-926.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:35.182Z",
+    "prise_le": "2026-03-29T12:16:02.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Montagnes enneigées au-dessus des nuages",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Montagnes enneigées au-dessus des nuages",
+      "description": "Vue panoramique des sommets enneigés émergeant des nuages, sous un ciel bleu profond. La neige immaculée recouvre les pentes et les rochers, créant un paysage majestueux et paisible.",
+      "tags": [
+        "montagne",
+        "neige",
+        "ciel",
+        "nuages",
+        "paysage",
+        "suisse",
+        "alpes",
+        "vue panoramique"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère un lieu dans le Jura suisse. La topographie enneigée et les sommets correspondant à la région du Jura."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:30:16.160Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "6463ba97-2ec",
+    "nom_fichier": "IMG_7667.jpeg",
+    "grand": "/photos/grand/6463ba97-2ec.jpg",
+    "miniature": "/photos/miniatures/6463ba97-2ec.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:35.528Z",
+    "prise_le": "2026-03-29T12:11:33.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne des Alpes",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne des Alpes",
+      "description": "Un panorama aérien des montagnes enneigées, avec des sommets rocheux émergeant des nuages. Le ciel est d'un bleu intense, offrant une vue majestueuse sur les pics alpins.",
+      "tags": [
+        "montagnes",
+        "enneigées",
+        "aérien",
+        "nuages",
+        "bleu",
+        "paysage",
+        "alpes"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique 'photo elico jura', ce qui suggère un lieu dans le Jura suisse. Les montagnes enneigées et le paysage correspondent à la région du Jura, connue pour ses sommets rocheux et ses paysages alpins."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:30:57.152Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "2b785727-046",
+    "nom_fichier": "IMG_7666.jpeg",
+    "grand": "/photos/grand/2b785727-046.jpg",
+    "miniature": "/photos/miniatures/2b785727-046.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:06.497Z",
+    "prise_le": "2026-03-29T12:11:29.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne du Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne du Jura",
+      "description": "Un paysage montagneux enneigé vu depuis un hélicoptère, avec des sommets rocheux et une vallée enneigée au loin. Le ciel est d'un bleu vif.",
+      "tags": [
+        "jura",
+        "montagne",
+        "enneigé",
+        "hélicoptère",
+        "ciel bleu",
+        "paysage aérien"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique 'jura', et la vue montagneuse enneigée correspond aux montagnes du Jura en Suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:29:23.590Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "a6bba628-58e",
+    "nom_fichier": "IMG_7665.jpeg",
+    "grand": "/photos/grand/a6bba628-58e.jpg",
+    "miniature": "/photos/miniatures/a6bba628-58e.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:06.855Z",
+    "prise_le": "2026-03-29T12:06:38.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne des Alpes",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne des Alpes",
+      "description": "Un panorama majestueux des montagnes enneigées sous un ciel bleu limpide. La perspective aérienne offre une vue imprenable sur les sommets rocheux et les glaciers.",
+      "tags": [
+        "alpes",
+        "montagne",
+        "enneigé",
+        "ciel bleu",
+        "aérien",
+        "paysage",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère une prise de vue dans le Jura suisse. Les montagnes enneigées correspondent aux caractéristiques géographiques du Jura."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:30:02.484Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "a5130c05-ef7",
+    "nom_fichier": "IMG_7664.jpeg",
+    "grand": "/photos/grand/a5130c05-ef7.jpg",
+    "miniature": "/photos/miniatures/a5130c05-ef7.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:07.112Z",
+    "prise_le": "2026-03-29T12:06:36.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "autre",
+    "titre": "Vue depuis le cockpit de l'hélicoptère",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "autre",
+      "titre": "Vue depuis le cockpit de l'hélicoptère",
+      "description": "Vue intérieure du cockpit d'un hélicoptère en vol au-dessus des montagnes enneigées du Jura. Le ciel est clair et le paysage montagneux offre une vue spectaculaire.",
+      "tags": [
+        "hélicoptère",
+        "montagne",
+        "Jura",
+        "cockpit",
+        "vol",
+        "enneigé",
+        "ciel clair"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Montagnes enneigées, paysage typique du Jura suisse"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:30:42.284Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f78e33ed-5fe",
+    "nom_fichier": "IMG_7663.jpeg",
+    "grand": "/photos/grand/f78e33ed-5fe.jpg",
+    "miniature": "/photos/miniatures/f78e33ed-5fe.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:07.375Z",
+    "prise_le": "2026-03-29T12:01:48.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Vue intérieure d'un hélicoptère au Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Vue intérieure d'un hélicoptère au Jura",
+      "description": "Intérieur de cockpit d'un hélicoptère volant au-dessus des montagnes enneigées du Jura. On distingue le tableau de bord avec ses instruments et les jantes de l'hélicoptère. La vue extérieure offre un panorama majestueux des sommets enneigés sous un ciel bleu.",
+      "tags": [
+        "hélicoptère",
+        "Jura",
+        "montagne",
+        "cockpit",
+        "vol",
+        "enneigé",
+        "ciel bleu"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule terrestre visible. L'image montre un cockpit d'hélicoptère avec des instruments et une vue extérieure de montagnes enneigées. Le commentaire du photographe indique 'photo elico jura', ce qui confirme qu'il s'agit d'un hélicoptère au Jura, mais il n'y a pas de détails sur la marque ou le modèle de l'hélicoptère."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "moyenne",
+        "indices": "Le commentaire du photographe mentionne 'Jura', et la vue extérieure montre des montagnes enneigées caractéristiques de la région du Jura en Suisse. Les sommets enneigés et le paysage alpin correspondent à la zone géographique du Jura."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:31:29.857Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b32fa838-841",
+    "nom_fichier": "IMG_7662.jpeg",
+    "grand": "/photos/grand/b32fa838-841.jpg",
+    "miniature": "/photos/miniatures/b32fa838-841.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:07.608Z",
+    "prise_le": "2026-03-29T12:01:42.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne des Alpes",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne des Alpes",
+      "description": "Un panorama aérien des sommets enneigés du Jura, avec un ciel bleu profond et une couche de nuages en dessous. La photo a été prise depuis un hélicoptère.",
+      "tags": [
+        "alpes",
+        "jura",
+        "vue aérienne",
+        "enneigé",
+        "ciel bleu",
+        "nuages",
+        "montagne"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique 'photo elico jura', et les sommets enneigés correspondent aux montagnes du Jura en Suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:32:00.742Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "c25f3181-e41",
+    "nom_fichier": "IMG_7661.jpeg",
+    "grand": "/photos/grand/c25f3181-e41.jpg",
+    "miniature": "/photos/miniatures/c25f3181-e41.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:06.205Z",
+    "prise_le": "2026-03-29T12:00:43.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne du Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne du Jura",
+      "description": "Un panorama aérien du Jura suisse, avec des sommets enneigés émergeant des nuages. Le ciel est d'un bleu intense, offrant une vue majestueuse des montagnes.",
+      "tags": [
+        "jura",
+        "montagne",
+        "enneigé",
+        "ciel bleu",
+        "aérien",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique 'photo elico jura', et les sommets enneigés correspondent à la chaîne du Jura suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:28:43.409Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f43dc09a-c1c",
+    "nom_fichier": "IMG_7660.jpeg",
+    "grand": "/photos/grand/f43dc09a-c1c.jpg",
+    "miniature": "/photos/miniatures/f43dc09a-c1c.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:05.988Z",
+    "prise_le": "2026-03-29T12:00:37.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne des Alpes",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne des Alpes",
+      "description": "Un panorama aérien des montagnes enneigées, avec des nuages blancs s'étendant sous un ciel bleu profond. La photo capture la majesté des sommets alpins depuis une altitude élevée.",
+      "tags": [
+        "alpes",
+        "montagne",
+        "ciel bleu",
+        "nuages",
+        "paysage aérien",
+        "enneigé",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "moyenne",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère une vue aérienne du Jura suisse. Les montagnes enneigées et le paysage correspondent à la région du Jura en Suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:28:04.074Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e8abe647-ada",
+    "nom_fichier": "IMG_7659.jpeg",
+    "grand": "/photos/grand/e8abe647-ada.jpg",
+    "miniature": "/photos/miniatures/e8abe647-ada.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:05.762Z",
+    "prise_le": "2026-03-29T12:00:35.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Vue depuis l'hélicoptère",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Vue depuis l'hélicoptère",
+      "description": "Photo prise depuis un hélicoptère en vol au-dessus des montagnes du Jura, avec un ciel bleu et des nuages en dessous. Le cadre montre une partie de l'intérieur de l'appareil, notamment des éléments de structure.",
+      "tags": [
+        "hélicoptère",
+        "montagnes",
+        "Jura",
+        "ciel",
+        "nuages",
+        "vol"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image. L'image montre l'intérieur d'un hélicoptère et une vue aérienne des montagnes."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "moyenne",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère un lieu dans le Jura suisse. Les montagnes enneigées et le ciel clair correspondent à la région."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:27:36.503Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "24b80df2-571",
+    "nom_fichier": "IMG_7658.jpeg",
+    "grand": "/photos/grand/24b80df2-571.jpg",
+    "miniature": "/photos/miniatures/24b80df2-571.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:26:05.542Z",
+    "prise_le": "2026-03-29T12:00:13.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne du Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne du Jura",
+      "description": "Un panorama aérien saisissant du Jura, avec des sommets enneigés se dressant au-dessus d'une mer de nuages. Le ciel bleu profond contraste avec la blancheur immaculée des montagnes.",
+      "tags": [
+        "jura",
+        "montagne",
+        "enneigé",
+        "aérien",
+        "nuages",
+        "suisse",
+        "paysage",
+        "montagnes"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère un lieu dans le Jura suisse. Les sommets enneigés correspondent aux caractéristiques géographiques du Jura suisse, notamment les montagnes du Jura."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:27:08.861Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "2e4b8b83-238",
+    "nom_fichier": "IMG_7657.jpeg",
+    "grand": "/photos/grand/2e4b8b83-238.jpg",
+    "miniature": "/photos/miniatures/2e4b8b83-238.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:05.286Z",
+    "prise_le": "2026-03-29T11:57:45.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Vue aérienne du Jura",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Vue aérienne du Jura",
+      "description": "Cette photo capture une vue aérienne spectaculaire du Jura, avec des sommets enneigés émergeant des nuages. Le ciel bleu profond et les rayons de soleil ajoutent une touche de magie à cette scène montagneuse.",
+      "tags": [
+        "jura",
+        "montagne",
+        "nuages",
+        "ciel",
+        "sommets enneigés",
+        "vue aérienne",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "moyenne",
+        "indices": "Le commentaire du photographe indique 'photo elico jura', ce qui suggère une prise de vue dans le Jura suisse. Les sommets enneigés et la configuration géographique correspondent à la région du Jura en Suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:26:39.778Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "bf45cbf9-e16",
+    "nom_fichier": "IMG_7656.jpeg",
+    "grand": "/photos/grand/bf45cbf9-e16.jpg",
+    "miniature": "/photos/miniatures/bf45cbf9-e16.webp",
+    "largeur": 4032,
+    "hauteur": 3024,
+    "ajoutee_le": "2026-09-23T13:26:05.054Z",
+    "prise_le": "2026-03-29T11:57:40.000Z",
+    "appareil": "Apple iPhone 13",
+    "gps": {
+      "lat": 47.3566699,
+      "lon": 7.1598893,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Montagnes du Jura sous les nuages",
+    "commentaire": "photo elico jura",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Montagnes du Jura sous les nuages",
+      "description": "Vue aérienne des sommets enneigés du Jura, avec un avion en vol au-dessus des nuages. Le ciel bleu et les montagnes majestueuses créent une scène apaisante.",
+      "tags": [
+        "jura",
+        "montagne",
+        "nuages",
+        "ciel bleu",
+        "vue aérienne",
+        "enneigé"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Jura",
+        "ville": "",
+        "pays": "Suisse",
+        "confiance": "moyenne",
+        "indices": "Le commentaire indique 'photo elico jura', ce qui suggère le Jura suisse. Les montagnes enneigées et le contexte aérien correspondent à la région."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:26:22.902Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "254f2014-292",
+    "nom_fichier": "IMG_6897.jpeg",
+    "grand": "/photos/grand/254f2014-292.jpg",
+    "miniature": "/photos/miniatures/254f2014-292.webp",
+    "largeur": 4032,
+    "hauteur": 2268,
+    "ajoutee_le": "2026-09-23T13:27:57.281Z",
+    "prise_le": "2025-07-04T20:15:15.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.0577309,
+      "lon": 7.0013461,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil sur le lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil sur le lac d'Annecy",
+      "description": "Vue panoramique du lac d'Annecy au crépuscule, avec un ciel teinté de rose et d'orange. Les lumières des villages bordant le lac éclairent doucement l'eau calme. Le col de la Forclaz offre un point de vue élevé sur cette scène pittoresque.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "paysage",
+        "suisse",
+        "montagnes",
+        "crépuscule",
+        "village"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la forclaz",
+        "ville": "annecy",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Col de la Forclaz', vue sur le lac d'Annecy et les montagnes environnantes"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:28:30.683Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "85481de5-aaf",
+    "nom_fichier": "IMG_6896.jpeg",
+    "grand": "/photos/grand/85481de5-aaf.jpg",
+    "miniature": "/photos/miniatures/85481de5-aaf.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:57.775Z",
+    "prise_le": "2025-07-04T20:15:10.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil sur le lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil sur le lac d'Annecy",
+      "description": "Vue panoramique du lac d'Annecy au coucher du soleil, avec des lumières des villes bordant le lac et un ciel coloré aux teintes roses et bleues.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "paysage",
+        "montagnes",
+        "sunset",
+        "france"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la forclaz",
+        "ville": "Annecy",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Vue sur le lac d'Annecy avec des lumières des villes, le col de la forclaz est un col montagneux entre Annecy et Chamonix, visible depuis le lac."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:30:29.526Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "279f7175-4a9",
+    "nom_fichier": "IMG_6894.jpeg",
+    "grand": "/photos/grand/279f7175-4a9.jpg",
+    "miniature": "/photos/miniatures/279f7175-4a9.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:58.956Z",
+    "prise_le": "2025-07-04T19:24:25.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz",
+      "description": "Vue panoramique du lac d'Annecy au coucher du soleil, avec le col de la Forclaz en arrière-plan. Le ciel est teinté de nuances orangées et roses.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "paysage",
+        "montagnes",
+        "sunset",
+        "france"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Forclaz",
+        "ville": "",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Vue sur le lac d'Annecy, avec le col de la Forclaz en arrière-plan. Le lac d'Annecy est visible, ainsi que les montagnes environnantes."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:33:26.869Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ab14652a-103",
+    "nom_fichier": "IMG_6893.jpeg",
+    "grand": "/photos/grand/ab14652a-103.jpg",
+    "miniature": "/photos/miniatures/ab14652a-103.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:58.621Z",
+    "prise_le": "2025-07-04T19:24:18.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz sur le lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz sur le lac d'Annecy",
+      "description": "Un coucher de soleil spectaculaire sur le lac d'Annecy, vu depuis le Col de la Forclaz. Le ciel est teinté de nuances orangées et roses, contrastant avec les eaux calmes du lac et les montagnes environnantes.",
+      "tags": [
+        "coucher de soleil",
+        "lac annecy",
+        "col de la forclaz",
+        "paysage",
+        "montagnes",
+        "sunset",
+        "france"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Forclaz",
+        "ville": "Annecy",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Lac d'Annecy visible, col de la Forclaz (passage entre les montagnes) avec vue sur le lac et le coucher de soleil"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:32:51.318Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "c728f013-aa4",
+    "nom_fichier": "IMG_6892.jpeg",
+    "grand": "/photos/grand/c728f013-aa4.jpg",
+    "miniature": "/photos/miniatures/c728f013-aa4.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:57.933Z",
+    "prise_le": "2025-07-04T19:24:15.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz",
+      "description": "Vue panoramique du lac d'Annecy à l'heure du coucher de soleil, avec le soleil couchant illuminant le ciel et les montagnes environnantes. Une personne observe la scène depuis le Col de la Forclaz.",
+      "tags": [
+        "coucher de soleil",
+        "lac annecy",
+        "col de la forclaz",
+        "paysage",
+        "montagnes",
+        "sunset",
+        "france"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Forclaz",
+        "ville": "Annecy",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Lac d'Annecy, montagnes environnantes, position élevée avec vue sur le lac et le soleil couchant"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:31:11.185Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "09791eb7-356",
+    "nom_fichier": "IMG_6891.jpeg",
+    "grand": "/photos/grand/09791eb7-356.jpg",
+    "miniature": "/photos/miniatures/09791eb7-356.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:58.791Z",
+    "prise_le": "2025-07-04T19:24:13.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+      "description": "Vue panoramique du coucher de soleil sur le lac d'Annecy depuis le Col de la Forclaz. Le ciel est teinté de nuances orangées et roses, contrastant avec les eaux calmes du lac et les montagnes en arrière-plan. Une personne observe la scène depuis un balcon.",
+      "tags": [
+        "coucher de soleil",
+        "lac annecy",
+        "col de la forclaz",
+        "paysage",
+        "montagnes",
+        "sunset",
+        "france"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Forclaz",
+        "ville": "Annecy",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Lac d'Annecy visible, col de la Forclaz mentionné dans le commentaire"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:33:09.824Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e7993a78-d87",
+    "nom_fichier": "IMG_6890.jpeg",
+    "grand": "/photos/grand/e7993a78-d87.jpg",
+    "miniature": "/photos/miniatures/e7993a78-d87.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:57.610Z",
+    "prise_le": "2025-07-04T19:22:01.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil sur le lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil sur le lac d'Annecy",
+      "description": "Vue panoramique du lac d'Annecy au coucher du soleil, avec le col de la Forclaz en arrière-plan. Le ciel est teinté de nuances orangées et bleues, contrastant avec les montagnes et la forêt dense.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "paysage naturel",
+        "montagnes",
+        "forêt",
+        "sunset",
+        "france"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la Forclaz",
+        "ville": "Annecy",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Lac d'Annecy visible, col de la Forclaz mentionné dans le commentaire"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:29:49.460Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "21c8c825-f97",
+    "nom_fichier": "IMG_6889.jpeg",
+    "grand": "/photos/grand/21c8c825-f97.jpg",
+    "miniature": "/photos/miniatures/21c8c825-f97.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:57.435Z",
+    "prise_le": "2025-07-04T19:21:57.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.0577309,
+      "lon": 7.0013461,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+      "description": "Un coucher de soleil spectaculaire se déroule au-dessus du lac d'Annecy, avec le col de la Forclaz en arrière-plan. Les montagnes environnantes et la ville de Thonon-les-Bains sont visibles sous un ciel teinté de rose et d'orange.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "montagnes",
+        "suisse",
+        "france",
+        "paysage naturel",
+        "vue panoramique"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Forclaz",
+        "ville": "Thonon-les-Bains",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Vue panoramique sur le lac d'Annecy avec le col de la Forclaz en arrière-plan, montagnes et ville de Thonon-les-Bains visibles."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:29:11.020Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "32ae8c1a-944",
+    "nom_fichier": "IMG_6888.jpeg",
+    "grand": "/photos/grand/32ae8c1a-944.jpg",
+    "miniature": "/photos/miniatures/32ae8c1a-944.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:58.098Z",
+    "prise_le": "2025-07-04T19:21:55.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.8084626,
+      "lon": 6.244757,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+      "description": "Un coucher de soleil spectaculaire sur le Lac d'Annecy, vu depuis le Col de la Forclaz. Les montagnes environnantes et la ville de Thonon-les-Bains sont visibles à l'horizon. La lumière dorée du soleil se reflète sur l'eau calme.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "montagnes",
+        "france",
+        "suisse",
+        "paysage naturel",
+        "vue panoramique"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule visible dans l'image."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Forclaz",
+        "ville": "Thonon-les-Bains",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Vue panoramique sur le Lac d'Annecy avec le Col de la Forclaz en arrière-plan. Les montagnes environnantes et la ville de Thonon-les-Bains sont identifiables."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:31:45.782Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "c2523d0f-f48",
+    "nom_fichier": "IMG_6887.jpeg",
+    "grand": "/photos/grand/c2523d0f-f48.jpg",
+    "miniature": "/photos/miniatures/c2523d0f-f48.webp",
+    "largeur": 4032,
+    "hauteur": 2268,
+    "ajoutee_le": "2026-09-23T13:27:58.280Z",
+    "prise_le": "2025-07-04T18:49:22.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.0577309,
+      "lon": 7.0013461,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "Coucher de soleil au Col de la Forclaz sur le Lac d'Annecy",
+      "description": "Un coucher de soleil majestueux se déroule au-dessus du Lac d'Annecy, avec le Col de la Forclaz en arrière-plan. Les montagnes environnantes et les reflets dorés sur l'eau créent une atmosphère apaisante. La vue panoramique offre un aperçu saisissant de la région.",
+      "tags": [
+        "lac",
+        "coucher de soleil",
+        "montagnes",
+        "col de la forclaz",
+        "annecy",
+        "paysage",
+        "nature",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la forclaz",
+        "ville": "annecy",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant le Col de la Forclaz, paysage typique de la région de l'Annecy en Savoie, France (mais la Suisse est mentionnée dans le commentaire) - note : le Col de la Forclaz est en France, mais le commentaire mentionne la Suisse, ce qui est incorrect. Cependant, le commentaire est exact, donc on suit le commentaire."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:32:18.957Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ebec4357-235",
+    "nom_fichier": "IMG_6886.jpeg",
+    "grand": "/photos/grand/ebec4357-235.jpg",
+    "miniature": "/photos/miniatures/ebec4357-235.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:27:58.458Z",
+    "prise_le": "2025-07-04T18:49:17.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.0577309,
+      "lon": 7.0013461,
+      "approx": true
+    },
+    "categorie": "paysages",
+    "titre": "coucher de soleil sur le lac annecy",
+    "commentaire": "photo vue sur le lac annecy coucher de soleil au col de la forclaz",
+    "analyse": {
+      "categorie": "paysages",
+      "titre": "coucher de soleil sur le lac annecy",
+      "description": "Vue panoramique du lac d'Annecy au coucher du soleil, avec des montagnes en arrière-plan et une forêt dense en premier plan. Le ciel est teinté de nuances orangées et dorées.",
+      "tags": [
+        "lac annecy",
+        "coucher de soleil",
+        "col de la forclaz",
+        "paysage montagneux",
+        "suisse",
+        "france",
+        "nature"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": ""
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la forclaz",
+        "ville": "",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "Le commentaire indique clairement le lieu : col de la forclaz, lac d'Annecy. La vue sur le lac et les montagnes correspond à cette localisation."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:32:34.848Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
     "id": "e3094ebe-6b7",
     "nom_fichier": "IMG_1539.jpeg",
     "grand": "/photos/grand/e3094ebe-6b7.jpg",
@@ -4636,6 +6720,621 @@
       },
       "modele_ia": "qwen3-vl:8b",
       "analysee_le": "2026-09-23T13:05:00.314Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f769491f-d1e",
+    "nom_fichier": "IMG_5544.jpeg",
+    "grand": "/photos/grand/f769491f-d1e.jpg",
+    "miniature": "/photos/miniatures/f769491f-d1e.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:33:24.015Z",
+    "prise_le": "2024-08-07T15:30:49.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 39.3260685,
+      "lon": -4.8379791,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Ferrari Land en Espagne",
+    "commentaire": "Ferrari Land a coter de rolantica en espagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Ferrari Land en Espagne",
+      "description": "Le parc d'attractions Ferrari Land, situé près de Rollantica en Espagne, présente une structure rouge éclatante avec le logo Ferrari. Le ciel bleu et les arbres en arrière-plan soulignent l'ambiance dynamique du lieu.",
+      "tags": [
+        "ferrari",
+        "parc d'attractions",
+        "espagne",
+        "rollantica",
+        "structure rouge",
+        "logo ferrari",
+        "parc de loisirs"
+      ],
+      "voiture": {
+        "presente": false,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "faible",
+        "indices": "Aucun véhicule n'est visible dans l'image. Seuls les éléments de la structure du parc d'attractions sont présents."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Rollantica",
+        "ville": "",
+        "pays": "Espagne",
+        "confiance": "moyenne",
+        "indices": "Le commentaire indique 'Ferrari Land a coter de rolantica en espagne'. Les structures rouges avec le logo Ferrari correspondent à Ferrari Land, et Rollantica est mentionnée comme étant à proximité. Les coordonnées GPS ne sont pas fournies, mais le contexte géographique est établi par le commentaire."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:35:31.961Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "86f8c5f1-89e",
+    "nom_fichier": "IMG_5543.jpeg",
+    "grand": "/photos/grand/86f8c5f1-89e.jpg",
+    "miniature": "/photos/miniatures/86f8c5f1-89e.webp",
+    "largeur": 4032,
+    "hauteur": 2268,
+    "ajoutee_le": "2026-09-23T13:33:23.480Z",
+    "prise_le": "2024-08-07T15:00:11.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 41.0849212,
+      "lon": 1.1514794,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Ferrari Land en Espagne",
+    "commentaire": "Ferrari Land a coter de rolantica en espagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Ferrari Land en Espagne",
+      "description": "Une installation artistique composée de nombreuses miniatures de voitures Ferrari suspendues par des fils. Les miniatures sont disposées en forme de carte du monde, avec un fond coloré et des motifs géométriques.",
+      "tags": [
+        "ferrari",
+        "installation artistique",
+        "espagne",
+        "miniatures",
+        "voitures",
+        "art contemporain",
+        "ferrari land"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Ferrari",
+        "modele": "",
+        "generation": "",
+        "annees": "2024",
+        "carrosserie": "",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Les miniatures de voitures sont rouges, avec des détails visibles sur les phares et les jantes, mais le modèle spécifique n'est pas identifiable. Les miniatures sont suspendues et disposées en forme de carte du monde."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Ferrari Land",
+        "ville": "Rolantica",
+        "pays": "Espagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique 'Ferrari Land a coter de rolantica en espagne'. Les miniatures de voitures Ferrari sont associées à un lieu spécifique, Ferrari Land, situé près de Rolantica en Espagne."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:34:57.308Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "aa149c59-32c",
+    "nom_fichier": "IMG_5542.jpeg",
+    "grand": "/photos/grand/aa149c59-32c.jpg",
+    "miniature": "/photos/miniatures/aa149c59-32c.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:33:22.965Z",
+    "prise_le": "2024-08-07T14:59:46.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 40.4237276,
+      "lon": -3.6899043,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Ferrari Land en Espagne",
+    "commentaire": "Ferrari Land a coter de rolantica en espagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Ferrari Land en Espagne",
+      "description": "Une installation artistique composée de nombreuses voitures Ferrari suspendues en suspension. Les véhicules rouges sont disposés de manière dynamique, créant un effet visuel saisissant. L'installation est située près de Rolantica en Espagne.",
+      "tags": [
+        "ferrari",
+        "installation artistique",
+        "espagne",
+        "rolantica",
+        "voitures rouges",
+        "art contemporain",
+        "suspension"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Ferrari",
+        "modele": "",
+        "generation": "",
+        "annees": "2024",
+        "carrosserie": "rouge",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Les voitures sont suspendues en suspension, avec des détails visibles comme les phares et les logos Ferrari, mais le modèle spécifique n'est pas identifiable car il s'agit d'une installation artistique."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Rolantica",
+        "ville": "Espagne",
+        "pays": "Espagne",
+        "confiance": "elevee",
+        "indices": "Le commentaire du photographe indique clairement 'Ferrari Land a coter de rolantica en espagne', et l'installation est située près de Rolantica en Espagne."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:34:23.081Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e9a8a08a-962",
+    "nom_fichier": "IMG_5541.jpeg",
+    "grand": "/photos/grand/e9a8a08a-962.jpg",
+    "miniature": "/photos/miniatures/e9a8a08a-962.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:33:22.453Z",
+    "prise_le": "2024-08-07T14:57:54.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 41.0849212,
+      "lon": 1.1514794,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Ferrari Land en Espagne",
+    "commentaire": "Ferrari Land a coter de rolantica en espagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Ferrari Land en Espagne",
+      "description": "Une Ferrari de course rouge exposée dans un espace intérieur moderne avec des éléments architecturaux contemporains. Le véhicule présente des logos de sponsors et des pneus Pirelli.",
+      "tags": [
+        "ferrari",
+        "course",
+        "exposition",
+        "espagne",
+        "land",
+        "rolantica",
+        "pneus",
+        "sponsors"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Ferrari",
+        "modele": "F1",
+        "generation": "2024",
+        "annees": "2024",
+        "carrosserie": "rouge",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Calandre Ferrari, logos de sponsors (Richard Mille, Shell), pneus Pirelli avec inscription 'P ZERO', jantes argentées, proportions typiques d'une monoplace de Formule 1."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Ferrari Land",
+        "ville": "Rolantica",
+        "pays": "Espagne",
+        "confiance": "elevee",
+        "indices": "Panels avec le nom 'Ferrari Land', architecture moderne avec structures en fil de fer, présence de personnes dans un espace d'exposition."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:34:04.006Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "4dc70558-82d",
+    "nom_fichier": "IMG_5540.jpeg",
+    "grand": "/photos/grand/4dc70558-82d.jpg",
+    "miniature": "/photos/miniatures/4dc70558-82d.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:33:22.123Z",
+    "prise_le": "2024-08-07T14:57:51.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 41.0849212,
+      "lon": 1.1514794,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Ferrari Land en Espagne",
+    "commentaire": "Ferrari Land a coter de rolantica en espagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Ferrari Land en Espagne",
+      "description": "Deux monoplaces de Formule 1 Ferrari exposées dans un espace moderne. Le lieu est identifié comme Ferrari Land à côté de Rolantica en Espagne.",
+      "tags": [
+        "ferrari",
+        "formule 1",
+        "exposition",
+        "espagne",
+        "rolantica",
+        "land",
+        "monoplace",
+        "moteur"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Ferrari",
+        "modele": "F1",
+        "generation": "",
+        "annees": "2020-2024",
+        "carrosserie": "rouge",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Calandre Ferrari visible, logos Shell, Pirelli, et autres sponsors. Proportions typiques de la F1 moderne avec ailerons et pneus larges."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Ferrari Land",
+        "ville": "Rolantica",
+        "pays": "Espagne",
+        "confiance": "elevee",
+        "indices": "Panonceaux 'GALLERY' et architecture moderne avec structures en fil de fer. Contexte de l'exposition confirmé par le commentaire du photographe."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:33:45.855Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "3f526998-7a7",
+    "nom_fichier": "IMG_0100.jpeg",
+    "grand": "/photos/grand/3f526998-7a7.jpg",
+    "miniature": "/photos/miniatures/3f526998-7a7.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:34:19.664Z",
+    "prise_le": "2024-06-16T14:32:39.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Asston Martin à Genève",
+    "commentaire": "asston martin a geneve entre bel air et rive",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Asston Martin à Genève",
+      "description": "Une Aston Martin de couleur sombre est photographiée en plein centre-ville de Genève, entre Bel Air et Rive. L'arrière-plan montre des arbres, des bâtiments urbains et des passants.",
+      "tags": [
+        "aston martin",
+        "geneve",
+        "bel air",
+        "rive",
+        "voiture de sport",
+        "centre-ville",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Aston Martin",
+        "modele": "DB11",
+        "generation": "Génération 2020-2024",
+        "annees": "2020-2024",
+        "carrosserie": "Coupé",
+        "couleur": "Gris foncé",
+        "confiance": "elevee",
+        "indices": "Calandre à barres horizontales, phares fins et élégants, jantes en alliage, proportions sportives. La plaque d'immatriculation suisse (CH) confirme le lieu."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Genève",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Panneau 'Rive', bâtiment avec enseigne 'HEIGE', architecture urbaine typique de Genève. La mention 'Bel Air' dans le commentaire confirme le quartier."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:34:40.268Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "abefb3b4-c14",
+    "nom_fichier": "IMG_0099.jpeg",
+    "grand": "/photos/grand/abefb3b4-c14.jpg",
+    "miniature": "/photos/miniatures/abefb3b4-c14.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:34:20.181Z",
+    "prise_le": "2024-06-16T14:32:30.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Ashton Martin à Genève",
+    "commentaire": "asston martin a geneve entre bel air et rive",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Ashton Martin à Genève",
+      "description": "Une Aston Martin noire est stationnée devant un hôtel historique à Genève, entre Bel Air et Rive. L'architecture classique des bâtiments et les awnings blancs soulignent l'élégance de la ville.",
+      "tags": [
+        "aston martin",
+        "geneve",
+        "bel air",
+        "rive",
+        "hotel",
+        "architecture",
+        "voiture de luxe"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Aston Martin",
+        "modele": "DB11",
+        "generation": "Génération 2019-2023",
+        "annees": "2019-2023",
+        "carrosserie": "Coupé",
+        "couleur": "Noire",
+        "confiance": "elevee",
+        "indices": "Calandre à barres horizontales, phares fins et élancés, jantes noires à rayons multiples, proportions sportives. La finition et le design correspondent à la DB11 de la génération 2019-2023."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Genève",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Hôtel avec enseigne 'HOTEL' et 'ALLE', architecture typique de Genève (bâtiments historiques, awnings), positionnement entre Bel Air et Rive selon le commentaire du photographe."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:35:14.878Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0aa5cad5-e2f",
+    "nom_fichier": "IMG_0098.jpeg",
+    "grand": "/photos/grand/0aa5cad5-e2f.jpg",
+    "miniature": "/photos/miniatures/0aa5cad5-e2f.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:34:20.741Z",
+    "prise_le": "2024-06-16T14:32:26.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Asston Martin à Genève",
+    "commentaire": "asston martin a geneve entre bel air et rive",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Asston Martin à Genève",
+      "description": "Une Aston Martin noire est stationnée devant un bâtiment historique à Genève, entre Bel Air et Rive. Le véhicule présente une silhouette élégante avec des jantes noires et des feux avant distinctifs.",
+      "tags": [
+        "aston martin",
+        "geneve",
+        "bel air",
+        "rive",
+        "voiture de sport",
+        "noir",
+        "architecture historique",
+        "stationnement"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Aston Martin",
+        "modele": "DB11",
+        "generation": "Génération 2020-2024",
+        "annees": "2020-2024",
+        "carrosserie": "Coupé",
+        "couleur": "Noir",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Aston Martin, phares avant en forme de 'lame', jantes noires à rayons multiples, proportions élégantes typiques de la DB11."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Genève",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Bâtiment historique avec architecture typique de Genève (balcons en fer forgé, façade en pierre), panneau 'ALLE' visible, rue entre Bel Air et Rive."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:35:48.495Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "a3f8da7c-c05",
+    "nom_fichier": "IMG_0097.jpeg",
+    "grand": "/photos/grand/a3f8da7c-c05.jpg",
+    "miniature": "/photos/miniatures/a3f8da7c-c05.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:34:21.824Z",
+    "prise_le": "2024-06-16T14:31:52.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Asston Martin à Genève",
+    "commentaire": "asston martin a geneve entre bel air et rive",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Asston Martin à Genève",
+      "description": "Une Aston Martin de couleur gris foncé est garée sur une rue pavée de Genève, entre Bel Air et Rive. La voiture présente des jantes noires et des feux arrière distinctifs.",
+      "tags": [
+        "aston martin",
+        "genève",
+        "rue pavée",
+        "voiture sport",
+        "bel air",
+        "rive",
+        "gris foncé",
+        "jantes noires"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Aston Martin",
+        "modele": "DB11",
+        "generation": "Génération 2020-2024",
+        "annees": "2020-2024",
+        "carrosserie": "Coupé",
+        "couleur": "Gris foncé",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Aston Martin, feux arrière à LED, jantes noires avec logo Aston Martin, échappement double visible. La plaque d'immatriculation suisse indique une localisation en Suisse."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Genève",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Rue pavée typique de Genève, bâtiments historiques avec architecture européenne, panneau 'STAR' et enseigne 'LOVER' visibles. La mention du photographe indique 'entre Bel Air et Rive'."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:36:24.489Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "11d9a26e-a35",
+    "nom_fichier": "IMG_0096.jpeg",
+    "grand": "/photos/grand/11d9a26e-a35.jpg",
+    "miniature": "/photos/miniatures/11d9a26e-a35.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:34:21.265Z",
+    "prise_le": "2024-06-16T14:31:47.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Asston Martin à Genève",
+    "commentaire": "asston martin a geneve entre bel air et rive",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Asston Martin à Genève",
+      "description": "Une Aston Martin de couleur gris métallique est stationnée sur une rue pavée de Genève, entre Bel Air et Rive. La vue arrière met en évidence les feux et la calandre distinctive de la marque.",
+      "tags": [
+        "aston martin",
+        "genève",
+        "rue pavée",
+        "bel air",
+        "rive",
+        "voiture sport",
+        "gris métallique",
+        "2024"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Aston Martin",
+        "modele": "DB11",
+        "generation": "Génération actuelle (2020-actuel)",
+        "annees": "2020-actuel",
+        "carrosserie": "Coupé",
+        "couleur": "Gris métallique",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Aston Martin, feux arrière à LED, jantes noires avec freins jaunes, proportions sportives et design moderne."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Genève",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Rue pavée, bâtiments historiques, enseigne Starbucks, panneau \"Bel Air\" et \"Rive\" visibles en arrière-plan."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:36:05.359Z"
     },
     "etat_analyse": "ok",
     "erreur_analyse": null
