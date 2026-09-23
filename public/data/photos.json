@@ -1,5 +1,842 @@
 [
   {
+    "id": "865f9fea-ce1",
+    "nom_fichier": "183D3C75-7D63-47D6-B80B-618B1FAD149B.jpeg",
+    "grand": "/photos/grand/865f9fea-ce1.jpg",
+    "miniature": "/photos/miniatures/865f9fea-ce1.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:57.462Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 44.6706271,
+      "lon": 4.8368438,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Nissan GT-R R34 au rassemblement",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Nissan GT-R R34 au rassemblement",
+      "description": "Une Nissan GT-R R34 avec le capot ouvert expose son moteur. Le véhicule est présenté dans un cadre de rassemblement automobile à Regnier Haute-Savoie, avec des montagnes en arrière-plan.",
+      "tags": [
+        "nissan",
+        "gt-r",
+        "r34",
+        "rassemblement",
+        "regnier",
+        "haute-savoie",
+        "moteur",
+        "voiture"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R34",
+        "annees": "1999-2002",
+        "carrosserie": "coupe",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre avec logo Nissan, phares avant, feux arrière, jantes en alliage, logo GT-R sur le capot, plaque GT import, moteur V6 3.0L turbo"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Regnier",
+        "ville": "Haute-Savoie",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Panneau indicateur de la route, montagnes en arrière-plan, rassemblement automobile"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:07:00.943Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "bc5303ac-f5d",
+    "nom_fichier": "16300B47-D8EB-430F-A2E0-1925D80095ED.jpeg",
+    "grand": "/photos/grand/bc5303ac-f5d.jpg",
+    "miniature": "/photos/miniatures/bc5303ac-f5d.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:57.297Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 46.0688976,
+      "lon": 6.3445548,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement de voiture à Réginner Haute-Savoie",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voiture à Réginner Haute-Savoie",
+      "description": "Une Nissan GT-R R35 blanche avec des motifs bleus est exposée lors d'un rassemblement automobile. Le véhicule présente des jantes noires et des feux arrière circulaires. L'arrière du véhicule est visible avec une plaque d'immatriculation suisse.",
+      "tags": [
+        "rassemblement",
+        "nissan",
+        "gt-r",
+        "r35",
+        "haute-savoie",
+        "reginner",
+        "voiture",
+        "sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R35",
+        "annees": "2007-2015",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "calandre distinctive, feux arrière circulaires, jantes noires, plaque d'immatriculation suisse"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Haute-Savoie",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "panneau \"Street food - Evénements\", bâtiment moderne avec toit en bois, drapeau \"URABU\""
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:06:41.312Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "60215a7e-a5b",
+    "nom_fichier": "12E071F6-7D9A-47CA-B530-816793EECB8C.jpeg",
+    "grand": "/photos/grand/60215a7e-a5b.jpg",
+    "miniature": "/photos/miniatures/60215a7e-a5b.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:57.151Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 46.2169327,
+      "lon": 6.3126116,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement de Voitures à Réginner Haute-Savoie",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de Voitures à Réginner Haute-Savoie",
+      "description": "Un rassemblement de voitures rassemble plusieurs modèles, avec une Mazda MX-5 rouge au premier plan affichant un sticker 'Rocket Bunny'. Des personnes discutent autour des véhicules dans un parking ensoleillé.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "mazda mx5",
+        "rocket bunny",
+        "haute savoie",
+        "reginner",
+        "parking",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Mazda",
+        "modele": "MX-5",
+        "generation": "NA (1990-1999)",
+        "annees": "1990-1999",
+        "carrosserie": "2 portes",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "Calandre en forme de croissant, phares ronds, jantes en alliage, logo Mazda sur le capot et le coffre, plaque d'immatriculation suisse (VS) et sticker 'Rocket Bunny' sur le coffre"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Haute-Savoie",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Panneau routier indiquant 'Réginner', architecture moderne avec toit en bois, présence de véhicules et personnes dans un parking"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:06:21.167Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "928562c9-875",
+    "nom_fichier": "AD9C2CF8-9255-404D-A090-9BC4C84B4400.jpeg",
+    "grand": "/photos/grand/928562c9-875.jpg",
+    "miniature": "/photos/miniatures/928562c9-875.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:56.963Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Rassemblement de voiture à Réginner",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voiture à Réginner",
+      "description": "Une voiture de sport rouge avec un toit noir est présentée lors d'un rassemblement. Des personnes se rassemblent autour de la voiture, discutant et admirant les modifications. Le ciel est bleu et le soleil brille.",
+      "tags": [
+        "voiture",
+        "rassemblement",
+        "sport",
+        "modifications",
+        "couleur rouge",
+        "Réginner",
+        "Savoie",
+        "monument"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Subaru",
+        "modele": "BRZ",
+        "generation": "Génération 2 (2013-2019)",
+        "annees": "2013-2019",
+        "carrosserie": "Coupé",
+        "couleur": "Rouge",
+        "confiance": "elevee",
+        "indices": "Calandre avant avec logo Subaru, phares avant distinctifs, jantes en alliage argentées, carrosserie modifiée avec un toit noir et des ailes larges."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Réginner",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Panneau routier indiquant 'Réginner', bâtiments industriels en arrière-plan, architecture moderne avec toit plat."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:06:00.579Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8a0609aa-91c",
+    "nom_fichier": "866E132D-97EA-41E3-AC8C-7A688059F3B3.jpeg",
+    "grand": "/photos/grand/8a0609aa-91c.jpg",
+    "miniature": "/photos/miniatures/8a0609aa-91c.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:56.805Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Nissan Skyline R34 Bleu",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Nissan Skyline R34 Bleu",
+      "description": "Une Nissan Skyline R34 bleue, avec une calandre et des phares caractéristiques, est exposée lors d'un rassemblement de voitures à Réginner haute Savoie. Le véhicule présente une finition sportive avec des jantes noires et une carrosserie brillante.",
+      "tags": [
+        "nissan",
+        "skyline",
+        "r34",
+        "rassemblement",
+        "bleu",
+        "haute-savoie",
+        "voiture",
+        "sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "Skyline",
+        "generation": "R34",
+        "annees": "1999-2002",
+        "carrosserie": "2 portes",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "Calandre avant avec logo Nissan, phares circulaires, jantes noires, carrosserie brillante avec reflets. La forme de la calandre et des phares correspond à la R34. La présence d'une aile arrière et de détails sportifs suggère une version modifiée ou une finition spéciale."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner haute Savoie",
+        "ville": "Réginner",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Panneau routier indiquant 'Réginner haute Savoie', paysage montagneux typique de la région, présence de véhicules dans un parking."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:05:25.278Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "13e91c27-413",
+    "nom_fichier": "74546788-D02A-4EA5-8F6E-73AA2B0208C1.jpeg",
+    "grand": "/photos/grand/13e91c27-413.jpg",
+    "miniature": "/photos/miniatures/13e91c27-413.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:56.657Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Rassemblement de voitures à Réginner Haute-Savoie",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voitures à Réginner Haute-Savoie",
+      "description": "Une voiture rouge vif, probablement une Nissan 240SX, est au centre d'un rassemblement de voitures. Des véhicules et des personnes sont visibles en arrière-plan sous un ciel bleu.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "rouge",
+        "haute-savoie",
+        "réginner",
+        "240sx",
+        "car",
+        "event"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "240SX",
+        "generation": "S14 (1990-1994)",
+        "annees": "1990-1994",
+        "carrosserie": "2-portes",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "calandre avant simple, phares rectangulaires, jantes en alliage chromé, aileron arrière rouge, sièges rouges avec inscription 'ZILL'"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Réginner",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Réginner', bâtiments avec architecture typique de la région, arbres et ciel bleu"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:04:49.540Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "64015cf2-05d",
+    "nom_fichier": "E5D1F6B3-4F36-4D52-A80E-46897F69FA79.jpeg",
+    "grand": "/photos/grand/64015cf2-05d.jpg",
+    "miniature": "/photos/miniatures/64015cf2-05d.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:56.517Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 44.6706271,
+      "lon": 4.8368438,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Moteur GT-R Skyline",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Moteur GT-R Skyline",
+      "description": "Un moteur Nissan Skyline GT-R avec des composants modifiés, notamment des tuyaux en aluminium et des conduits bleus. Le rassemblement se déroule à Regnier Haute-Savoie.",
+      "tags": [
+        "nissan",
+        "skyline",
+        "gt-r",
+        "moteur",
+        "rassemblement",
+        "regnier",
+        "haute-savoie",
+        "tuyaux"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "Skyline",
+        "generation": "GT-R",
+        "annees": "1990-2000",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": "Calandre et logos Nissan visibles sur le moteur. Le modèle GT-R est clairement identifié par l'inscription 'GT-R' et 'TWIN TURBO' sur le bloc moteur. Les tuyaux bleus et l'installation de conduits en aluminium suggèrent une modification pour le rassemblement."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Regnier",
+        "ville": "Haute-Savoie",
+        "pays": "France",
+        "confiance": "moyenne",
+        "indices": "Le commentaire du photographe indique 'Regnier Haute-Savoie', ce qui correspond à une localité en France. Aucun monument ou panneau spécifique n'est visible dans l'image."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:04:15.735Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "dfbb8c52-0f8",
+    "nom_fichier": "D962868A-B6F0-4CBF-A579-D939F9B6D2BE.jpeg",
+    "grand": "/photos/grand/dfbb8c52-0f8.jpg",
+    "miniature": "/photos/miniatures/dfbb8c52-0f8.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:56.355Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Rassemblement de voitures à Réginner",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voitures à Réginner",
+      "description": "Un rassemblement de voitures rassemble plusieurs modèles dans un parking ensoleillé. Une voiture rouge avec un aileron arrière imposant est au premier plan.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "parking",
+        "aileron",
+        "soleil",
+        "réginner",
+        "haute-savoie",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Mazda",
+        "modele": "RX-7",
+        "generation": "FD",
+        "annees": "1992-1999",
+        "carrosserie": "coupé",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "calandre en forme de losange, phares circulaires, aileron arrière large, jantes en alliage"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Réginner",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Réginner', bâtiments résidentiels, parking"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:03:40.794Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "40cfba2c-dd5",
+    "nom_fichier": "C1EE4DAF-1AA5-4233-B805-EA56E41C3584.jpeg",
+    "grand": "/photos/grand/40cfba2c-dd5.jpg",
+    "miniature": "/photos/miniatures/40cfba2c-dd5.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:56.133Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 46.0688976,
+      "lon": 6.3445548,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement de voitures à Réginner",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voitures à Réginner",
+      "description": "Un rassemblement de voitures rassemble plusieurs modèles, dont une voiture noire avec des jantes rouges. Des montagnes enneigées et un ciel clair dominent le paysage.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "montagne",
+        "savoie",
+        "jantes rouges",
+        "carrosserie noire"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Toyota",
+        "modele": "Supra",
+        "generation": "JGTC",
+        "annees": "1993-1999",
+        "carrosserie": "coupe",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Toyota, phares avant ronds, jantes noires avec bordure rouge, carrosserie brillante"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Haute-Savoie",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Panneau routier indiquant 'Réginner', montagnes enneigées en arrière-plan, architecture typique de la région"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:03:06.966Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f1d7b6c6-bb2",
+    "nom_fichier": "FE03F524-E60E-43BB-B5C4-7836120624D7.jpeg",
+    "grand": "/photos/grand/f1d7b6c6-bb2.jpg",
+    "miniature": "/photos/miniatures/f1d7b6c6-bb2.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:55.952Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 46.0688976,
+      "lon": 6.3445548,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Drift King Nissan GT-R",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Drift King Nissan GT-R",
+      "description": "Une Nissan GT-R noire avec des stickers 'Drift King' et 'Rassemblement de voiture à Réginner Haute-Savoie'. La voiture est stationnée dans un parking en plein air avec des montagnes en arrière-plan.",
+      "tags": [
+        "nissan",
+        "gt-r",
+        "rassemblement",
+        "haute-savoie",
+        "drift",
+        "voiture",
+        "montagne",
+        "parking"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R35",
+        "annees": "2007-2012",
+        "carrosserie": "coupe",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Calandre Nissan, phares avant, jantes noires avec détails verts, logo Nissan sur le capot, stickers 'Drift King' et 'Rassemblement de voiture à Réginner Haute-Savoie' sur le pare-brise."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Haute-Savoie",
+        "pays": "France",
+        "confiance": "moyenne",
+        "indices": "Panneau routier indiquant 'Réginner', montagnes en arrière-plan, parking en plein air avec plusieurs voitures."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:02:01.756Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "03c7c7d2-a70",
+    "nom_fichier": "4FE99C67-1469-446D-B778-1FFEB0E38DE2.jpeg",
+    "grand": "/photos/grand/03c7c7d2-a70.jpg",
+    "miniature": "/photos/miniatures/03c7c7d2-a70.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:55.774Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 46.0688976,
+      "lon": 6.3445548,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement de voiture à Réginner Haute-Savoie",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voiture à Réginner Haute-Savoie",
+      "description": "Une voiture bleue avec le capot ouvert est présentée au rassemblement. Des visiteurs se rassemblent autour des véhicules exposés.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "bleue",
+        "capot ouvert",
+        "Réginner",
+        "Haute-Savoie",
+        "exposition"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R35",
+        "annees": "2007-2014",
+        "carrosserie": "coupe",
+        "couleur": "bleue",
+        "confiance": "elevee",
+        "indices": "calandre en forme de V, phares avant distinctifs, jantes en alliage, logo Nissan visible sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Haute-Savoie",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Réginner', architecture moderne en arrière-plan"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:00:57.292Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d09e4c7c-e03",
+    "nom_fichier": "EDB8290E-1D4C-45FF-8B08-353EF3A39A50.jpeg",
+    "grand": "/photos/grand/d09e4c7c-e03.jpg",
+    "miniature": "/photos/miniatures/d09e4c7c-e03.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:55.598Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Rassemblement de voitures à Réginner",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voitures à Réginner",
+      "description": "Une Nissan GT-R blanche est au centre d'un rassemblement de voitures, entourée de véhicules de couleur noire et orange. Le lieu est Réginner, Haute-Savoie, avec un arrière-plan de haies et de forêts.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "nissan",
+        "gt-r",
+        "haute-savoie",
+        "réginner",
+        "blanche",
+        "car"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R35",
+        "annees": "2007-2014",
+        "carrosserie": "blanche",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre Nissan avec logo, phares en forme de 'lune', feux arrière rouge, jantes en alliage, proportions sportives"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginner",
+        "ville": "Réginner",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Panneau de signalisation indiquant 'Réginner', forêt et haies en arrière-plan"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:59:54.347Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "27ab4afc-4bf",
+    "nom_fichier": "840A7739-DD05-4500-BF40-828C8D0CB987.jpeg",
+    "grand": "/photos/grand/27ab4afc-4bf.jpg",
+    "miniature": "/photos/miniatures/27ab4afc-4bf.webp",
+    "largeur": 1440,
+    "hauteur": 2560,
+    "ajoutee_le": "2026-09-23T13:56:55.405Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Rassemblement de voiture à Réginnier Haute-Savoie",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voiture à Réginnier Haute-Savoie",
+      "description": "Une Nissan GT-R bleue personnalisée avec des jantes dorées et un aileron arrière imposant est présentée au rassemblement. Des visiteurs observent la voiture sous un ciel bleu ensoleillé.",
+      "tags": [
+        "rassemblement",
+        "nissan",
+        "gt-r",
+        "bleu",
+        "jantes dorées",
+        "aileron",
+        "réginnier haute savoie",
+        "voiture de sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R35",
+        "annees": "2007-2012",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive de la GT-R R35, phares à LED, aileron arrière modifié, jantes dorées, logo Liberty Walk sur le coffre et les flancs, plaque d'immatriculation suisse (23H59 GLUB)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginnier Haute-Savoie",
+        "ville": "Réginnier Haute-Savoie",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "Panneau indicateur de la route, architecture moderne en arrière-plan, présence de nombreux visiteurs au rassemblement."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:58:47.387Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "b6a6e24e-f3d",
+    "nom_fichier": "334751E3-63D3-4AFF-90FA-415AE78C3E50.jpeg",
+    "grand": "/photos/grand/b6a6e24e-f3d.jpg",
+    "miniature": "/photos/miniatures/b6a6e24e-f3d.webp",
+    "largeur": 1440,
+    "hauteur": 1920,
+    "ajoutee_le": "2026-09-23T13:56:55.250Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Rassemblement de voitures à Réginnier Haute-Savoie",
+    "commentaire": "Rassemblement de voiture a reginier haute savoie",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement de voitures à Réginnier Haute-Savoie",
+      "description": "Un rassemblement de voitures colorées se déroule sous un ciel bleu. Une Nissan GT-R turquoise est au premier plan, avec une autre voiture bleue en arrière-plan. Des personnes sont présentes autour des véhicules.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "nissan",
+        "gt-r",
+        "turquoise",
+        "bleu",
+        "haute-savoie",
+        "reginnier"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "nissan",
+        "modele": "gt-r",
+        "generation": "r35",
+        "annees": "2007-2014",
+        "carrosserie": "coupe",
+        "couleur": "turquoise",
+        "confiance": "elevee",
+        "indices": "calandre avant avec logo nissan, phares à LED, jantes noires, finition sportive avec aileron arrière visible"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Réginnier Haute-Savoie",
+        "ville": "Réginnier",
+        "pays": "France",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Réginnier', présence de forêts et de montagnes typiques de la Haute-Savoie"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:57:42.445Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
     "id": "fbae7e6b-1c0",
     "nom_fichier": "IMG_1537.jpeg",
     "grand": "/photos/grand/fbae7e6b-1c0.jpg",
@@ -508,7 +1345,7 @@
       "lon": 7.1598893,
       "approx": true
     },
-    "categorie": "nature",
+    "categorie": "paysages",
     "titre": "Vue aérienne du Jura",
     "commentaire": "photo elico jura",
     "analyse": {
@@ -5256,7 +6093,7 @@
       "lon": 9.1800132,
       "approx": true
     },
-    "categorie": "sport",
+    "categorie": "evenements",
     "titre": "exposition de trophées au musée Porsche",
     "commentaire": "Musee porshe a stutgart alemagne",
     "analyse": {
@@ -7335,6 +8172,2145 @@
       },
       "modele_ia": "qwen3-vl:8b",
       "analysee_le": "2026-09-23T13:36:05.359Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e74684e0-897",
+    "nom_fichier": "IMG_6550.jpeg",
+    "grand": "/photos/grand/e74684e0-897.jpg",
+    "miniature": "/photos/miniatures/e74684e0-897.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:18.741Z",
+    "prise_le": "2024-05-26T13:10:38.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "jaune vif au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "jaune vif au col de la faucille",
+      "description": "Une Porsche 911 de couleur jaune vif est stationnée près d'un parking. Le conducteur, visible par la vitre, porte un t-shirt blanc. L'endroit est un rassemblement de voitures au col de la faucille à Genève.",
+      "tags": [
+        "porsche",
+        "911",
+        "jaune",
+        "col de la faucille",
+        "geneve",
+        "rassemblement",
+        "voiture",
+        "parking"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "jaune",
+        "confiance": "elevee",
+        "indices": "phare rond avec LED, calandre avant, jantes noires, proportions 911 moderne"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "parking avec ligne blanche, col de la faucille (nom mentionné dans commentaire)"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:53:41.293Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "6d17d7bb-0b0",
+    "nom_fichier": "IMG_6549.jpeg",
+    "grand": "/photos/grand/6d17d7bb-0b0.jpg",
+    "miniature": "/photos/miniatures/6d17d7bb-0b0.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:18.990Z",
+    "prise_le": "2024-05-26T13:10:35.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Porsche 911 jaune au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Porsche 911 jaune au col de la faucille",
+      "description": "Une Porsche 911 jaune vif est stationnée sur une route bordée d'arbres. Le rassemblement de voitures se déroule près du col de la faucille à Genève.",
+      "tags": [
+        "porsche",
+        "911",
+        "col de la faucille",
+        "geneve",
+        "rassemblement",
+        "voiture",
+        "jaune",
+        "route"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "jaune",
+        "confiance": "elevee",
+        "indices": "calandre noire avec grille de ventilation, phares ronds avec LED, jantes noires à rayons multiples, proportions typiques de la 992 (longueur de la carrosserie, position des feux arrière)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Col de la Faucille', architecture alpine, route en courbe typique du col."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:53:58.947Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "2cf81250-ddd",
+    "nom_fichier": "IMG_6547.jpeg",
+    "grand": "/photos/grand/2cf81250-ddd.jpg",
+    "miniature": "/photos/miniatures/2cf81250-ddd.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:19.224Z",
+    "prise_le": "2024-05-26T13:10:21.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "jaune vif au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "jaune vif au col de la faucille",
+      "description": "Une Porsche 911 jaune vif est stationnée sur un parking en bordure d'une route, avec un paysage montagneux en arrière-plan. Le rassemblement de voitures se déroule près du col de la Faucille à Genève.",
+      "tags": [
+        "porsche",
+        "911",
+        "col de la faucille",
+        "geneve",
+        "rassemblement",
+        "jaune",
+        "montagne",
+        "parking"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "jaune",
+        "confiance": "elevee",
+        "indices": "calandre distinctive avec logo Porsche, phares à LED, jantes noires, proportions typiques de la 992 (longueur de la carrosserie, position des feux arrière)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "geneve",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant le col de la Faucille, paysage montagneux caractéristique de la région de Genève, bâtiments résidentiels en arrière-plan."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:54:16.875Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "277aaeb0-99b",
+    "nom_fichier": "IMG_6542.jpeg",
+    "grand": "/photos/grand/277aaeb0-99b.jpg",
+    "miniature": "/photos/miniatures/277aaeb0-99b.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:19.498Z",
+    "prise_le": "2024-05-22T14:01:57.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu éclatant au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu éclatant au col de la faucille",
+      "description": "Une voiture sportive bleue, vue de profil, se distingue par sa carrosserie brillante et ses jantes en alliage. Elle est stationnée sur une route asphaltée, près d'un autre véhicule blanc.",
+      "tags": [
+        "voiture sportive",
+        "bleu",
+        "col de la faucille",
+        "rassemblement",
+        "asphalte",
+        "jantes",
+        "carrosserie"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Lamborghini",
+        "modele": "Aventador",
+        "generation": "SVJ",
+        "annees": "2017-2023",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre à l'arrière avec des ouvertures de ventilation, jantes en alliage à rayons multiples, carrosserie lisse et brillante"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "route asphaltée, panneau routier visible en arrière-plan"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:54:50.702Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "c1bb2f1f-141",
+    "nom_fichier": "IMG_6537.png",
+    "grand": "/photos/grand/c1bb2f1f-141.jpg",
+    "miniature": "/photos/miniatures/c1bb2f1f-141.webp",
+    "largeur": 1170,
+    "hauteur": 2532,
+    "ajoutee_le": "2026-09-23T13:53:20.358Z",
+    "prise_le": "2024-05-21T22:22:35.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu éclatant au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu éclatant au col de la faucille",
+      "description": "Une voiture bleue métallisée, probablement une BMW M3, est photographiée en plein air au col de la Faucille à Genève. Le paysage montagneux avec forêt dense et prairies verdoyantes suggère une journée ensoleillée.",
+      "tags": [
+        "voiture",
+        "bleu",
+        "col de la faucille",
+        "genève",
+        "montagne",
+        "rassemblement",
+        "bmw",
+        "m3"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "E46",
+        "annees": "1999-2006",
+        "carrosserie": "berline",
+        "couleur": "bleu métallique",
+        "confiance": "elevee",
+        "indices": "calandre à double ouverture, phares en forme de feuille, jantes en alliage avec logo BMW, proportions de la berline M3 E46"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "genève",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Col de la Faucille', paysage montagneux typique de la région genevoise"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:56:50.496Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f7d389ff-954",
+    "nom_fichier": "IMG_6536.png",
+    "grand": "/photos/grand/f7d389ff-954.jpg",
+    "miniature": "/photos/miniatures/f7d389ff-954.webp",
+    "largeur": 1170,
+    "hauteur": 2532,
+    "ajoutee_le": "2026-09-23T13:53:20.124Z",
+    "prise_le": "2024-05-21T22:21:36.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu éclatant au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu éclatant au col de la faucille",
+      "description": "Une BMW M3 de couleur bleue vif, avec des jantes personnalisées, est photographiée au col de la Faucille à Genève. Le paysage montagneux verdoyant et les forêts environnantes soulignent le cadre alpin.",
+      "tags": [
+        "bmw",
+        "m3",
+        "col de la faucille",
+        "geneve",
+        "suisse",
+        "voiture de sport",
+        "rassemblement"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80 (2020-2024)",
+        "annees": "2020-2024",
+        "carrosserie": "couleur bleue vif",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre M3 avec logo M, phares LED, jantes personnalisées, aileron avant sportif"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "geneve",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant le col de la Faucille, paysage alpin typique de la région de Genève"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:56:19.646Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "df0c22a7-1f4",
+    "nom_fichier": "IMG_6533.png",
+    "grand": "/photos/grand/df0c22a7-1f4.jpg",
+    "miniature": "/photos/miniatures/df0c22a7-1f4.webp",
+    "largeur": 1170,
+    "hauteur": 2532,
+    "ajoutee_le": "2026-09-23T13:53:19.888Z",
+    "prise_le": "2024-05-21T22:18:13.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "col de la faucille geneve",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "col de la faucille geneve",
+      "description": "une voiture bleue est stationnée sur un chemin de pierres au col de la faucille à genève. le photographe a précisé que c'est un rassemblement de voitures.",
+      "tags": [
+        "voiture",
+        "bleue",
+        "col de la faucille",
+        "geneve",
+        "rassemblement",
+        "pierre",
+        "route"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "couleur bleue brillante",
+        "couleur": "bleue",
+        "confiance": "moyenne",
+        "indices": "la photo montre uniquement une partie de la carrosserie et le rétroviseur, sans éléments distinctifs comme la calandre ou les logos. la couleur bleue est vive mais ne permet pas d'identifier la marque ou le modèle."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "geneve",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "le commentaire du photographe indique clairement le lieu : col de la faucille à genève, suisse. les pierres du chemin correspondent à l'architecture locale."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:55:50.172Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "32341422-ac8",
+    "nom_fichier": "IMG_6532.png",
+    "grand": "/photos/grand/32341422-ac8.jpg",
+    "miniature": "/photos/miniatures/32341422-ac8.webp",
+    "largeur": 1170,
+    "hauteur": 2532,
+    "ajoutee_le": "2026-09-23T13:53:19.688Z",
+    "prise_le": "2024-05-21T22:18:01.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu vif au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu vif au col de la faucille",
+      "description": "Une voiture bleue métallisée, vue de profil avant, avec des jantes en alliage chromé et un phare moderne. Elle est stationnée sur un chemin de pierres irrégulières.",
+      "tags": [
+        "voiture",
+        "bleu",
+        "jantes",
+        "col de la faucille",
+        "geneve",
+        "rassemblement",
+        "métallique",
+        "pierre"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M2",
+        "generation": "G87",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "bleu métallique",
+        "confiance": "elevee",
+        "indices": "calandre à double ouverture (typique M2), jantes en alliage chromé avec motif complexe, phare à LED moderne, proportions de la carrosserie (coupe sportive)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "geneve",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Col de la Faucille', architecture alpine typique, chemin de pierres irrégulières."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:55:20.522Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f0d3328d-001",
+    "nom_fichier": "IMG_6523.jpeg",
+    "grand": "/photos/grand/f0d3328d-001.jpg",
+    "miniature": "/photos/miniatures/f0d3328d-001.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:20.707Z",
+    "prise_le": "2024-05-19T14:55:30.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu éclatant au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu éclatant au col de la faucille",
+      "description": "Une BMW M3 bleue vif, avec des jantes SBR, est présentée dans un cadre naturel montagneux. Le rassemblement se déroule près du col de la Faucille à Genève, sous un ciel ensoleillé.",
+      "tags": [
+        "bmw",
+        "m3",
+        "col de la faucille",
+        "genève",
+        "rassemblement",
+        "bleu",
+        "jantes sbr",
+        "montagne"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80 (2020-2024)",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre M3 avec logo M, phares LED, jantes SBR, finition sportive avec aileron avant"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "genève",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'col de la faucille', paysage montagneux typique de la région genevoise"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:57:24.193Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "5a94a62f-633",
+    "nom_fichier": "IMG_6522.jpeg",
+    "grand": "/photos/grand/5a94a62f-633.jpg",
+    "miniature": "/photos/miniatures/5a94a62f-633.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:21.030Z",
+    "prise_le": "2024-05-19T14:55:14.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Col de la Faucille, Genève",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Col de la Faucille, Genève",
+      "description": "Vue arrière d'une BMW M3 avec jantes sportives et freins bleus, dans un rassemblement de voitures près du col de la Faucille à Genève.",
+      "tags": [
+        "bmw",
+        "m3",
+        "rassemblement",
+        "col de la faucille",
+        "geneve",
+        "voiture",
+        "jantes",
+        "freins"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80 (2020-2024)",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "gris",
+        "confiance": "elevee",
+        "indices": "calandre typique M3, jantes en alliage léger avec logo BMW, freins bleus visibles, proportions de la M3 G80"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant le col, paysage alpin typique de la région genevoise"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:58:13.631Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "0e7809bf-cae",
+    "nom_fichier": "IMG_6521.jpeg",
+    "grand": "/photos/grand/0e7809bf-cae.jpg",
+    "miniature": "/photos/miniatures/0e7809bf-cae.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:21.305Z",
+    "prise_le": "2024-05-19T14:55:08.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "col de la faucille genève",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "col de la faucille genève",
+      "description": "Une BMW M4 noire mat est présentée au rassemblement de voitures du col de la faucille à Genève. Le véhicule est stationné sur un terrain gravillonné avec des arbres et des collines en arrière-plan.",
+      "tags": [
+        "bmw",
+        "m4",
+        "col de la faucille",
+        "genève",
+        "rassemblement",
+        "voiture",
+        "noir mat",
+        "gravillonn"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M4",
+        "generation": "G82 (2019-2023)",
+        "annees": "2019-2023",
+        "carrosserie": "coupe",
+        "couleur": "noir mat",
+        "confiance": "elevee",
+        "indices": "calandre double, phares LED, jantes en alliage noir, logo BMW sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Col de la Faucille', paysage alpin avec collines et forêt"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:59:20.975Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d4a5463f-ef7",
+    "nom_fichier": "IMG_6520.jpeg",
+    "grand": "/photos/grand/d4a5463f-ef7.jpg",
+    "miniature": "/photos/miniatures/d4a5463f-ef7.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:21.552Z",
+    "prise_le": "2024-05-19T14:50:05.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Col de la Faucille, Genève",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Col de la Faucille, Genève",
+      "description": "Une voiture de sport bleue est photographiée lors d'un rassemblement automobile à proximité du Col de la Faucille à Genève. Le véhicule présente des jantes personnalisées et une finition brillante.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "col de la faucille",
+        "geneve",
+        "sport",
+        "bleu",
+        "jantes"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre typique de la 992, jantes personnalisées avec logo Porsche, proportions de la 992 (silhouette de la 991.2 visible sur le côté) et logo Porsche sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant le Col de la Faucille, paysage alpin typique de la région de Genève"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:00:25.900Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "73b43c76-6bc",
+    "nom_fichier": "IMG_6519.jpeg",
+    "grand": "/photos/grand/73b43c76-6bc.jpg",
+    "miniature": "/photos/miniatures/73b43c76-6bc.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:22.637Z",
+    "prise_le": "2024-05-19T14:49:42.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement au Col de la Faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement au Col de la Faucille",
+      "description": "Un rassemblement de voitures rassemble plusieurs modèles, dont une BMW M3 rouge en premier plan. Le lieu est un col montagneux entouré de forêts et de prairies verdoyantes sous un ciel nuageux.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "col",
+        "forêt",
+        "prairie",
+        "montagne",
+        "BMW",
+        "M3"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "rouge",
+        "confiance": "elevee",
+        "indices": "calandre double, phares LED, jantes noires, logo M sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant le col, paysage alpin typique de la région genevoise"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:03:57.442Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "de9d5cab-5d0",
+    "nom_fichier": "IMG_6517.jpeg",
+    "grand": "/photos/grand/de9d5cab-5d0.jpg",
+    "miniature": "/photos/miniatures/de9d5cab-5d0.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:22.379Z",
+    "prise_le": "2024-05-19T14:49:17.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "rassemblement au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "rassemblement au col de la faucille",
+      "description": "Un rassemblement de voitures se déroule au col de la faucille, près de Genève. Les véhicules sont stationnés sur un parking en bordure d'une colline verdoyante avec des forêts en arrière-plan.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "col de la faucille",
+        "genève",
+        "suisse",
+        "parking",
+        "colline",
+        "forêt"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M2",
+        "generation": "génération 2 (2016-2020)",
+        "annees": "2016-2020",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre double, phares à LED, jantes en alliage avec logo BMW, finition M"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "genève",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'col de la faucille', paysage alpin typique de la région de Genève"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:03:24.495Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f6ba594b-67f",
+    "nom_fichier": "IMG_6514.jpeg",
+    "grand": "/photos/grand/f6ba594b-67f.jpg",
+    "miniature": "/photos/miniatures/f6ba594b-67f.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:21.839Z",
+    "prise_le": "2024-05-19T14:37:40.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu vibrant au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu vibrant au col de la faucille",
+      "description": "Une BMW M3 bleue vif est présentée dans un cadre naturel avec forêt dense en arrière-plan. Une autre voiture noire est visible à proximité. Le rassemblement se déroule près du col de la Faucille à Genève.",
+      "tags": [
+        "voiture",
+        "rassemblement",
+        "col de la faucille",
+        "genève",
+        "bmw",
+        "m3",
+        "bleu",
+        "nature"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "berline",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre typique M3 avec logo M, jantes en alliage argenté, proportions de la berline M3 G80"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "genève",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Col de la Faucille', paysage alpin typique de la région de Genève"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:01:28.067Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "9456a0fd-170",
+    "nom_fichier": "IMG_6506.jpeg",
+    "grand": "/photos/grand/9456a0fd-170.jpg",
+    "miniature": "/photos/miniatures/9456a0fd-170.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:22.104Z",
+    "prise_le": "2024-05-19T13:29:35.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "col de la faucille genève",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "col de la faucille genève",
+      "description": "Une BMW M3 bleue est au centre d'un rassemblement de voitures sur la route du Col de la Faucille à Genève. Le ciel est partiellement nuageux et les bâtiments historiques bordent la route.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "genève",
+        "col de la faucille",
+        "bmw",
+        "m3",
+        "bleu",
+        "route"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2025",
+        "carrosserie": "berline",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre double, feux arrière à LED, jantes en alliage, échappement double, logo M3 visible sur le coffre"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "bâtiments historiques en pierre, panneau routier indiquant le Col de la Faucille"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:02:34.073Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "cf7707f3-4fb",
+    "nom_fichier": "IMG_6504.jpeg",
+    "grand": "/photos/grand/cf7707f3-4fb.jpg",
+    "miniature": "/photos/miniatures/cf7707f3-4fb.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:22.913Z",
+    "prise_le": "2024-05-19T13:09:08.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement au Col de la Faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement au Col de la Faucille",
+      "description": "Un rassemblement de voitures de sport se déroule au Col de la Faucille à Genève, avec des modèles BMW visibles. Les participants discutent et admirent les véhicules sous un ciel ensoleillé.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "bmw",
+        "geneve",
+        "col de la faucille",
+        "sport",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "bmw",
+        "modele": "3 series",
+        "generation": "g20",
+        "annees": "2019-2023",
+        "carrosserie": "berline",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre double, phares laser, jantes en alliage"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "geneve",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier, vue sur le lac léman, construction en arrière-plan"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:04:31.818Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "f0d4dd0d-f70",
+    "nom_fichier": "IMG_6503.jpeg",
+    "grand": "/photos/grand/f0d4dd0d-f70.jpg",
+    "miniature": "/photos/miniatures/f0d4dd0d-f70.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:23.376Z",
+    "prise_le": "2024-05-19T13:08:54.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Col de la Faucille, Genève",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Col de la Faucille, Genève",
+      "description": "Vue détaillée d'une voiture bleue au rassemblement du Col de la Faucille à Genève. La carrosserie brillante et les rétroviseurs colorés soulignent le caractère sportif de l'engin.",
+      "tags": [
+        "voiture",
+        "rassemblement",
+        "col de la faucille",
+        "geneve",
+        "bleu",
+        "sportif",
+        "genève"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Porsche",
+        "modele": "911",
+        "generation": "992",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre distinctive avec logo Porsche, jantes en alliage noir, rétroviseurs extérieurs en bleu assorti à la carrosserie, finition sportive avec éléments noirs sur les vitres"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Col de la Faucille",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "pavé de pierre typique des cols suisses, panneau routier visible en arrière-plan indiquant 'Col de la Faucille'"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:05:42.940Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fe7c63ba-710",
+    "nom_fichier": "IMG_6501.jpeg",
+    "grand": "/photos/grand/fe7c63ba-710.jpg",
+    "miniature": "/photos/miniatures/fe7c63ba-710.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:53:23.139Z",
+    "prise_le": "2024-05-19T13:08:29.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.2017559,
+      "lon": 6.1466014,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "bleu vif au col de la faucille",
+    "commentaire": "rassemblement de voiture du cote du col de la faucille a geneve",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "bleu vif au col de la faucille",
+      "description": "Une voiture bleue vif est photographiée de près, mettant en valeur ses jantes chromées et son phare. Elle est stationnée sur un chemin de pierres au col de la faucille à Genève.",
+      "tags": [
+        "voiture",
+        "bleu",
+        "col de la faucille",
+        "genève",
+        "jantes",
+        "phare",
+        "rassemblement",
+        "pierre"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "renault",
+        "modele": "clio",
+        "generation": "5e generation",
+        "annees": "2011-2015",
+        "carrosserie": "coupe",
+        "couleur": "bleu",
+        "confiance": "elevee",
+        "indices": "calandre en forme de losange, phare à LED, jantes en alliage chromé, proportions de la Clio 5"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "col de la faucille",
+        "ville": "genève",
+        "pays": "suisse",
+        "confiance": "elevee",
+        "indices": "chemin de pierres, panneau routier indiquant le col de la faucille"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:05:06.203Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "8a35eca2-aff",
+    "nom_fichier": "IMG_6208.jpeg",
+    "grand": "/photos/grand/8a35eca2-aff.jpg",
+    "miniature": "/photos/miniatures/8a35eca2-aff.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:17.955Z",
+    "prise_le": "2024-03-16T14:26:10.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1079478,
+      "lon": 5.967928,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Moteur AMG de voiture de rassemblement",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Moteur AMG de voiture de rassemblement",
+      "description": "Un moteur AMG avec des éléments distinctifs comme les couvercles noirs et les inscriptions \"AMG\" est visible. Le rassemblement a lieu à Valléiry.",
+      "tags": [
+        "moteur",
+        "amg",
+        "rassemblement",
+        "valléiry",
+        "voiture",
+        "moteur amg",
+        "couvercle noir"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Mercedes-Benz",
+        "modele": "AMG",
+        "generation": "",
+        "annees": "2010-2020",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": "Les couvercles noirs avec les inscriptions \"AMG\" et le logo Mercedes-Benz sur le bouchon d'huile indiquent une version AMG. La présence de la mention \"Rassemblement de voiture a valleiry\" dans le commentaire confirme le contexte."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "Le commentaire du photographe mentionne \"Valléiry\" comme lieu du rassemblement. Aucun indice géographique supplémentaire n'est visible dans l'image."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:54:35.854Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "3c2d20c4-86a",
+    "nom_fichier": "IMG_6198.jpeg",
+    "grand": "/photos/grand/3c2d20c4-86a.jpg",
+    "miniature": "/photos/miniatures/3c2d20c4-86a.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:18.206Z",
+    "prise_le": "2024-03-15T21:46:09.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1431755,
+      "lon": 5.9721696,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement nocturne à Valleiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement nocturne à Valleiry",
+      "description": "Un rassemblement de voitures est organisé dans une station-service AVIA de nuit. Trois véhicules sont visibles, dont une Nissan GT-R blanche avec une plaque d'immatriculation suisse.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "nuit",
+        "station-service",
+        "AVIA",
+        "Suisse",
+        "GT-R",
+        "Valleiry"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "GT-R",
+        "generation": "R35",
+        "annees": "2007-2014",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec le logo Nissan, phares à LED, jantes en alliage noir, plaque d'immatriculation suisse (BT 548 ST)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valleiry",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Station-service AVIA avec numéro de pompe 3-2, plaque d'immatriculation suisse, contexte nocturne."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:55:05.755Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "aa46d720-091",
+    "nom_fichier": "IMG_6197.jpeg",
+    "grand": "/photos/grand/aa46d720-091.jpg",
+    "miniature": "/photos/miniatures/aa46d720-091.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:18.471Z",
+    "prise_le": "2024-03-15T21:46:06.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1431755,
+      "lon": 5.9721696,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement nocturne à Valléiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement nocturne à Valléiry",
+      "description": "Un rassemblement de voitures est organisé sous une station-service Avia la nuit. Trois véhicules sportifs sont stationnés près des pompes, avec un homme observant la scène.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "nuit",
+        "station-service",
+        "avia",
+        "sportifs",
+        "valléiry"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Nissan",
+        "modele": "370Z",
+        "generation": "Nissan 370Z (2009-2019)",
+        "annees": "2009-2019",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre distinctive avec logo Nissan, phares avant en forme de \"lame\", jantes en alliage noir brillant. La plaque d'immatriculation française \"BT-949-SY\" indique un véhicule européen."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "Valléiry",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Station-service Avia avec numéro de pompe 3-2, panneau routier indiquant \"Valléiry\" (non visible mais mentionné dans le commentaire). L'architecture moderne et les coordonnées GPS suggèrent un lieu en Suisse."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:55:36.260Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "a76e2d80-57a",
+    "nom_fichier": "IMG_6196.jpeg",
+    "grand": "/photos/grand/a76e2d80-57a.jpg",
+    "miniature": "/photos/miniatures/a76e2d80-57a.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:18.745Z",
+    "prise_le": "2024-03-15T21:43:57.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1079478,
+      "lon": 5.967928,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Moteur violet au rassemblement",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Moteur violet au rassemblement",
+      "description": "Un moteur avec une calandre violette et des tuyaux rouges est exposé dans un véhicule. Le photographe mentionne un rassemblement à Valleiry.",
+      "tags": [
+        "moteur",
+        "violet",
+        "rassemblement",
+        "valleiry",
+        "tuyaux rouges",
+        "voiture"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "",
+        "modele": "",
+        "generation": "",
+        "annees": "",
+        "carrosserie": "",
+        "couleur": "",
+        "confiance": "elevee",
+        "indices": "Calandre violette et tuyaux rouges visibles, mais aucun logo ou marque identifiable. Le photographe précise le lieu comme 'Valleiry'."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valleiry",
+        "ville": "",
+        "pays": "",
+        "confiance": "elevee",
+        "indices": "Le photographe indique explicitement 'Rassemblement de voiture a valleiry'."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:56:04.375Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "bdeb1d2c-71b",
+    "nom_fichier": "IMG_9536.jpeg",
+    "grand": "/photos/grand/bdeb1d2c-71b.jpg",
+    "miniature": "/photos/miniatures/bdeb1d2c-71b.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:18.886Z",
+    "prise_le": "2024-03-15T21:41:48.000Z",
+    "appareil": "Apple iPhone 13 Pro Max",
+    "gps": {
+      "lat": 46.1079478,
+      "lon": 5.967928,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Nuit éclairée à Valleiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Nuit éclairée à Valleiry",
+      "description": "Une voiture de sport avec des feux avant jaunes lumineux est photographiée dans l'obscurité. Les détails de la calandre et des jantes sont visibles grâce à l'éclairage. Le rassemblement se déroule à Valleiry.",
+      "tags": [
+        "voiture",
+        "nuit",
+        "rassemblement",
+        "feux jaunes",
+        "Valleiry",
+        "sport",
+        "éclairage"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Calandre à double ouverture, feux avant à LED en forme de 'C' jaunes, jantes en alliage avec des rayons fins, logo M sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valleiry",
+        "ville": "",
+        "pays": "",
+        "confiance": "elevee",
+        "indices": "Nom mentionné dans le commentaire du photographe"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:56:34.618Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "ad859678-239",
+    "nom_fichier": "IMG_6195.jpeg",
+    "grand": "/photos/grand/ad859678-239.jpg",
+    "miniature": "/photos/miniatures/ad859678-239.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:19.106Z",
+    "prise_le": "2024-03-15T21:41:45.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1431755,
+      "lon": 5.9721696,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement nocturne à Valléiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement nocturne à Valléiry",
+      "description": "Un rassemblement de voitures de sport se déroule sous un auvent le soir, avec des véhicules allumés et des personnes en arrière-plan. Les phares jaunes et les feux arrière éclairent l'ambiance nocturne.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "nuit",
+        "sport",
+        "auvent",
+        "valléiry",
+        "phares",
+        "lumière"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M4",
+        "generation": "G82",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "calandre double, phares à LED, jantes en alliage, logo BMW sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier avec le nom Valléiry, auvent de stationnement"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:57:06.678Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "dce3e3dc-ca4",
+    "nom_fichier": "IMG_9535.jpeg",
+    "grand": "/photos/grand/dce3e3dc-ca4.jpg",
+    "miniature": "/photos/miniatures/dce3e3dc-ca4.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:19.267Z",
+    "prise_le": "2024-03-15T21:41:40.000Z",
+    "appareil": "Apple iPhone 13 Pro Max",
+    "gps": {
+      "lat": 46.1431755,
+      "lon": 5.9721696,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement nocturne à Valléiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement nocturne à Valléiry",
+      "description": "Deux BMW M3 avec leurs phares à LED allumés dans une ambiance nocturne. La voiture blanche porte une inscription \"M\" sur le pare-brise.",
+      "tags": [
+        "voitures",
+        "rassemblement",
+        "nocturne",
+        "BMW",
+        "M3",
+        "phares LED",
+        "Valléiry",
+        "nuit"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares à LED avec motif en forme de \"U\", jantes en alliage, inscription \"M\" sur le pare-brise"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "Valléiry",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "Nom du lieu mentionné dans le commentaire du photographe"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:57:57.436Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "6f471331-6df",
+    "nom_fichier": "IMG_6194.jpeg",
+    "grand": "/photos/grand/6f471331-6df.jpg",
+    "miniature": "/photos/miniatures/6f471331-6df.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:19.488Z",
+    "prise_le": "2024-03-15T21:41:34.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1079478,
+      "lon": 5.967928,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "BMW M4 à Valleiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "BMW M4 à Valleiry",
+      "description": "Une BMW M4 blanche est photographiée de face dans un parking nocturne, ses phares à LED éclairant l'obscurité. Le rassemblement de voitures à Valleiry se déroule sous un auvent rouge.",
+      "tags": [
+        "bmw",
+        "m4",
+        "rassemblement",
+        "valleiry",
+        "parking",
+        "nuit",
+        "phares led",
+        "voiture"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M4",
+        "generation": "G82",
+        "annees": "2020-2023",
+        "carrosserie": "coupe",
+        "couleur": "blanc",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares à LED avec signature M, jantes en alliage, logo M sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valleiry",
+        "ville": "Valleiry",
+        "pays": "France",
+        "confiance": "moyenne",
+        "indices": "Auvent rouge, panneau routier circulaire, parking nocturne"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:59:03.742Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "d9869d61-f22",
+    "nom_fichier": "IMG_9532.jpeg",
+    "grand": "/photos/grand/d9869d61-f22.jpg",
+    "miniature": "/photos/miniatures/d9869d61-f22.webp",
+    "largeur": 2268,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:19.904Z",
+    "prise_le": "2024-03-15T21:40:56.000Z",
+    "appareil": "Apple iPhone 13 Pro Max",
+    "gps": {
+      "lat": 46.1079478,
+      "lon": 5.967928,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Lumières nocturnes à Valléiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Lumières nocturnes à Valléiry",
+      "description": "Une voiture de sport avec des phares jaunes lumineux est photographiée dans le noir. Le rassemblement a lieu à Valléiry, comme indiqué par le photographe.",
+      "tags": [
+        "voiture",
+        "rassemblement",
+        "nocturne",
+        "phares",
+        "Valléiry",
+        "lumières",
+        "sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Phares à LED en forme de 'J' caractéristiques de la M3 G80, calandre double, jantes en alliage"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "",
+        "pays": "",
+        "confiance": "elevee",
+        "indices": "Commentaire du photographe mentionne Valléiry"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:01:11.854Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "390d21f8-7ee",
+    "nom_fichier": "IMG_6191.jpeg",
+    "grand": "/photos/grand/390d21f8-7ee.jpg",
+    "miniature": "/photos/miniatures/390d21f8-7ee.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:19.754Z",
+    "prise_le": "2024-03-15T21:40:48.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1079478,
+      "lon": 5.967928,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Nuit de rassemblement à Valléiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Nuit de rassemblement à Valléiry",
+      "description": "Une BMW M3 de nuit, avec des phares allumés, au sein d'un rassemblement de voitures. L'ambiance est nocturne et animée par la présence de plusieurs véhicules.",
+      "tags": [
+        "rassemblement",
+        "voiture",
+        "nuit",
+        "BMW",
+        "M3",
+        "Valléiry",
+        "phares",
+        "parking"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares à LED avec effet 'angel eyes', jantes en alliage léger, logo M sur le capot"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "",
+        "pays": "",
+        "confiance": "elevee",
+        "indices": "Nom mentionné dans le commentaire du photographe"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:00:09.422Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "9832feed-2bd",
+    "nom_fichier": "IMG_6190.jpeg",
+    "grand": "/photos/grand/9832feed-2bd.jpg",
+    "miniature": "/photos/miniatures/9832feed-2bd.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:54:20.142Z",
+    "prise_le": "2024-03-15T21:39:51.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 46.1431755,
+      "lon": 5.9721696,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Rassemblement nocturne à Valléiry",
+    "commentaire": "Rassemblement de voiture a valleiry",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Rassemblement nocturne à Valléiry",
+      "description": "Un rassemblement de voitures de sport se déroule dans un parking souterrain, avec des modèles BMW M3 et M4 visibles. La scène est éclairée par des lampes fluorescentes et des véhicules garés en rangées.",
+      "tags": [
+        "rassemblement",
+        "voitures",
+        "parking",
+        "nocturne",
+        "bmw",
+        "m3",
+        "m4",
+        "suisse"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "M3",
+        "generation": "G80",
+        "annees": "2020-2024",
+        "carrosserie": "coupe",
+        "couleur": "blanche",
+        "confiance": "elevee",
+        "indices": "calandre double, feux arrière à LED, jantes en alliage, logo M sur le coffre"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Valléiry",
+        "ville": "Genève",
+        "pays": "Suisse",
+        "confiance": "elevee",
+        "indices": "panneau routier indiquant 'Valléiry', architecture urbaine typique de Genève"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:02:17.936Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "daabc774-c16",
+    "nom_fichier": "IMG_6117.jpeg",
+    "grand": "/photos/grand/daabc774-c16.jpg",
+    "miniature": "/photos/miniatures/daabc774-c16.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:57:36.723Z",
+    "prise_le": "2024-02-22T19:56:25.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Tesla Model 3 nocturne",
+    "commentaire": "telsa model 3 de marc a plan les ouates",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Tesla Model 3 nocturne",
+      "description": "Une Tesla Model 3 noire est photographiée dans un parking souterrain, éclairée par des lampes fluorescentes. Les phares à LED sont allumés, créant un contraste saisissant avec l'obscurité ambiante.",
+      "tags": [
+        "tesla",
+        "model 3",
+        "parking",
+        "nocturne",
+        "voiture electrique",
+        "lumiere",
+        "souterrain"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "generation": "",
+        "annees": "2017-2024",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Phares à LED caractéristiques de la Model 3, calandre sans logo visible, jantes non visibles mais typiques de la version standard."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "Parking souterrain avec structure en béton, lampes fluorescentes alignées, autre véhicule en arrière-plan."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:58:29.812Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "7e8a3ff9-f0d",
+    "nom_fichier": "IMG_6116.jpeg",
+    "grand": "/photos/grand/7e8a3ff9-f0d.jpg",
+    "miniature": "/photos/miniatures/7e8a3ff9-f0d.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:57:37.055Z",
+    "prise_le": "2024-02-22T19:55:55.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Tesla Model 3 nocturne",
+    "commentaire": "telsa model 3 de marc a plan les ouates",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Tesla Model 3 nocturne",
+      "description": "Une Tesla Model 3 noire est photographiée dans un parking souterrain, éclairée par une lumière verticale. Un homme en veste noire et baskets blanches se tient près de la voiture, tenant un objet.",
+      "tags": [
+        "tesla",
+        "model 3",
+        "parking",
+        "nocturne",
+        "voiture électrique",
+        "souterrain",
+        "homme"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "generation": "",
+        "annees": "2017-2024",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Calandre sans logo distinctif (logo Tesla en forme de 'T' sur le capot), feux avant à LED en forme de sourire, jantes non visibles, plaque d'immatriculation française (GV-274-CV)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "Parking souterrain avec structure métallique, lumière verticale, autres véhicules en arrière-plan. Aucun monument ou panneau identifiable."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T13:59:38.466Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "43f9f432-43f",
+    "nom_fichier": "IMG_6115.jpeg",
+    "grand": "/photos/grand/43f9f432-43f.jpg",
+    "miniature": "/photos/miniatures/43f9f432-43f.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:57:37.369Z",
+    "prise_le": "2024-02-22T19:55:40.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": {
+      "lat": 45.568687,
+      "lon": 5.9235634,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "Tesla Model 3 nocturne",
+    "commentaire": "telsa model 3 de marc a plan les ouates",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Tesla Model 3 nocturne",
+      "description": "Un homme se tient devant une Tesla Model 3 éclairée par ses feux avant, dans un parking souterrain. Il tient une bouteille et semble interagir avec la voiture.",
+      "tags": [
+        "tesla",
+        "model 3",
+        "parking",
+        "nocturne",
+        "voiture électrique",
+        "homme",
+        "feux avant",
+        "sous-sol"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "generation": "",
+        "annees": "2017-2024",
+        "carrosserie": "noire",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "feux avant à LED en forme de sourire, calandre sans logo visible, jantes non visibles, plaque d'immatriculation avec code '274-C'"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "parking souterrain",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "parking souterrain avec plafond en béton, éclairage fluorescent vertical, autres véhicules en arrière-plan"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:00:41.878Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "bd6be742-9aa",
+    "nom_fichier": "IMG_6114.jpeg",
+    "grand": "/photos/grand/bd6be742-9aa.jpg",
+    "miniature": "/photos/miniatures/bd6be742-9aa.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:57:37.691Z",
+    "prise_le": "2024-02-22T19:55:21.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Tesla Model 3 nocturne",
+    "commentaire": "telsa model 3 de marc a plan les ouates",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Tesla Model 3 nocturne",
+      "description": "Une Tesla Model 3 noire est photographiée de face dans un parking souterrain sombre, éclairée par des néons. Les phares à LED sont allumés, soulignant la silhouette élégante de la voiture.",
+      "tags": [
+        "tesla",
+        "model 3",
+        "parking",
+        "nocturne",
+        "voiture electrique",
+        "sous sol",
+        "phares led",
+        "noir"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "generation": "",
+        "annees": "2017-2024",
+        "carrosserie": "noire",
+        "couleur": "noir",
+        "confiance": "elevee",
+        "indices": "Phares à LED caractéristiques, calandre sans logo visible (typique de la Model 3), plaque d'immatriculation française (GV-274-CV) avec code régional 74 (Savoie)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "Parking souterrain avec structure métallique, néons linéaires, autre véhicule blanc en arrière-plan. Aucun monument ou panneau identifiable."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:01:44.817Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "7b6c02f7-992",
+    "nom_fichier": "IMG_6113.jpeg",
+    "grand": "/photos/grand/7b6c02f7-992.jpg",
+    "miniature": "/photos/miniatures/7b6c02f7-992.webp",
+    "largeur": 3024,
+    "hauteur": 4032,
+    "ajoutee_le": "2026-09-23T13:57:38.048Z",
+    "prise_le": "2024-02-22T19:55:12.000Z",
+    "appareil": "Apple iPhone 12",
+    "gps": null,
+    "categorie": "voitures",
+    "titre": "Tesla Model 3 nocturne",
+    "commentaire": "telsa model 3 de marc a plan les ouates",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "Tesla Model 3 nocturne",
+      "description": "Une Tesla Model 3 noire est photographiée dans un parking souterrain, ses phares avant allumés éclairant le sol. La voiture présente une finition mate et un autocollant distinctif sur le capot.",
+      "tags": [
+        "tesla",
+        "model 3",
+        "parking",
+        "nocturne",
+        "voiture électrique",
+        "souterrain",
+        "phares"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "generation": "",
+        "annees": "2017-2024",
+        "carrosserie": "coupe",
+        "couleur": "noire",
+        "confiance": "elevee",
+        "indices": "Phares avant à LED en forme de sourire, calandre sans grille, logo Tesla sur le capot, plaque d'immatriculation suisse (GV-274-CV)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "",
+        "ville": "",
+        "pays": "",
+        "confiance": "moyenne",
+        "indices": "Parking souterrain avec éclairage fluorescent, structure métallique, sol en béton. Aucun monument ou panneau identifiable."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T14:02:50.739Z"
     },
     "etat_analyse": "ok",
     "erreur_analyse": null
