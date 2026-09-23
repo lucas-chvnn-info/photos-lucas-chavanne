@@ -1,49 +1,54 @@
 [
   {
-    "id": "055a1aa3-5b8",
-    "nom_fichier": "IMG_1529.jpeg",
-    "grand": "/photos/grand/055a1aa3-5b8.jpg",
-    "miniature": "/photos/miniatures/055a1aa3-5b8.webp",
-    "largeur": 5472,
-    "hauteur": 3648,
-    "ajoutee_le": "2026-09-23T12:23:43.951Z",
-    "prise_le": "2024-09-06T16:54:30.000Z",
-    "appareil": "Canon Canon EOS R6",
-    "gps": null,
+    "id": "fbae7e6b-1c0",
+    "nom_fichier": "IMG_1537.jpeg",
+    "grand": "/photos/grand/fbae7e6b-1c0.jpg",
+    "miniature": "/photos/miniatures/fbae7e6b-1c0.webp",
+    "largeur": 3648,
+    "hauteur": 5472,
+    "ajoutee_le": "2026-09-23T12:46:56.939Z",
+    "prise_le": null,
+    "appareil": null,
+    "gps": {
+      "lat": 50.3309196,
+      "lon": 6.9406742,
+      "approx": true
+    },
     "categorie": "voitures",
-    "titre": "Nurb",
+    "titre": "BMW E36 328i au Nürburgring",
+    "commentaire": "bmw e36 328i 4 porte de loris au Nurburgring en allemagne",
     "analyse": {
       "categorie": "voitures",
-      "titre": "Course sur route de montagne",
-      "description": "Une BMW E36 M3 argentée, modifiée pour le sport, conduit sur une route de montagne avec des véhicules en arrière-plan. Le paysage verdoyant et les collines en arrière-plan soulignent l'ambiance dynamique de la scène.",
+      "titre": "BMW E36 328i au Nürburgring",
+      "description": "Une BMW E36 328i 4 portes est en action sur le circuit du Nürburgring en Allemagne. Plusieurs véhicules sont visibles sur la piste, entourés par une forêt dense et des barrières de sécurité.",
       "tags": [
-        "voiture de sport",
-        "route de montagne",
-        "BMW",
-        "E36",
-        "M3",
-        "modifications",
-        "paysage",
-        "course"
+        "bmw",
+        "e36",
+        "nurburgring",
+        "allemand",
+        "circuit",
+        "voiture",
+        "rallye",
+        "4 portes"
       ],
       "voiture": {
         "presente": true,
         "marque": "BMW",
-        "modele": "E36 M3",
-        "generation": "E36 (1992-1999)",
-        "annees": "1992-1999",
-        "carrosserie": "Berline",
-        "couleur": "Argent",
-        "confiance": "moyenne",
-        "indices": "Calandre en double, phares à LED (modifiés), feux arrière à LED, jantes en alliage noir, bande noire sur la carrosserie, aileron arrière fixe. La plaque d'immatriculation suisse (GE) et le logo BMW sur le capot indiquent la marque. La version M3 est confirmée par le logo M sur le capot et les jantes sportives."
+        "modele": "E36",
+        "generation": "328i",
+        "annees": "1990-1999",
+        "carrosserie": "4 portes",
+        "couleur": "gris",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares ronds, jantes en alliage, logo BMW sur le capot et le coffre. La plaque d'immatriculation allemande (GE) et le style de la carrosserie correspondent à l'E36."
       },
       "lieu": {
         "identifie": true,
         "nom": "Nürburgring",
-        "ville": "Otto-Flimm-Str",
+        "ville": "Nürburg",
         "pays": "Allemagne",
-        "confiance": "manuel",
-        "indices": "Route de montagne avec barrières métalliques, paysage forestier dense, panneau routier indiquant 'Col de la Schlucht' (visible en arrière-plan). La plaque suisse (GE) suggère la région de Genève."
+        "confiance": "elevee",
+        "indices": "Piste de course avec barrières métalliques, bordures rouges et blanches, forêt dense en arrière-plan. Le Nürburgring est un circuit célèbre en Allemagne."
       },
       "animal": {
         "present": false,
@@ -51,7 +56,255 @@
         "race": ""
       },
       "modele_ia": "qwen3-vl:8b",
-      "analysee_le": "2026-09-23T12:24:06.536Z"
+      "analysee_le": "2026-09-23T12:47:49.339Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "e3094ebe-6b7",
+    "nom_fichier": "IMG_1539.jpeg",
+    "grand": "/photos/grand/e3094ebe-6b7.jpg",
+    "miniature": "/photos/miniatures/e3094ebe-6b7.webp",
+    "largeur": 4000,
+    "hauteur": 6000,
+    "ajoutee_le": "2026-09-23T12:46:56.212Z",
+    "prise_le": "2024-09-07T12:39:58.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 50.3309196,
+      "lon": 6.9406742,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "E36 328i sur le Nürburgring",
+    "commentaire": "bmw e36 328i 4 porte de loris au Nurburgring en allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "E36 328i sur le Nürburgring",
+      "description": "Une BMW E36 328i 4 portes de Loris circule sur le célèbre circuit du Nürburgring en Allemagne. Les voitures de course en arrière soulignent l'ambiance compétitive de la piste.",
+      "tags": [
+        "bmw",
+        "e36",
+        "nurburgring",
+        "328i",
+        "4portes",
+        "loris",
+        "allemand",
+        "circuit"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "E36",
+        "generation": "328i",
+        "annees": "1990-1999",
+        "carrosserie": "4 portes",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares ronds, jantes noires, logo BMW sur le capot et le coffre. La plaque d'immatriculation allemande (GE) confirme le contexte allemand."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Nürburgring",
+        "ville": "Nürburg",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Piste de course avec marquages spécifiques (Oekoven), barrières de sécurité, et paysage typique du Nürburgring."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:47:15.834Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "fe9fa875-22e",
+    "nom_fichier": "IMG_1535.jpeg",
+    "grand": "/photos/grand/fe9fa875-22e.jpg",
+    "miniature": "/photos/miniatures/fe9fa875-22e.webp",
+    "largeur": 5464,
+    "hauteur": 8192,
+    "ajoutee_le": "2026-09-23T12:46:56.544Z",
+    "prise_le": "2024-09-07T12:35:54.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 50.3309196,
+      "lon": 6.9406742,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "E36 328i sur le Nurburgring",
+    "commentaire": "bmw e36 328i 4 porte de loris au Nurburgring en allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "E36 328i sur le Nurburgring",
+      "description": "Une BMW E36 328i 4 portes de Loris circule sur le circuit du Nurburgring en Allemagne. La voiture est équipée de jantes larges et d'un aileron arrière visible. L'arrière du véhicule présente une finition personnalisée avec des détails métalliques.",
+      "tags": [
+        "bmw",
+        "e36",
+        "nurburgring",
+        "allemand",
+        "328i",
+        "4 portes",
+        "loris",
+        "circuit"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "E36",
+        "generation": "328i",
+        "annees": "1990-1999",
+        "carrosserie": "4 portes",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares ronds, logo BMW sur le capot, jantes larges, aileron arrière, plaque d'immatriculation GE 387 676 (Allemagne)."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Nurburgring",
+        "ville": "Nürburg",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Piste de course avec barrières orange et blanches, paysage forestier typique de la région, panneau routier indiquant le Nurburgring."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:47:32.216Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "7f026f1f-3f7",
+    "nom_fichier": "IMG_1536.jpeg",
+    "grand": "/photos/grand/7f026f1f-3f7.jpg",
+    "miniature": "/photos/miniatures/7f026f1f-3f7.webp",
+    "largeur": 5472,
+    "hauteur": 3648,
+    "ajoutee_le": "2026-09-23T12:46:57.634Z",
+    "prise_le": "2024-09-06T22:00:00.000Z",
+    "appareil": null,
+    "gps": {
+      "lat": 50.3309196,
+      "lon": 6.9406742,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "E36 328i au Nurburgring",
+    "commentaire": "bmw e36 328i 4 porte de loris au Nurburgring en allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "E36 328i au Nurburgring",
+      "description": "Une BMW E36 328i 4 portes de Loris circule sur le circuit du Nürburgring en Allemagne. La voiture est équipée de jantes sportives et présente une finition personnalisée.",
+      "tags": [
+        "bmw",
+        "e36",
+        "nurburgring",
+        "328i",
+        "allemagne",
+        "voiture",
+        "circuit",
+        "4 portes"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "E36",
+        "generation": "328i",
+        "annees": "1990-1999",
+        "carrosserie": "4 portes",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre double, phares ronds, jantes sportives, plaque d'immatriculation allemande (GE-387-676), finition personnalisée avec bande noire latérale"
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Nürburgring",
+        "ville": "Nürburg",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Piste de course avec bordures rouges et blanches, barrières métalliques, paysage typique du Nürburgring"
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:48:21.944Z"
+    },
+    "etat_analyse": "ok",
+    "erreur_analyse": null
+  },
+  {
+    "id": "70970e3e-242",
+    "nom_fichier": "IMG_1529.jpeg",
+    "grand": "/photos/grand/70970e3e-242.jpg",
+    "miniature": "/photos/miniatures/70970e3e-242.webp",
+    "largeur": 5472,
+    "hauteur": 3648,
+    "ajoutee_le": "2026-09-23T12:46:57.252Z",
+    "prise_le": "2024-09-06T16:54:30.000Z",
+    "appareil": "Canon Canon EOS R6",
+    "gps": {
+      "lat": 50.3309196,
+      "lon": 6.9406742,
+      "approx": true
+    },
+    "categorie": "voitures",
+    "titre": "E36 328i sur le Nurburgring",
+    "commentaire": "bmw e36 328i 4 porte de loris au Nurburgring en allemagne",
+    "analyse": {
+      "categorie": "voitures",
+      "titre": "E36 328i sur le Nurburgring",
+      "description": "Une BMW E36 328i 4 portes de Loris circule sur le circuit du Nurburgring en Allemagne. La voiture présente une finition sportive avec des jantes noires et une calandre typique de la génération E36.",
+      "tags": [
+        "bmw",
+        "e36",
+        "nurburgring",
+        "allemand",
+        "328i",
+        "4 portes",
+        "loris",
+        "sport"
+      ],
+      "voiture": {
+        "presente": true,
+        "marque": "BMW",
+        "modele": "E36",
+        "generation": "E36",
+        "annees": "1990-1999",
+        "carrosserie": "4 portes",
+        "couleur": "argent",
+        "confiance": "elevee",
+        "indices": "Calandre à double ouverture, feux arrière à LED, jantes noires, logo BMW sur le capot et le coffre, plaque d'immatriculation allemande (GE) et finition sportive avec aileron arrière."
+      },
+      "lieu": {
+        "identifie": true,
+        "nom": "Nurburgring",
+        "ville": "Nürburg",
+        "pays": "Allemagne",
+        "confiance": "elevee",
+        "indices": "Piste de course avec marquages bleus, barrières métalliques, paysage montagneux typique du Nurburgring, panneau routier avec le logo du circuit."
+      },
+      "animal": {
+        "present": false,
+        "espece": "",
+        "race": ""
+      },
+      "modele_ia": "qwen3-vl:8b",
+      "analysee_le": "2026-09-23T12:48:05.874Z"
     },
     "etat_analyse": "ok",
     "erreur_analyse": null
