@@ -11,6 +11,7 @@ import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { analyserPhoto, etatIA, CATEGORIES, MODELE } from "./ai.js";
+import { geocoder } from "./geo.js";
 
 const ici = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC = path.join(ici, "public");
@@ -43,6 +44,16 @@ function sauvegarder() {
 }
 
 const trouver = (id) => photos.find((p) => p.id === id);
+
+// Sans GPS dans la photo (appareil sans GPS, export Lightroom…), on place la photo
+// d'après le lieu reconnu. Jamais si tu as retiré la position toi-même.
+async function placerSurCarte(photo) {
+  if (photo.gps_retire || (photo.gps && !photo.gps.approx) || !photo.analyse?.lieu?.identifie) return false;
+  const pos = await geocoder(photo.analyse.lieu);
+  if (!pos) return false;
+  photo.gps = pos;
+  return true;
+}
 
 // --- Traitement des images -------------------------------------------------
 
@@ -143,12 +154,15 @@ app.post("/api/photos/:id/analyse", async (req, res) => {
       .resize({ width: 1280, height: 1280, fit: "inside", withoutEnlargement: true })
       .jpeg({ quality: 85 })
       .toBuffer();
-    const analyse = await analyserPhoto(jpeg, { gps: photo.gps, date: photo.prise_le, appareil: photo.appareil });
+    // Une position estimée vient d'une ancienne analyse : ne pas la redonner à l'IA comme un vrai GPS.
+    const gps = photo.gps?.approx ? null : photo.gps;
+    const analyse = await analyserPhoto(jpeg, { gps, date: photo.prise_le, appareil: photo.appareil });
     photo.analyse = analyse;
     photo.categorie = analyse.categorie;
     photo.titre = analyse.titre || photo.titre;
     photo.etat_analyse = "ok";
     photo.erreur_analyse = null;
+    await placerSurCarte(photo);
   } catch (e) {
     photo.etat_analyse = "erreur";
     photo.erreur_analyse = e.message;
@@ -164,11 +178,18 @@ app.patch("/api/photos/:id", async (req, res) => {
   const { titre, categorie, voiture, lieu, gps } = req.body ?? {};
   if (typeof titre === "string") photo.titre = titre.trim().slice(0, 120);
   if (CATEGORIES.includes(categorie)) photo.categorie = categorie;
-  if (gps === null) photo.gps = null;
+  if (gps === null) {
+    photo.gps = null;
+    photo.gps_retire = true;
+  }
   if (voiture || lieu) {
     photo.analyse ??= { tags: [], description: "", voiture: { presente: false }, lieu: { identifie: false }, animal: { present: false } };
     if (voiture) Object.assign(photo.analyse.voiture, pick(voiture, ["marque", "modele", "generation", "annees"]), { presente: true, confiance: "manuel" });
-    if (lieu) Object.assign(photo.analyse.lieu, pick(lieu, ["nom", "ville", "pays"]), { identifie: true, confiance: "manuel" });
+    if (lieu) {
+      Object.assign(photo.analyse.lieu, pick(lieu, ["nom", "ville", "pays"]), { identifie: true, confiance: "manuel" });
+      delete photo.gps_retire; // indiquer un lieu = accepter qu'il apparaisse sur la carte
+      await placerSurCarte(photo);
+    }
   }
   await sauvegarder();
   res.json(photo);
@@ -220,4 +241,12 @@ app.listen(PORT, "127.0.0.1", async () => {
   console.log(`Administration de la galerie : http://localhost:${PORT}`);
   const ia = await etatIA();
   console.log(ia.ok ? `IA locale prête (${MODELE})` : `⚠︎  ${ia.raison}`);
+
+  // Photos déjà analysées mais pas encore sur la carte.
+  let placees = 0;
+  for (const p of photos.filter((x) => !x.gps)) if (await placerSurCarte(p)) placees++;
+  if (placees) {
+    await sauvegarder();
+    console.log(`${placees} photo${placees > 1 ? "s" : ""} placée${placees > 1 ? "s" : ""} sur la carte d'après le lieu reconnu.`);
+  }
 });

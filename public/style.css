@@ -161,6 +161,8 @@ main { padding: 0 24px 64px; }
 .note-carte { color: var(--texte-pale); font-size: 13px; }
 .leaflet-container { font: inherit; }
 .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.6); }
+.marqueur-photo.approx { border-style: dashed; }
+.approx { font-family: "Archivo", sans-serif; color: var(--texte-pale); font-size: 12px; }
 .marqueur-photo { width: 54px; height: 54px; border: 2px solid #fff; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,.5); background: var(--fond-2) center / cover no-repeat; }
 
 /* --- Dépôt & toasts ---------------------------------------------------- */

@@ -183,13 +183,13 @@ function rendreCarte() {
   calque.clearLayers();
   const liste = photosFiltrees().filter((p) => p.gps);
   for (const p of liste) {
-    const icone = L.divIcon({ className: "", html: `<div class="marqueur-photo" style="background-image:url('${p.miniature}')"></div>`, iconSize: [54, 54], iconAnchor: [27, 27] });
+    const icone = L.divIcon({ className: "", html: `<div class="marqueur-photo${p.gps.approx ? " approx" : ""}" style="background-image:url('${p.miniature}')"></div>`, iconSize: [54, 54], iconAnchor: [27, 27] });
     L.marker([p.gps.lat, p.gps.lon], { icon: icone, title: p.titre }).on("click", () => ouvrir(p.id)).addTo(calque);
   }
   if (liste.length) carte.fitBounds(calque.getBounds(), { padding: [60, 60], maxZoom: 13 });
   const sans = photosFiltrees().length - liste.length;
   $("#note-carte").textContent = sans
-    ? `${sans} photo${sans > 1 ? "s" : ""} sans coordonnées GPS (active la localisation de l'appareil photo pour les voir ici).`
+    ? `${sans} photo${sans > 1 ? "s" : ""} sans position : ni GPS dans le fichier, ni lieu reconnu.${etat.config.admin ? " Indique le lieu dans la fiche de la photo pour la placer." : ""}`
     : "";
   setTimeout(() => carte.invalidateSize(), 0);
 }
@@ -273,7 +273,7 @@ function blocLieu(p) {
       </form></div>`;
   }
   const gps = p.gps
-    ? `<dt>GPS</dt><dd class="mono"><a href="https://www.openstreetmap.org/?mlat=${p.gps.lat}&mlon=${p.gps.lon}#map=15/${p.gps.lat}/${p.gps.lon}" target="_blank" rel="noopener">${p.gps.lat.toFixed(4)}, ${p.gps.lon.toFixed(4)}</a></dd>`
+    ? `<dt>${p.gps.approx ? "Carte" : "GPS"}</dt><dd class="mono"><a href="https://www.openstreetmap.org/?mlat=${p.gps.lat}&mlon=${p.gps.lon}#map=15/${p.gps.lat}/${p.gps.lon}" target="_blank" rel="noopener">${p.gps.lat.toFixed(4)}, ${p.gps.lon.toFixed(4)}</a>${p.gps.approx ? `<span class="approx"> · position estimée d'après le lieu</span>` : ""}</dd>`
     : "";
   if (!l?.identifie && !gps) {
     if (!etat.config.admin) return "";
@@ -284,7 +284,7 @@ function blocLieu(p) {
     ${l?.identifie ? `<div class="grand-nom" style="font-size:18px;font-weight:700">${esc(l.nom || l.ville || l.pays)}</div>
     <div class="detail">${esc([l.nom && l.ville, l.pays].filter(Boolean).join(", "))}</div>` : ""}
     <dl class="fiche">${gps}</dl>
-    ${gps && etat.config.admin ? `<button class="bouton petit" style="margin-top:10px" data-action="retirer-gps">Retirer la position GPS</button>` : ""}
+    ${gps && etat.config.admin ? `<button class="bouton petit" style="margin-top:10px" data-action="retirer-gps">Retirer de la carte</button>` : ""}
     ${l?.identifie ? niveauConfiance(l.confiance) : ""}
     ${l?.indices ? `<p class="indices">${esc(l.indices)}</p>` : ""}
   </div>`;
