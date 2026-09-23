@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Photos · Lucas Chavanne</title>
+<meta name="description" content="Les photos de Lucas Chavanne : voitures, paysages, villes et plus, classées par thème.">
+<meta name="theme-color" content="#0E0E10">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='8' width='24' height='18' rx='3' fill='%23E8A33D'/%3E%3Ccircle cx='16' cy='17' r='5' fill='%230E0E10'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="barre">
+  <a class="marque" href="/" aria-label="Accueil">
+    <span class="marque-point" aria-hidden="true"></span>
+    <span>Lucas Chavanne <em>Photos</em></span>
+  </a>
+
+  <div class="vues" role="tablist" aria-label="Affichage">
+    <button role="tab" class="vue actif" data-vue="galerie" aria-selected="true">Galerie</button>
+    <button role="tab" class="vue" data-vue="carte" aria-selected="false">Carte</button>
+  </div>
+
+  <label class="recherche">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="recherche" type="search" placeholder="Rechercher : porsche, montagne, Paris…" autocomplete="off">
+  </label>
+
+  <button class="bouton admin-seul" id="btn-publier" title="Envoyer sur GitHub : le site public se met à jour">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5M5 20h14"/></svg>
+    <span class="txt-ajouter">Publier</span>
+  </button>
+  <button class="bouton principal admin-seul" id="btn-ajouter" aria-label="Ajouter des photos">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+    <span class="txt-ajouter">Ajouter</span>
+  </button>
+  <input id="fichiers" type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/tiff" multiple hidden>
+</header>
+
+<main>
+  <section class="entete">
+    <p class="statut" id="statut"></p>
+    <nav class="themes" id="themes" aria-label="Thèmes"></nav>
+    <nav class="themes sous" id="marques" aria-label="Marques" hidden></nav>
+  </section>
+
+  <section id="vue-galerie">
+    <div class="grille" id="grille"></div>
+    <div class="vide" id="vide" hidden>
+      <div class="vide-cadre">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="12" width="36" height="26" rx="4"/><circle cx="24" cy="25" r="7"/><path d="M17 12l3-5h8l3 5"/></svg>
+        <h2>Ta galerie est vide</h2>
+        <p>Glisse tes photos ici ou clique sur <strong>Ajouter</strong>. L'IA les range par thème et reconnaît les voitures, les lieux et les animaux.</p>
+        <button class="bouton principal" data-action="ajouter">Choisir des photos</button>
+      </div>
+    </div>
+    <p class="aucun" id="aucun" hidden>Aucune photo ne correspond.</p>
+  </section>
+
+  <section id="vue-carte" hidden>
+    <div id="carte"></div>
+    <p class="note-carte" id="note-carte"></p>
+  </section>
+</main>
+
+<div class="depot" id="depot" hidden><p>Lâche tes photos pour les ajouter</p></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<dialog class="visionneuse" id="visionneuse" aria-label="Photo">
+  <div class="v-image">
+    <img id="v-img" alt="">
+    <button class="v-nav prec" data-nav="-1" aria-label="Photo précédente"><svg viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></svg></button>
+    <button class="v-nav suiv" data-nav="1" aria-label="Photo suivante"><svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+  </div>
+  <aside class="v-panneau" id="v-panneau"></aside>
+  <button class="v-fermer" id="v-fermer" aria-label="Fermer"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "galerie-photos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Galerie de photos par thèmes avec analyse IA locale (Ollama)",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "sharp": "^0.35.4"
+  }
+}
