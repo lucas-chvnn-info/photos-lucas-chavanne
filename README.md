@@ -5,7 +5,7 @@ placées sur une carte grâce au GPS, et analysées par une **IA gratuite qui to
 (Ollama + Qwen3-VL). Pour une voiture, elle devine la marque, le modèle, la génération et les
 années ; pour un lieu, l'endroit ; pour un animal, l'espèce et la race.
 
-Site public : https://photo.lucas-chvnn.ch
+Site public : https://photos.lucas-chvnn.ch
 
 ## Comment ça marche
 

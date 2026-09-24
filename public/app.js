@@ -611,7 +611,7 @@ try {
 } catch {
   etat.photos = await api("/data/photos.json").catch(() => []);
 }
-// Lien partageable : photo.lucas-chvnn.ch/#voiture=bmw-e36
+// Lien partageable : photos.lucas-chvnn.ch/#voiture=bmw-e36
 const voitureLien = new URLSearchParams(location.hash.slice(1)).get("voiture");
 if (voitureLien && groupesVoitures().has(voitureLien)) choisirVoiture(voitureLien);
 else rendre();

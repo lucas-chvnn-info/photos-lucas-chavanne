@@ -1,7 +1,7 @@
 // Position approximative d'une photo sans GPS, à partir du lieu reconnu par l'IA, saisi à la main
 // ou écrit dans ton commentaire. Service gratuit Nominatim (OpenStreetMap) : 1 requête par seconde.
 const URL_NOMINATIM = "https://nominatim.openstreetmap.org/search";
-const AGENT = "galerie-photos (https://photo.lucas-chvnn.ch)";
+const AGENT = "galerie-photos (https://photos.lucas-chvnn.ch)";
 
 let file = Promise.resolve();
 const pause = (ms) => new Promise((r) => setTimeout(r, ms));
