@@ -1,6 +1,24 @@
 // Galerie : site public (lecture seule) et administration locale, dans un seul script.
 // Pages : #/ accueil · #/sorties · #/sortie/<id> · #/garage · #/voiture/<clé> · #/carte · #/photos?q=
 
+// Écran d'accueil : un clic ou une touche le passe ; sinon il se ferme seul (animation CSS).
+const splash = document.getElementById("splash");
+if (splash && document.documentElement.classList.contains("has-splash")) {
+  const retirer = () => {
+    splash.remove();
+    document.documentElement.classList.remove("has-splash");
+  };
+  const passer = () => {
+    splash.classList.add("passer");
+    setTimeout(retirer, 250);
+  };
+  addEventListener("pointerdown", passer, { once: true });
+  addEventListener("keydown", passer, { once: true });
+  splash.addEventListener("animationend", (ev) => ev.target === splash && retirer());
+  // Filet de sécurité : certains navigateurs n'envoient pas « animationend » (onglet caché, économie d'énergie).
+  setTimeout(retirer, 2100);
+}
+
 const LIBELLES = {
   tous: "Tout",
   voitures: "Voitures",

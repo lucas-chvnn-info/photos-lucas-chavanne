@@ -43,6 +43,69 @@ body:not(.admin) .admin-seul { display: none !important; }
 
 .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12.5px; }
 
+/* --- Écran d'accueil ---------------------------------------------------------
+   Piloté entièrement par CSS : il se ferme seul même si le script ne se charge pas. */
+
+#splash { display: none; }
+.has-splash body { overflow: hidden; }
+.has-splash #splash {
+  position: fixed; inset: 0; z-index: 100;
+  display: grid; place-content: center; justify-items: center; gap: 22px;
+  background: var(--fond);
+  animation: sp-sortie .45s ease 1.45s forwards;
+}
+#splash.passer { animation: sp-passer .2s ease forwards; } /* un autre nom, sinon l'animation ne redémarre pas */
+
+.sp-viseur {
+  position: relative; display: grid; justify-items: center; gap: 4px;
+  padding: 34px 46px 30px;
+}
+.sp-coin {
+  position: absolute; width: 22px; height: 22px;
+  border: 0 solid var(--texte); opacity: 0;
+  animation: sp-cadrer .55s cubic-bezier(.2,.9,.25,1.15) .15s forwards, sp-net .15s linear .8s forwards;
+}
+.sp-coin.hg { top: 0; left: 0; border-top-width: 2px; border-left-width: 2px; --dx: -18px; --dy: -14px; }
+.sp-coin.hd { top: 0; right: 0; border-top-width: 2px; border-right-width: 2px; --dx: 18px; --dy: -14px; }
+.sp-coin.bg { bottom: 0; left: 0; border-bottom-width: 2px; border-left-width: 2px; --dx: -18px; --dy: 14px; }
+.sp-coin.bd { bottom: 0; right: 0; border-bottom-width: 2px; border-right-width: 2px; --dx: 18px; --dy: 14px; }
+
+.sp-nom {
+  display: flex; align-items: center; gap: 12px;
+  font-size: clamp(30px, 8vw, 52px); font-weight: 800; font-stretch: 118%; letter-spacing: -0.03em; line-height: 1;
+  filter: blur(10px); opacity: 0;
+  animation: sp-point .6s ease .1s forwards;
+}
+.sp-nom .marque-point { width: .32em; height: .32em; }
+.sp-sous {
+  font-size: 13px; font-weight: 600; letter-spacing: .5em; text-transform: uppercase; color: var(--texte-doux);
+  margin-right: -.5em; opacity: 0; animation: sp-apparaitre .3s ease .45s forwards;
+}
+
+.sp-exif {
+  display: flex; align-items: center; gap: 10px; color: var(--texte-pale);
+  opacity: 0; animation: sp-apparaitre .3s ease .6s forwards;
+}
+.sp-rec { width: 7px; height: 7px; border-radius: 50%; background: var(--erreur); animation: sp-clignote .5s steps(1) .6s 2; }
+.sp-af { color: var(--ok); font-weight: 500; opacity: 0; animation: sp-apparaitre .12s linear .85s forwards; }
+
+.sp-flash {
+  position: fixed; inset: 0; background: #fff; opacity: 0; pointer-events: none;
+  animation: sp-declencher .32s ease-out 1.15s forwards;
+}
+
+@keyframes sp-point { 60% { opacity: 1; } to { opacity: 1; filter: blur(0); } }
+@keyframes sp-apparaitre { to { opacity: 1; } }
+@keyframes sp-cadrer {
+  from { opacity: 0; transform: translate(var(--dx), var(--dy)); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes sp-net { to { border-color: var(--ok); } }
+@keyframes sp-clignote { 50% { opacity: 0; } }
+@keyframes sp-declencher { 25% { opacity: .85; } to { opacity: 0; } }
+@keyframes sp-sortie { to { opacity: 0; visibility: hidden; } }
+@keyframes sp-passer { to { opacity: 0; visibility: hidden; } }
+
 /* --- Barre ------------------------------------------------------------- */
 
 .barre {
