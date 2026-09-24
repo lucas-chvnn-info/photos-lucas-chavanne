@@ -1056,6 +1056,21 @@ async function publier() {
   bouton.disabled = false;
 }
 
+// Une image qui n'a pas pu se charger (serveur redémarré, réseau coupé…) réessaie toute seule,
+// au lieu de garder l'icône d'image cassée jusqu'au prochain rechargement de la page.
+document.addEventListener(
+  "error",
+  (ev) => {
+    const img = ev.target;
+    if (!(img instanceof HTMLImageElement) || !img.src || Number(img.dataset.essais ?? 0) >= 5) return;
+    img.dataset.essais = Number(img.dataset.essais ?? 0) + 1;
+    const url = new URL(img.src);
+    url.searchParams.set("r", img.dataset.essais);
+    setTimeout(() => (img.src = url.href), 1500 * img.dataset.essais);
+  },
+  true,
+);
+
 // --- Démarrage : admin en local, lecture seule sur le site public ----------------------
 
 try {
