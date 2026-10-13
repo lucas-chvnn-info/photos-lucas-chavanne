@@ -3,9 +3,10 @@
 // Variables : AI_PROVIDER (gemini | ollama), GEMINI_API_KEY, GEMINI_MODEL, OLLAMA_URL, OLLAMA_MODEL.
 export const FOURNISSEUR = process.env.AI_PROVIDER || (process.env.GEMINI_API_KEY ? "gemini" : "ollama");
 export const OLLAMA_URL = process.env.OLLAMA_URL || "http://127.0.0.1:11434";
-// gemini-flash-latest suit le modèle Flash actuel (les versions numérotées sont arrêtées au bout d'un an environ).
+// gemini-flash-lite-latest : rapide (~3 s/photo) et disponible sur le quota gratuit, contrairement aux gros
+// modèles Flash souvent saturés (erreur 503 « high demand »). Les versions numérotées sont arrêtées au bout d’un an.
 export const MODELE =
-  FOURNISSEUR === "gemini" ? process.env.GEMINI_MODEL || "gemini-flash-latest" : process.env.OLLAMA_MODEL || "qwen3-vl:8b";
+  FOURNISSEUR === "gemini" ? process.env.GEMINI_MODEL || "gemini-flash-lite-latest" : process.env.OLLAMA_MODEL || "qwen3-vl:8b";
 // Réflexion du modèle avant de répondre : un peu plus précis, mais 3 à 4 fois plus lent.
 const REFLEXION = process.env.OLLAMA_REFLEXION === "1";
 
