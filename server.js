@@ -428,7 +428,9 @@ app.use((err, _req, res, _next) => {
 
 await sauvegarder(); // crée la version publique au format actuel dès le démarrage
 
-app.listen(PORT, "127.0.0.1", async () => {
+// HOST=0.0.0.0 sur le serveur pour ouvrir l'admin au réseau local / Tailscale (jamais à Internet).
+const HOST = process.env.HOST || "127.0.0.1";
+app.listen(PORT, HOST, async () => {
   console.log(`Administration de la galerie : http://localhost:${PORT}`);
   const ia = await etatIA();
   console.log(ia.ok ? `IA locale prête (${MODELE})` : `⚠︎  ${ia.raison}`);

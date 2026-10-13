@@ -1,6 +1,11 @@
-// Analyse d'une photo avec un modèle de vision local (Ollama) : gratuit, rien ne quitte le Mac.
+// Analyse d'une photo : Google Gemini (quota gratuit) si GEMINI_API_KEY est défini,
+// sinon un modèle de vision local (Ollama).
+// Variables : AI_PROVIDER (gemini | ollama), GEMINI_API_KEY, GEMINI_MODEL, OLLAMA_URL, OLLAMA_MODEL.
+export const FOURNISSEUR = process.env.AI_PROVIDER || (process.env.GEMINI_API_KEY ? "gemini" : "ollama");
 export const OLLAMA_URL = process.env.OLLAMA_URL || "http://127.0.0.1:11434";
-export const MODELE = process.env.OLLAMA_MODEL || "qwen3-vl:8b";
+// gemini-flash-latest suit le modèle Flash actuel (les versions numérotées sont arrêtées au bout d'un an environ).
+export const MODELE =
+  FOURNISSEUR === "gemini" ? process.env.GEMINI_MODEL || "gemini-flash-latest" : process.env.OLLAMA_MODEL || "qwen3-vl:8b";
 // Réflexion du modèle avant de répondre : un peu plus précis, mais 3 à 4 fois plus lent.
 const REFLEXION = process.env.OLLAMA_REFLEXION === "1";
 
@@ -81,8 +86,11 @@ utilise-le pour le titre et la description, et ne complète avec la photo que ce
 - Écris les noms propres avec leur majuscule (Porsche, Genève, Suisse).
 - Quand tu ne sais pas, laisse le champ vide ("") au lieu d'écrire « inconnu » ou « non identifiable ».`;
 
-/** Ollama tourne-t-il, et le modèle est-il téléchargé ? */
+/** L'IA est-elle prête (clé Gemini présente, ou Ollama lancé avec le modèle) ? */
 export async function etatIA() {
+  if (FOURNISSEUR === "gemini") {
+    return process.env.GEMINI_API_KEY ? { ok: true } : { ok: false, raison: "GEMINI_API_KEY manquante dans .env" };
+  }
   try {
     const res = await fetch(`${OLLAMA_URL}/api/tags`, { signal: AbortSignal.timeout(2000) });
     const { models = [] } = await res.json();
@@ -104,6 +112,50 @@ export async function analyserPhoto(jpeg, contexte = {}) {
   if (contexte.date) infos.push(`Date de prise de vue : ${contexte.date}`);
   if (contexte.appareil) infos.push(`Appareil : ${contexte.appareil}`);
 
+  const consigne = `Analyse cette photo.\n${infos.length ? `Métadonnées :\n${infos.join("\n")}` : "Aucune métadonnée."}`;
+  const analyse = FOURNISSEUR === "gemini" ? await analyserGemini(jpeg, consigne) : await analyserOllama(jpeg, consigne);
+  nettoyer(analyse);
+  if (!CATEGORIES.includes(analyse.categorie)) analyse.categorie = "autre";
+  return { ...analyse, modele_ia: MODELE, analysee_le: new Date().toISOString() };
+}
+
+async function analyserGemini(jpeg, consigne) {
+  const appel = (avecSchema) =>
+    fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODELE)}:generateContent`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-goog-api-key": process.env.GEMINI_API_KEY },
+      body: JSON.stringify({
+        systemInstruction: { parts: [{ text: avecSchema ? SYSTEM : `${SYSTEM}\n\nFormat JSON attendu (schéma) :\n${JSON.stringify(SCHEMA)}` }] },
+        contents: [{ role: "user", parts: [{ inline_data: { mime_type: "image/jpeg", data: jpeg.toString("base64") } }, { text: consigne }] }],
+        generationConfig: {
+          temperature: 0.2,
+          responseMimeType: "application/json",
+          ...(avecSchema ? { responseJsonSchema: SCHEMA } : {}),
+        },
+      }),
+      signal: AbortSignal.timeout(2 * 60_000),
+    });
+
+  let res;
+  try {
+    res = await appel(true);
+    // Schéma refusé par le modèle : on le met dans la consigne à la place.
+    if (res.status === 400) res = await appel(false);
+  } catch (e) {
+    throw new Error(`Gemini ne répond pas (${e.message})`);
+  }
+  if (res.status === 429) throw new Error("Gemini : quota gratuit atteint, réessaie plus tard.");
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(`Gemini : ${data.error?.message ?? res.status}`);
+  const texte = data.candidates?.[0]?.content?.parts?.map((p) => p.text || "").join("") || "";
+  try {
+    return JSON.parse(texte.replace(/^```(?:json)?\s*|\s*```$/g, ""));
+  } catch {
+    throw new Error("Réponse illisible de l'IA, réessaie.");
+  }
+}
+
+async function analyserOllama(jpeg, consigne) {
   let res;
   try {
     res = await fetch(`${OLLAMA_URL}/api/chat`, {
@@ -119,7 +171,7 @@ export async function analyserPhoto(jpeg, contexte = {}) {
           { role: "system", content: SYSTEM },
           {
             role: "user",
-            content: `Analyse cette photo.\n${infos.length ? `Métadonnées :\n${infos.join("\n")}` : "Aucune métadonnée."}`,
+            content: consigne,
             images: [jpeg.toString("base64")],
           },
         ],
@@ -134,16 +186,12 @@ export async function analyserPhoto(jpeg, contexte = {}) {
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(`Ollama : ${data.error ?? res.status}`);
 
-  let analyse;
   try {
     // Avec think:false, certaines versions d'Ollama renvoient le JSON dans "thinking" au lieu de "content".
-    analyse = JSON.parse(data.message?.content || data.message?.thinking || "");
+    return JSON.parse(data.message?.content || data.message?.thinking || "");
   } catch {
     throw new Error("Réponse illisible de l'IA, réessaie.");
   }
-  nettoyer(analyse);
-  if (!CATEGORIES.includes(analyse.categorie)) analyse.categorie = "autre";
-  return { ...analyse, modele_ia: MODELE, analysee_le: new Date().toISOString() };
 }
 
 // Le modèle écrit parfois « inconnu » malgré la consigne : on remplace par une chaîne vide.

@@ -1,8 +1,7 @@
 # Galerie photos
 
 Galerie personnelle : les photos sont rangées **par sortie** (musée, rassemblement, balade…),
-**par voiture** dans le garage et **sur une carte**, et analysées par une **IA gratuite qui tourne sur le Mac**
-(Ollama + Qwen3-VL). Pour une voiture, elle devine la marque, le modèle, la génération et les
+**par voiture** dans le garage et **sur une carte**, et analysées par une **IA** : Google Gemini (quota gratuit) par défaut, ou Ollama + Qwen3-VL en local. Pour une voiture, elle devine la marque, le modèle, la génération et les
 années ; pour un lieu, l'endroit ; pour un animal, l'espèce et la race.
 
 Site public : https://photos.lucas-chvnn.ch
@@ -10,8 +9,8 @@ Site public : https://photos.lucas-chvnn.ch
 ## Comment ça marche
 
 ```
-Mac (admin, localhost:3000)                    GitHub           Vercel
-ajout des photos → IA locale → « Publier »  →  git push   →  site public en lecture seule
+Serveur maison (admin, 192.168.1.206:3000)      GitHub           Vercel
+ajout des photos → IA (Gemini) → « Publier » →  git push   →  site public en lecture seule
 ```
 
 - **Sur le Mac** : `npm start` lance la page d'administration. On y ajoute, analyse, corrige et
